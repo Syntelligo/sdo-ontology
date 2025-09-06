@@ -1,0 +1,5001 @@
+{
+  "domains": [
+    {
+      "id": "SDO.01",
+      "slug": "biology-life-sciences",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Biology & Life Sciences",
+        "nob": "Biologi og livsvitenskap"
+      },
+      "ext": {
+        "ddc": ["570"],
+        "wiki": "Biology",
+        "eurovoc": [],
+        "mesh": "A"
+      }
+    },
+    {
+      "id": "SDO.02",
+      "slug": "health-medicine",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Health & Medicine",
+        "nob": "Helse og medisin"
+      },
+      "ext": {
+        "ddc": ["610"],
+        "wiki": "Medicine",
+        "eurovoc": ["Health"],
+        "mesh": "C"
+      }
+    },
+    {
+      "id": "SDO.03",
+      "slug": "chemistry-materials",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Chemistry & Materials",
+        "nob": "Kjemi og materialer"
+      },
+      "ext": {
+        "ddc": ["540", "620"],
+        "wiki": "Chemistry",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.04",
+      "slug": "physics-astronomy",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Physics & Astronomy",
+        "nob": "Fysikk og astronomi"
+      },
+      "ext": {
+        "ddc": ["530", "520"],
+        "wiki": "Physics",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.05",
+      "slug": "mathematics-statistics",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Mathematics & Statistics",
+        "nob": "Matematikk og statistikk"
+      },
+      "ext": {
+        "ddc": ["510"],
+        "wiki": "Mathematics",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.06",
+      "slug": "computing-it",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Computing & IT",
+        "nob": "IT og informatikk"
+      },
+      "ext": {
+        "ddc": ["004", "005"],
+        "wiki": "Computing",
+        "eurovoc": ["Information technology"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.07",
+      "slug": "engineering-technology",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Engineering & Technology",
+        "nob": "Ingeniørfag og teknologi"
+      },
+      "ext": {
+        "ddc": ["620"],
+        "wiki": "Engineering",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.08",
+      "slug": "earth-environmental-sciences",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Earth & Environmental Sciences",
+        "nob": "Geovitenskap og miljø"
+      },
+      "ext": {
+        "ddc": ["550", "551"],
+        "wiki": "Earth_science",
+        "eurovoc": ["Environment"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.09",
+      "slug": "agriculture-food-science",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Agriculture & Food Science",
+        "nob": "Landbruk og matvitenskap"
+      },
+      "ext": {
+        "ddc": ["630", "641"],
+        "wiki": "Agriculture",
+        "eurovoc": ["Agriculture"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.10",
+      "slug": "architecture-urban-planning",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Architecture & Urban Planning",
+        "nob": "Arkitektur og byplanlegging"
+      },
+      "ext": {
+        "ddc": ["720"],
+        "wiki": "Architecture",
+        "eurovoc": ["Architecture"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.11",
+      "slug": "art-design",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Art & Design",
+        "nob": "Kunst og design"
+      },
+      "ext": {
+        "ddc": ["700"],
+        "wiki": "Arts",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.12",
+      "slug": "music",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Music",
+        "nob": "Musikk"
+      },
+      "ext": {
+        "ddc": ["780"],
+        "wiki": "Music",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.13",
+      "slug": "literature-writing",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Literature & Writing",
+        "nob": "Litteratur og skriving"
+      },
+      "ext": {
+        "ddc": ["800"],
+        "wiki": "Literature",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.14",
+      "slug": "theatre-film-media-arts",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Theatre, Film & Media Arts",
+        "nob": "Teater, film og mediekunst"
+      },
+      "ext": {
+        "ddc": ["790", "791"],
+        "wiki": "Performing_arts",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.15",
+      "slug": "history",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "History",
+        "nob": "Historie"
+      },
+      "ext": {
+        "ddc": ["900"],
+        "wiki": "History",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.16",
+      "slug": "philosophy-ethics",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Philosophy & Ethics",
+        "nob": "Filosofi og etikk"
+      },
+      "ext": {
+        "ddc": ["100", "170"],
+        "wiki": "Philosophy",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.17",
+      "slug": "religion-mythology",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Religion & Mythology",
+        "nob": "Religion og mytologi"
+      },
+      "ext": {
+        "ddc": ["200"],
+        "wiki": "Religion",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.18",
+      "slug": "language-linguistics",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Language & Linguistics",
+        "nob": "Språk og lingvistikk"
+      },
+      "ext": {
+        "ddc": ["400"],
+        "wiki": "Linguistics",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.19",
+      "slug": "culture-anthropology",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Culture & Anthropology",
+        "nob": "Kultur og antropologi"
+      },
+      "ext": {
+        "ddc": ["300", "306"],
+        "wiki": "Anthropology",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.20",
+      "slug": "education",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Education",
+        "nob": "Utdanning"
+      },
+      "ext": {
+        "ddc": ["370"],
+        "wiki": "Education",
+        "eurovoc": ["Education"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.21",
+      "slug": "psychology",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Psychology",
+        "nob": "Psykologi"
+      },
+      "ext": {
+        "ddc": ["150"],
+        "wiki": "Psychology",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.22",
+      "slug": "sociology-demography",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Sociology & Demography",
+        "nob": "Sosiologi og demografi"
+      },
+      "ext": {
+        "ddc": ["300", "301", "304"],
+        "wiki": "Sociology",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.23",
+      "slug": "politics-government",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Politics & Government",
+        "nob": "Politikk og forvaltning"
+      },
+      "ext": {
+        "ddc": ["320"],
+        "wiki": "Politics",
+        "eurovoc": ["Politics"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.24",
+      "slug": "law-justice",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Law & Justice",
+        "nob": "Juss og rettsvesen"
+      },
+      "ext": {
+        "ddc": ["340"],
+        "wiki": "Law",
+        "eurovoc": ["Law"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.25",
+      "slug": "business-economics-finance",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Business, Economics & Finance",
+        "nob": "Økonomi, finans og næringsliv"
+      },
+      "ext": {
+        "ddc": ["330", "658"],
+        "wiki": "Economics",
+        "eurovoc": ["Economy", "Finance"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.26",
+      "slug": "media-journalism",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Media & Journalism",
+        "nob": "Media og journalistikk"
+      },
+      "ext": {
+        "ddc": ["070"],
+        "wiki": "Journalism",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.27",
+      "slug": "transportation-logistics",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Transportation & Logistics",
+        "nob": "Transport og logistikk"
+      },
+      "ext": {
+        "ddc": ["388", "629"],
+        "wiki": "Transport",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.28",
+      "slug": "geography-places",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Geography & Places",
+        "nob": "Geografi og steder"
+      },
+      "ext": {
+        "ddc": ["910", "914"],
+        "wiki": "Geography",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.29",
+      "slug": "warfare-security-defense",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Warfare, Security & Defense",
+        "nob": "Forsvar, sikkerhet og krigføring"
+      },
+      "ext": {
+        "ddc": ["355", "359"],
+        "wiki": "Military",
+        "eurovoc": ["Defense"],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.30",
+      "slug": "sports-recreation",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Sports & Recreation",
+        "nob": "Sport og fritid"
+      },
+      "ext": {
+        "ddc": ["796"],
+        "wiki": "Sports",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.31",
+      "slug": "games-video-games",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Games & Video Games",
+        "nob": "Spill og dataspill"
+      },
+      "ext": {
+        "ddc": ["794"],
+        "wiki": "Video_game",
+        "eurovoc": [],
+        "mesh": null
+      }
+    },
+    {
+      "id": "SDO.32",
+      "slug": "numismatics-heraldry-vexillology",
+      "depth": 1,
+      "scheme": "SDO",
+      "labels": {
+        "en": "Numismatics, Heraldry & Vexillology",
+        "nob": "Numismatikk, heraldikk og flagglære"
+      },
+      "ext": {
+        "ddc": ["737"],
+        "wiki": "Numismatics",
+        "eurovoc": [],
+        "mesh": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.01",
+      "childLabel": { "en": "Botany", "nob": "Botanikk" }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.02",
+      "childLabel": { "en": "Zoology", "nob": "Zoologi" }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.03",
+      "childLabel": {
+        "en": "Genetics & Molecular Biology",
+        "nob": "Genetikk og molekylærbiologi"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.04",
+      "childLabel": {
+        "en": "Ecology & Evolution",
+        "nob": "Økologi og evolusjon"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.05",
+      "childLabel": {
+        "en": "Microbiology & Virology",
+        "nob": "Mikrobiologi og virologi"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.06",
+      "childLabel": { "en": "Immunology", "nob": "Immunologi" }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.07",
+      "childLabel": {
+        "en": "Cell & Developmental Biology",
+        "nob": "Celle- og utviklingsbiologi"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.08",
+      "childLabel": {
+        "en": "Biochemistry & Biophysics",
+        "nob": "Biokjemi og biofysikk"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.09",
+      "childLabel": {
+        "en": "Physiology (Organismal & Systems)",
+        "nob": "Fysiologi (organisme og systemer)"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.10",
+      "childLabel": {
+        "en": "Marine & Aquatic Biology",
+        "nob": "Marin og akvatisk biologi"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.11",
+      "childLabel": {
+        "en": "Bioinformatics & Computational Biology",
+        "nob": "Bioinformatikk og beregningsbiologi"
+      }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.12",
+      "childLabel": { "en": "Biotechnology", "nob": "Bioteknologi" }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.13",
+      "childLabel": { "en": "Paleontology", "nob": "Paleontologi" }
+    },
+    {
+      "parent": "SDO.01",
+      "child": "SDO.01.14",
+      "childLabel": {
+        "en": "Conservation Biology",
+        "nob": "Bevaringsbiologi"
+      }
+    },
+
+    {
+      "parent": "SDO.02",
+      "child": "SDO.02.01",
+      "childLabel": {
+        "en": "Clinical Medicine",
+        "nob": "Klinisk medisin"
+      }
+    },
+    {
+      "parent": "SDO.02",
+      "child": "SDO.02.02",
+      "childLabel": {
+        "en": "Pharmacology & Therapeutics",
+        "nob": "Farmakologi og behandling"
+      }
+    },
+    {
+      "parent": "SDO.02",
+      "child": "SDO.02.03",
+      "childLabel": {
+        "en": "Anatomy & Physiology",
+        "nob": "Anatomi og fysiologi"
+      }
+    },
+    {
+      "parent": "SDO.02",
+      "child": "SDO.02.04",
+      "childLabel": {
+        "en": "Public Health & Epidemiology",
+        "nob": "Folkehelse og epidemiologi"
+      }
+    },
+
+    {
+      "parent": "SDO.03",
+      "child": "SDO.03.01",
+      "childLabel": {
+        "en": "Organic & Inorganic Chemistry",
+        "nob": "Organisk og uorganisk kjemi"
+      }
+    },
+    {
+      "parent": "SDO.03",
+      "child": "SDO.03.02",
+      "childLabel": {
+        "en": "Analytical & Physical Chemistry",
+        "nob": "Analytisk og fysikalsk kjemi"
+      }
+    },
+    {
+      "parent": "SDO.03",
+      "child": "SDO.03.03",
+      "childLabel": {
+        "en": "Materials Science",
+        "nob": "Materialvitenskap"
+      }
+    },
+    {
+      "parent": "SDO.03",
+      "child": "SDO.03.04",
+      "childLabel": {
+        "en": "Polymers & Nanomaterials",
+        "nob": "Polymerer og nanomaterialer"
+      }
+    },
+
+    {
+      "parent": "SDO.04",
+      "child": "SDO.04.01",
+      "childLabel": {
+        "en": "Classical & Quantum Physics",
+        "nob": "Klassisk og kvantefysikk"
+      }
+    },
+    {
+      "parent": "SDO.04",
+      "child": "SDO.04.02",
+      "childLabel": {
+        "en": "Astrophysics & Cosmology",
+        "nob": "Astrofysikk og kosmologi"
+      }
+    },
+    {
+      "parent": "SDO.04",
+      "child": "SDO.04.03",
+      "childLabel": {
+        "en": "Optics & Photonics",
+        "nob": "Optikk og fotonikk"
+      }
+    },
+    {
+      "parent": "SDO.04",
+      "child": "SDO.04.04",
+      "childLabel": {
+        "en": "Nuclear & Particle Physics",
+        "nob": "Kjerne- og partikkelfysikk"
+      }
+    },
+
+    {
+      "parent": "SDO.05",
+      "child": "SDO.05.01",
+      "childLabel": {
+        "en": "Algebra & Geometry",
+        "nob": "Algebra og geometri"
+      }
+    },
+    {
+      "parent": "SDO.05",
+      "child": "SDO.05.02",
+      "childLabel": {
+        "en": "Calculus & Analysis",
+        "nob": "Kalkulus og analyse"
+      }
+    },
+    {
+      "parent": "SDO.05",
+      "child": "SDO.05.03",
+      "childLabel": {
+        "en": "Probability & Statistics",
+        "nob": "Sannsynlighet og statistikk"
+      }
+    },
+    {
+      "parent": "SDO.05",
+      "child": "SDO.05.04",
+      "childLabel": {
+        "en": "Applied Mathematics",
+        "nob": "Anvendt matematikk"
+      }
+    },
+
+    {
+      "parent": "SDO.06",
+      "child": "SDO.06.01",
+      "childLabel": {
+        "en": "Software Engineering",
+        "nob": "Programvareutvikling"
+      }
+    },
+    {
+      "parent": "SDO.06",
+      "child": "SDO.06.02",
+      "childLabel": {
+        "en": "Networking & Security",
+        "nob": "Nettverk og sikkerhet"
+      }
+    },
+    {
+      "parent": "SDO.06",
+      "child": "SDO.06.03",
+      "childLabel": {
+        "en": "Data, AI & Machine Learning",
+        "nob": "Data, KI og maskinlæring"
+      }
+    },
+    {
+      "parent": "SDO.06",
+      "child": "SDO.06.04",
+      "childLabel": {
+        "en": "HCI & UX",
+        "nob": "Menneske–maskin og UX"
+      }
+    },
+
+    {
+      "parent": "SDO.07",
+      "child": "SDO.07.01",
+      "childLabel": {
+        "en": "Mechanical & Manufacturing",
+        "nob": "Mekanisk og produksjon"
+      }
+    },
+    {
+      "parent": "SDO.07",
+      "child": "SDO.07.02",
+      "childLabel": {
+        "en": "Electrical & Electronics",
+        "nob": "Elektro og elektronikk"
+      }
+    },
+    {
+      "parent": "SDO.07",
+      "child": "SDO.07.03",
+      "childLabel": {
+        "en": "Civil & Structural",
+        "nob": "Bygg og konstruksjon"
+      }
+    },
+    {
+      "parent": "SDO.07",
+      "child": "SDO.07.04",
+      "childLabel": {
+        "en": "Energy & Sustainability",
+        "nob": "Energi og bærekraft"
+      }
+    },
+
+    {
+      "parent": "SDO.08",
+      "child": "SDO.08.01",
+      "childLabel": {
+        "en": "Geology & Geophysics",
+        "nob": "Geologi og geofysikk"
+      }
+    },
+    {
+      "parent": "SDO.08",
+      "child": "SDO.08.02",
+      "childLabel": {
+        "en": "Meteorology & Climate",
+        "nob": "Meteorologi og klima"
+      }
+    },
+    {
+      "parent": "SDO.08",
+      "child": "SDO.08.03",
+      "childLabel": {
+        "en": "Oceanography & Hydrology",
+        "nob": "Oseanografi og hydrologi"
+      }
+    },
+    {
+      "parent": "SDO.08",
+      "child": "SDO.08.04",
+      "childLabel": {
+        "en": "Environmental Science",
+        "nob": "Miljøvitenskap"
+      }
+    },
+
+    {
+      "parent": "SDO.09",
+      "child": "SDO.09.01",
+      "childLabel": {
+        "en": "Crop & Soil Science",
+        "nob": "Plante- og jordfag"
+      }
+    },
+    {
+      "parent": "SDO.09",
+      "child": "SDO.09.02",
+      "childLabel": {
+        "en": "Animal Science & Veterinary",
+        "nob": "Husdyrfag og veterinær"
+      }
+    },
+    {
+      "parent": "SDO.09",
+      "child": "SDO.09.03",
+      "childLabel": {
+        "en": "Food Technology & Safety",
+        "nob": "Matteknologi og matsikkerhet"
+      }
+    },
+    {
+      "parent": "SDO.09",
+      "child": "SDO.09.04",
+      "childLabel": {
+        "en": "Forestry & Fisheries",
+        "nob": "Skogbruk og fiskeri"
+      }
+    },
+
+    {
+      "parent": "SDO.10",
+      "child": "SDO.10.01",
+      "childLabel": { "en": "Building Types", "nob": "Bygningstyper" }
+    },
+    {
+      "parent": "SDO.10",
+      "child": "SDO.10.02",
+      "childLabel": {
+        "en": "Construction & Materials",
+        "nob": "Konstruksjon og materialer"
+      }
+    },
+    {
+      "parent": "SDO.10",
+      "child": "SDO.10.03",
+      "childLabel": {
+        "en": "Urban Planning & Zoning",
+        "nob": "Byplanlegging og regulering"
+      }
+    },
+    {
+      "parent": "SDO.10",
+      "child": "SDO.10.04",
+      "childLabel": {
+        "en": "Architectural Styles",
+        "nob": "Arkitektoniske stiler"
+      }
+    },
+
+    {
+      "parent": "SDO.11",
+      "child": "SDO.11.01",
+      "childLabel": { "en": "Visual Arts", "nob": "Visuell kunst" }
+    },
+    {
+      "parent": "SDO.11",
+      "child": "SDO.11.02",
+      "childLabel": {
+        "en": "Design & Applied Arts",
+        "nob": "Design og brukskunst"
+      }
+    },
+    {
+      "parent": "SDO.11",
+      "child": "SDO.11.03",
+      "childLabel": { "en": "Photography", "nob": "Fotografi" }
+    },
+    {
+      "parent": "SDO.11",
+      "child": "SDO.11.04",
+      "childLabel": {
+        "en": "Art History & Criticism",
+        "nob": "Kunsthistorie og kritikk"
+      }
+    },
+
+    {
+      "parent": "SDO.12",
+      "child": "SDO.12.01",
+      "childLabel": {
+        "en": "Music Theory & Composition",
+        "nob": "Musikkteori og komposisjon"
+      }
+    },
+    {
+      "parent": "SDO.12",
+      "child": "SDO.12.02",
+      "childLabel": {
+        "en": "Genres & Styles",
+        "nob": "Sjangre og stiler"
+      }
+    },
+    {
+      "parent": "SDO.12",
+      "child": "SDO.12.03",
+      "childLabel": {
+        "en": "Instruments & Performance",
+        "nob": "Instrumenter og fremføring"
+      }
+    },
+    {
+      "parent": "SDO.12",
+      "child": "SDO.12.04",
+      "childLabel": {
+        "en": "Music Industry",
+        "nob": "Musikkbransjen"
+      }
+    },
+
+    {
+      "parent": "SDO.13",
+      "child": "SDO.13.01",
+      "childLabel": {
+        "en": "Poetry & Prose",
+        "nob": "Poesi og prosa"
+      }
+    },
+    {
+      "parent": "SDO.13",
+      "child": "SDO.13.02",
+      "childLabel": {
+        "en": "Genres & Movements",
+        "nob": "Sjangre og retninger"
+      }
+    },
+    {
+      "parent": "SDO.13",
+      "child": "SDO.13.03",
+      "childLabel": {
+        "en": "Rhetoric & Stylistics",
+        "nob": "Retorikk og stilistikk"
+      }
+    },
+    {
+      "parent": "SDO.13",
+      "child": "SDO.13.04",
+      "childLabel": {
+        "en": "Publishing & Editing",
+        "nob": "Forlagsvirksomhet og redaksjon"
+      }
+    },
+
+    {
+      "parent": "SDO.14",
+      "child": "SDO.14.01",
+      "childLabel": {
+        "en": "Theatre & Drama",
+        "nob": "Teater og drama"
+      }
+    },
+    {
+      "parent": "SDO.14",
+      "child": "SDO.14.02",
+      "childLabel": { "en": "Film & Cinema", "nob": "Film og kino" }
+    },
+    {
+      "parent": "SDO.14",
+      "child": "SDO.14.03",
+      "childLabel": {
+        "en": "Television & Radio",
+        "nob": "TV og radio"
+      }
+    },
+    {
+      "parent": "SDO.14",
+      "child": "SDO.14.04",
+      "childLabel": {
+        "en": "Digital & Media Arts",
+        "nob": "Digital- og mediekunst"
+      }
+    },
+
+    {
+      "parent": "SDO.15",
+      "child": "SDO.15.01",
+      "childLabel": {
+        "en": "Ancient & Medieval",
+        "nob": "Antikken og middelalderen"
+      }
+    },
+    {
+      "parent": "SDO.15",
+      "child": "SDO.15.02",
+      "childLabel": {
+        "en": "Early Modern & Modern",
+        "nob": "Tidlig moderne og moderne tid"
+      }
+    },
+    {
+      "parent": "SDO.15",
+      "child": "SDO.15.03",
+      "childLabel": {
+        "en": "Regional & World History",
+        "nob": "Regional- og verdenshistorie"
+      }
+    },
+    {
+      "parent": "SDO.15",
+      "child": "SDO.15.04",
+      "childLabel": {
+        "en": "Historiography & Methods",
+        "nob": "Historiografi og metode"
+      }
+    },
+
+    {
+      "parent": "SDO.16",
+      "child": "SDO.16.01",
+      "childLabel": {
+        "en": "Metaphysics & Epistemology",
+        "nob": "Metafysikk og erkjennelse"
+      }
+    },
+    {
+      "parent": "SDO.16",
+      "child": "SDO.16.02",
+      "childLabel": {
+        "en": "Ethics & Moral Philosophy",
+        "nob": "Etikk og moralfilosofi"
+      }
+    },
+    {
+      "parent": "SDO.16",
+      "child": "SDO.16.03",
+      "childLabel": { "en": "Logic", "nob": "Logikk" }
+    },
+    {
+      "parent": "SDO.16",
+      "child": "SDO.16.04",
+      "childLabel": {
+        "en": "Aesthetics & Philosophy of Art",
+        "nob": "Estetikk og kunstfilosofi"
+      }
+    },
+
+    {
+      "parent": "SDO.17",
+      "child": "SDO.17.01",
+      "childLabel": {
+        "en": "World Religions",
+        "nob": "Verdensreligioner"
+      }
+    },
+    {
+      "parent": "SDO.17",
+      "child": "SDO.17.02",
+      "childLabel": {
+        "en": "Theology & Doctrine",
+        "nob": "Teologi og lære"
+      }
+    },
+    {
+      "parent": "SDO.17",
+      "child": "SDO.17.03",
+      "childLabel": {
+        "en": "Mythology & Folklore",
+        "nob": "Mytologi og folketro"
+      }
+    },
+    {
+      "parent": "SDO.17",
+      "child": "SDO.17.04",
+      "childLabel": {
+        "en": "Rituals & Practices",
+        "nob": "Ritualer og praksis"
+      }
+    },
+
+    {
+      "parent": "SDO.18",
+      "child": "SDO.18.01",
+      "childLabel": {
+        "en": "Phonetics & Phonology",
+        "nob": "Fonetikk og fonologi"
+      }
+    },
+    {
+      "parent": "SDO.18",
+      "child": "SDO.18.02",
+      "childLabel": {
+        "en": "Morphology & Syntax",
+        "nob": "Morfologi og syntaks"
+      }
+    },
+    {
+      "parent": "SDO.18",
+      "child": "SDO.18.03",
+      "childLabel": {
+        "en": "Semantics & Pragmatics",
+        "nob": "Semantikk og pragmatikk"
+      }
+    },
+    {
+      "parent": "SDO.18",
+      "child": "SDO.18.04",
+      "childLabel": {
+        "en": "Sociolinguistics & Dialects",
+        "nob": "Sosiolingvistikk og dialekter"
+      }
+    },
+
+    {
+      "parent": "SDO.19",
+      "child": "SDO.19.01",
+      "childLabel": {
+        "en": "Cultural Studies",
+        "nob": "Kulturstudier"
+      }
+    },
+    {
+      "parent": "SDO.19",
+      "child": "SDO.19.02",
+      "childLabel": {
+        "en": "Social & Cultural Anthropology",
+        "nob": "Sosial- og kulturantropologi"
+      }
+    },
+    {
+      "parent": "SDO.19",
+      "child": "SDO.19.03",
+      "childLabel": { "en": "Ethnography", "nob": "Etnografi" }
+    },
+    {
+      "parent": "SDO.19",
+      "child": "SDO.19.04",
+      "childLabel": {
+        "en": "Folklore & Traditions",
+        "nob": "Folklore og tradisjoner"
+      }
+    },
+
+    {
+      "parent": "SDO.20",
+      "child": "SDO.20.01",
+      "childLabel": {
+        "en": "Pedagogy & Didactics",
+        "nob": "Pedagogikk og didaktikk"
+      }
+    },
+    {
+      "parent": "SDO.20",
+      "child": "SDO.20.02",
+      "childLabel": {
+        "en": "Curriculum & Assessment",
+        "nob": "Læreplan og vurdering"
+      }
+    },
+    {
+      "parent": "SDO.20",
+      "child": "SDO.20.03",
+      "childLabel": {
+        "en": "Higher & Lifelong Education",
+        "nob": "Høyere og livslang læring"
+      }
+    },
+    {
+      "parent": "SDO.20",
+      "child": "SDO.20.04",
+      "childLabel": {
+        "en": "Educational Technology",
+        "nob": "Utdanningsteknologi"
+      }
+    },
+
+    {
+      "parent": "SDO.21",
+      "child": "SDO.21.01",
+      "childLabel": {
+        "en": "Cognitive Psychology",
+        "nob": "Kognitiv psykologi"
+      }
+    },
+    {
+      "parent": "SDO.21",
+      "child": "SDO.21.02",
+      "childLabel": {
+        "en": "Clinical & Counseling",
+        "nob": "Klinisk og rådgivning"
+      }
+    },
+    {
+      "parent": "SDO.21",
+      "child": "SDO.21.03",
+      "childLabel": {
+        "en": "Developmental Psychology",
+        "nob": "Utviklingspsykologi"
+      }
+    },
+    {
+      "parent": "SDO.21",
+      "child": "SDO.21.04",
+      "childLabel": {
+        "en": "Social & Personality",
+        "nob": "Sosial og personlighet"
+      }
+    },
+
+    {
+      "parent": "SDO.22",
+      "child": "SDO.22.01",
+      "childLabel": { "en": "Social Theory", "nob": "Sosial teori" }
+    },
+    {
+      "parent": "SDO.22",
+      "child": "SDO.22.02",
+      "childLabel": {
+        "en": "Population & Demography",
+        "nob": "Befolkning og demografi"
+      }
+    },
+    {
+      "parent": "SDO.22",
+      "child": "SDO.22.03",
+      "childLabel": {
+        "en": "Inequality & Welfare",
+        "nob": "Ulikhet og velferd"
+      }
+    },
+    {
+      "parent": "SDO.22",
+      "child": "SDO.22.04",
+      "childLabel": {
+        "en": "Methods & Statistics",
+        "nob": "Metoder og statistikk"
+      }
+    },
+
+    {
+      "parent": "SDO.23",
+      "child": "SDO.23.01",
+      "childLabel": {
+        "en": "Political Systems & Theory",
+        "nob": "Politiske systemer og teori"
+      }
+    },
+    {
+      "parent": "SDO.23",
+      "child": "SDO.23.02",
+      "childLabel": {
+        "en": "Public Policy & Administration",
+        "nob": "Offentlig politikk og forvaltning"
+      }
+    },
+    {
+      "parent": "SDO.23",
+      "child": "SDO.23.03",
+      "childLabel": {
+        "en": "International Relations",
+        "nob": "Internasjonale relasjoner"
+      }
+    },
+    {
+      "parent": "SDO.23",
+      "child": "SDO.23.04",
+      "childLabel": {
+        "en": "Elections & Parties",
+        "nob": "Valg og partier"
+      }
+    },
+
+    {
+      "parent": "SDO.24",
+      "child": "SDO.24.01",
+      "childLabel": { "en": "Civil Law", "nob": "Sivilrett" }
+    },
+    {
+      "parent": "SDO.24",
+      "child": "SDO.24.02",
+      "childLabel": { "en": "Criminal Law", "nob": "Strafferett" }
+    },
+    {
+      "parent": "SDO.24",
+      "child": "SDO.24.03",
+      "childLabel": {
+        "en": "Contract & Commercial Law",
+        "nob": "Kontrakt- og forretningsjus"
+      }
+    },
+    {
+      "parent": "SDO.24",
+      "child": "SDO.24.04",
+      "childLabel": {
+        "en": "Public & Constitutional Law",
+        "nob": "Offentlig og konstitusjonell rett"
+      }
+    },
+
+    {
+      "parent": "SDO.25",
+      "child": "SDO.25.01",
+      "childLabel": { "en": "Macroeconomics", "nob": "Makroøkonomi" }
+    },
+    {
+      "parent": "SDO.25",
+      "child": "SDO.25.02",
+      "childLabel": { "en": "Microeconomics", "nob": "Mikroøkonomi" }
+    },
+    {
+      "parent": "SDO.25",
+      "child": "SDO.25.03",
+      "childLabel": {
+        "en": "Finance & Banking",
+        "nob": "Finans og bank"
+      }
+    },
+    {
+      "parent": "SDO.25",
+      "child": "SDO.25.04",
+      "childLabel": {
+        "en": "Management & Marketing",
+        "nob": "Ledelse og markedsføring"
+      }
+    },
+
+    {
+      "parent": "SDO.26",
+      "child": "SDO.26.01",
+      "childLabel": {
+        "en": "News & Reporting",
+        "nob": "Nyheter og reportasje"
+      }
+    },
+    {
+      "parent": "SDO.26",
+      "child": "SDO.26.02",
+      "childLabel": {
+        "en": "Publishing & Media Industry",
+        "nob": "Forlags- og mediebransje"
+      }
+    },
+    {
+      "parent": "SDO.26",
+      "child": "SDO.26.03",
+      "childLabel": {
+        "en": "Ethics & Media Law",
+        "nob": "Etikk og mediejuss"
+      }
+    },
+    {
+      "parent": "SDO.26",
+      "child": "SDO.26.04",
+      "childLabel": {
+        "en": "Editorial & Fact-checking",
+        "nob": "Redaksjon og faktasjekk"
+      }
+    },
+
+    {
+      "parent": "SDO.27",
+      "child": "SDO.27.01",
+      "childLabel": { "en": "Road & Rail", "nob": "Vei og bane" }
+    },
+    {
+      "parent": "SDO.27",
+      "child": "SDO.27.02",
+      "childLabel": { "en": "Maritime", "nob": "Sjøfart" }
+    },
+    {
+      "parent": "SDO.27",
+      "child": "SDO.27.03",
+      "childLabel": {
+        "en": "Aviation & Aerospace",
+        "nob": "Luftfart og romfart"
+      }
+    },
+    {
+      "parent": "SDO.27",
+      "child": "SDO.27.04",
+      "childLabel": {
+        "en": "Logistics & Supply Chain",
+        "nob": "Logistikk og forsyningskjede"
+      }
+    },
+
+    {
+      "parent": "SDO.28",
+      "child": "SDO.28.01",
+      "childLabel": {
+        "en": "Physical Geography",
+        "nob": "Fysisk geografi"
+      }
+    },
+    {
+      "parent": "SDO.28",
+      "child": "SDO.28.02",
+      "childLabel": {
+        "en": "Human Geography",
+        "nob": "Menneskelig geografi"
+      }
+    },
+    {
+      "parent": "SDO.28",
+      "child": "SDO.28.03",
+      "childLabel": {
+        "en": "Cartography & GIS",
+        "nob": "Kartografi og GIS"
+      }
+    },
+    {
+      "parent": "SDO.28",
+      "child": "SDO.28.04",
+      "childLabel": {
+        "en": "Places & Toponyms",
+        "nob": "Steder og stedsnavn"
+      }
+    },
+
+    {
+      "parent": "SDO.29",
+      "child": "SDO.29.01",
+      "childLabel": { "en": "Military Science", "nob": "Militærfag" }
+    },
+    {
+      "parent": "SDO.29",
+      "child": "SDO.29.02",
+      "childLabel": {
+        "en": "Security & Intelligence",
+        "nob": "Sikkerhet og etterretning"
+      }
+    },
+    {
+      "parent": "SDO.29",
+      "child": "SDO.29.03",
+      "childLabel": {
+        "en": "Strategy & Tactics",
+        "nob": "Strategi og taktikk"
+      }
+    },
+    {
+      "parent": "SDO.29",
+      "child": "SDO.29.04",
+      "childLabel": {
+        "en": "Defense Technology",
+        "nob": "Forsvarsteknologi"
+      }
+    },
+
+    {
+      "parent": "SDO.30",
+      "child": "SDO.30.01",
+      "childLabel": {
+        "en": "Athletics & Team Sports",
+        "nob": "Friidrett og lagidrett"
+      }
+    },
+    {
+      "parent": "SDO.30",
+      "child": "SDO.30.02",
+      "childLabel": {
+        "en": "Outdoor & Recreation",
+        "nob": "Friluftsliv og fritid"
+      }
+    },
+    {
+      "parent": "SDO.30",
+      "child": "SDO.30.03",
+      "childLabel": {
+        "en": "Fitness & Training",
+        "nob": "Trening og fitness"
+      }
+    },
+    {
+      "parent": "SDO.30",
+      "child": "SDO.30.04",
+      "childLabel": {
+        "en": "Sports Governance & Rules",
+        "nob": "Idrettsstyring og regler"
+      }
+    },
+
+    {
+      "parent": "SDO.31",
+      "child": "SDO.31.01",
+      "childLabel": {
+        "en": "Board & Card Games",
+        "nob": "Brett- og kortspill"
+      }
+    },
+    {
+      "parent": "SDO.31",
+      "child": "SDO.31.02",
+      "childLabel": {
+        "en": "Video Game Genres",
+        "nob": "Dataspillsjangre"
+      }
+    },
+    {
+      "parent": "SDO.31",
+      "child": "SDO.31.03",
+      "childLabel": {
+        "en": "Game Design & Mechanics",
+        "nob": "Spilldesign og mekanikker"
+      }
+    },
+    {
+      "parent": "SDO.31",
+      "child": "SDO.31.04",
+      "childLabel": {
+        "en": "Esports & Industry",
+        "nob": "E-sport og bransje"
+      }
+    },
+
+    {
+      "parent": "SDO.32",
+      "child": "SDO.32.01",
+      "childLabel": { "en": "Numismatics", "nob": "Numismatikk" }
+    },
+    {
+      "parent": "SDO.32",
+      "child": "SDO.32.02",
+      "childLabel": { "en": "Heraldry", "nob": "Heraldikk" }
+    },
+    {
+      "parent": "SDO.32",
+      "child": "SDO.32.03",
+      "childLabel": {
+        "en": "Vexillology (Flags)",
+        "nob": "Flagglære (vexillologi)"
+      }
+    },
+    {
+      "parent": "SDO.32",
+      "child": "SDO.32.04",
+      "childLabel": {
+        "en": "Orders & Honors",
+        "nob": "Ordener og utmerkelser"
+      }
+    },
+
+    {
+      "parent": "SDO.01.01",
+      "child": "SDO.01.01.01",
+      "childLabel": {
+        "en": "Plant Anatomy & Morphology",
+        "nob": "Planteanatomi og morfologi"
+      }
+    },
+    {
+      "parent": "SDO.01.01",
+      "child": "SDO.01.01.02",
+      "childLabel": { "en": "Plant Physiology", "nob": "Plantefysiologi" }
+    },
+    {
+      "parent": "SDO.01.01",
+      "child": "SDO.01.01.03",
+      "childLabel": {
+        "en": "Plant Taxonomy & Systematics",
+        "nob": "Plantetaxonomi og systematikk"
+      }
+    },
+    {
+      "parent": "SDO.01.01",
+      "child": "SDO.01.01.04",
+      "childLabel": { "en": "Plant Ecology", "nob": "Planteøkologi" }
+    },
+
+    {
+      "parent": "SDO.01.02",
+      "child": "SDO.01.02.01",
+      "childLabel": {
+        "en": "Invertebrate Zoology",
+        "nob": "Invertebratzoologi"
+      }
+    },
+    {
+      "parent": "SDO.01.02",
+      "child": "SDO.01.02.02",
+      "childLabel": { "en": "Vertebrate Zoology", "nob": "Virveldyrzoologi" }
+    },
+    {
+      "parent": "SDO.01.02",
+      "child": "SDO.01.02.03",
+      "childLabel": {
+        "en": "Ethology (Animal Behavior)",
+        "nob": "Etologi (dyreatferd)"
+      }
+    },
+    {
+      "parent": "SDO.01.02",
+      "child": "SDO.01.02.04",
+      "childLabel": {
+        "en": "Comparative Anatomy",
+        "nob": "Sammenlignende anatomi"
+      }
+    },
+
+    {
+      "parent": "SDO.01.03",
+      "child": "SDO.01.03.01",
+      "childLabel": { "en": "Genomics", "nob": "Genomikk" }
+    },
+    {
+      "parent": "SDO.01.03",
+      "child": "SDO.01.03.02",
+      "childLabel": { "en": "Proteomics", "nob": "Proteomikk" }
+    },
+    {
+      "parent": "SDO.01.03",
+      "child": "SDO.01.03.03",
+      "childLabel": { "en": "Epigenetics", "nob": "Epigenetikk" }
+    },
+    {
+      "parent": "SDO.01.03",
+      "child": "SDO.01.03.04",
+      "childLabel": { "en": "Molecular Genetics", "nob": "Molekylærgenetikk" }
+    },
+
+    {
+      "parent": "SDO.01.04",
+      "child": "SDO.01.04.01",
+      "childLabel": { "en": "Population Ecology", "nob": "Populasjonsøkologi" }
+    },
+    {
+      "parent": "SDO.01.04",
+      "child": "SDO.01.04.02",
+      "childLabel": { "en": "Community Ecology", "nob": "Samfunnsøkologi" }
+    },
+    {
+      "parent": "SDO.01.04",
+      "child": "SDO.01.04.03",
+      "childLabel": { "en": "Evolutionary Biology", "nob": "Evolusjonsbiologi" }
+    },
+    {
+      "parent": "SDO.01.04",
+      "child": "SDO.01.04.04",
+      "childLabel": { "en": "Conservation Ecology", "nob": "Bevaringsøkologi" }
+    },
+
+    {
+      "parent": "SDO.01.05",
+      "child": "SDO.01.05.01",
+      "childLabel": { "en": "Bacteriology", "nob": "Bakteriologi" }
+    },
+    {
+      "parent": "SDO.01.05",
+      "child": "SDO.01.05.02",
+      "childLabel": { "en": "Virology", "nob": "Virologi" }
+    },
+    {
+      "parent": "SDO.01.05",
+      "child": "SDO.01.05.03",
+      "childLabel": { "en": "Mycology", "nob": "Mykologi" }
+    },
+    {
+      "parent": "SDO.01.05",
+      "child": "SDO.01.05.04",
+      "childLabel": { "en": "Parasitology", "nob": "Parasitologi" }
+    },
+
+    {
+      "parent": "SDO.01.06",
+      "child": "SDO.01.06.01",
+      "childLabel": { "en": "Innate Immunity", "nob": "Medfødt immunitet" }
+    },
+    {
+      "parent": "SDO.01.06",
+      "child": "SDO.01.06.02",
+      "childLabel": { "en": "Adaptive Immunity", "nob": "Adaptiv immunitet" }
+    },
+    {
+      "parent": "SDO.01.06",
+      "child": "SDO.01.06.03",
+      "childLabel": { "en": "Immunopathology", "nob": "Immunopatologi" }
+    },
+    {
+      "parent": "SDO.01.06",
+      "child": "SDO.01.06.04",
+      "childLabel": { "en": "Vaccinology", "nob": "Vaksinologi" }
+    },
+
+    {
+      "parent": "SDO.01.07",
+      "child": "SDO.01.07.01",
+      "childLabel": {
+        "en": "Cell Structure & Function",
+        "nob": "Celleoppbygning og funksjon"
+      }
+    },
+    {
+      "parent": "SDO.01.07",
+      "child": "SDO.01.07.02",
+      "childLabel": {
+        "en": "Developmental Genetics",
+        "nob": "Utviklingsgenetikk"
+      }
+    },
+    {
+      "parent": "SDO.01.07",
+      "child": "SDO.01.07.03",
+      "childLabel": { "en": "Stem Cell Biology", "nob": "Stamcellebiologi" }
+    },
+    {
+      "parent": "SDO.01.07",
+      "child": "SDO.01.07.04",
+      "childLabel": {
+        "en": "Cell Signaling & Communication",
+        "nob": "Celle­signalering og kommunikasjon"
+      }
+    },
+
+    {
+      "parent": "SDO.01.08",
+      "child": "SDO.01.08.01",
+      "childLabel": { "en": "Enzymology", "nob": "Enzymologi" }
+    },
+    {
+      "parent": "SDO.01.08",
+      "child": "SDO.01.08.02",
+      "childLabel": { "en": "Metabolism", "nob": "Metabolisme" }
+    },
+    {
+      "parent": "SDO.01.08",
+      "child": "SDO.01.08.03",
+      "childLabel": { "en": "Structural Biology", "nob": "Strukturell biologi" }
+    },
+    {
+      "parent": "SDO.01.08",
+      "child": "SDO.01.08.04",
+      "childLabel": { "en": "Biophysical Methods", "nob": "Biofysiske metoder" }
+    },
+
+    {
+      "parent": "SDO.01.09",
+      "child": "SDO.01.09.01",
+      "childLabel": { "en": "Neurophysiology", "nob": "Nevrofysiologi" }
+    },
+    {
+      "parent": "SDO.01.09",
+      "child": "SDO.01.09.02",
+      "childLabel": {
+        "en": "Cardiovascular Physiology",
+        "nob": "Hjerte- og karsfysiologi"
+      }
+    },
+    {
+      "parent": "SDO.01.09",
+      "child": "SDO.01.09.03",
+      "childLabel": { "en": "Endocrinology", "nob": "Endokrinologi" }
+    },
+    {
+      "parent": "SDO.01.09",
+      "child": "SDO.01.09.04",
+      "childLabel": { "en": "Systems Physiology", "nob": "Systemfysiologi" }
+    },
+
+    {
+      "parent": "SDO.01.10",
+      "child": "SDO.01.10.01",
+      "childLabel": { "en": "Marine Ecology", "nob": "Marin økologi" }
+    },
+    {
+      "parent": "SDO.01.10",
+      "child": "SDO.01.10.02",
+      "childLabel": { "en": "Freshwater Ecology", "nob": "Ferskvannsøkologi" }
+    },
+    {
+      "parent": "SDO.01.10",
+      "child": "SDO.01.10.03",
+      "childLabel": { "en": "Fisheries Biology", "nob": "Fiskeribiologi" }
+    },
+    {
+      "parent": "SDO.01.10",
+      "child": "SDO.01.10.04",
+      "childLabel": {
+        "en": "Marine Biotechnology",
+        "nob": "Marin bioteknologi"
+      }
+    },
+
+    {
+      "parent": "SDO.01.11",
+      "child": "SDO.01.11.01",
+      "childLabel": { "en": "Sequence Analysis", "nob": "Sekvensanalyse" }
+    },
+    {
+      "parent": "SDO.01.11",
+      "child": "SDO.01.11.02",
+      "childLabel": {
+        "en": "Structural Bioinformatics",
+        "nob": "Strukturell bioinformatikk"
+      }
+    },
+    {
+      "parent": "SDO.01.11",
+      "child": "SDO.01.11.03",
+      "childLabel": { "en": "Systems Biology", "nob": "Systembiologi" }
+    },
+    {
+      "parent": "SDO.01.11",
+      "child": "SDO.01.11.04",
+      "childLabel": {
+        "en": "Computational Genomics",
+        "nob": "Beregnet genomikk"
+      }
+    },
+
+    {
+      "parent": "SDO.01.12",
+      "child": "SDO.01.12.01",
+      "childLabel": {
+        "en": "Genetic Engineering",
+        "nob": "Genetisk ingeniørkunst"
+      }
+    },
+    {
+      "parent": "SDO.01.12",
+      "child": "SDO.01.12.02",
+      "childLabel": { "en": "Synthetic Biology", "nob": "Syntetisk biologi" }
+    },
+    {
+      "parent": "SDO.01.12",
+      "child": "SDO.01.12.03",
+      "childLabel": {
+        "en": "Industrial Biotechnology",
+        "nob": "Industriell bioteknologi"
+      }
+    },
+    {
+      "parent": "SDO.01.12",
+      "child": "SDO.01.12.04",
+      "childLabel": {
+        "en": "Biomedical Biotechnology",
+        "nob": "Biomedisinsk bioteknologi"
+      }
+    },
+
+    {
+      "parent": "SDO.01.13",
+      "child": "SDO.01.13.01",
+      "childLabel": {
+        "en": "Vertebrate Paleontology",
+        "nob": "Virveldy rpaleontologi"
+      }
+    },
+    {
+      "parent": "SDO.01.13",
+      "child": "SDO.01.13.02",
+      "childLabel": {
+        "en": "Invertebrate Paleontology",
+        "nob": "Invertebratpaleontologi"
+      }
+    },
+    {
+      "parent": "SDO.01.13",
+      "child": "SDO.01.13.03",
+      "childLabel": { "en": "Paleobotany", "nob": "Paleobotanikk" }
+    },
+    {
+      "parent": "SDO.01.13",
+      "child": "SDO.01.13.04",
+      "childLabel": { "en": "Micropaleontology", "nob": "Mikropaleontologi" }
+    },
+
+    {
+      "parent": "SDO.01.14",
+      "child": "SDO.01.14.01",
+      "childLabel": {
+        "en": "Conservation Genetics",
+        "nob": "Bevaringsgenetikk"
+      }
+    },
+    {
+      "parent": "SDO.01.14",
+      "child": "SDO.01.14.02",
+      "childLabel": {
+        "en": "Protected Area Management",
+        "nob": "Forvaltning av verneområder"
+      }
+    },
+    {
+      "parent": "SDO.01.14",
+      "child": "SDO.01.14.03",
+      "childLabel": {
+        "en": "Restoration Ecology",
+        "nob": "Restaureringsøkologi"
+      }
+    },
+    {
+      "parent": "SDO.01.14",
+      "child": "SDO.01.14.04",
+      "childLabel": { "en": "Wildlife Management", "nob": "Viltforvaltning" }
+    },
+
+    {
+      "parent": "SDO.02.01",
+      "child": "SDO.02.01.01",
+      "childLabel": { "en": "Internal Medicine", "nob": "Indremedisin" }
+    },
+    {
+      "parent": "SDO.02.01",
+      "child": "SDO.02.01.02",
+      "childLabel": { "en": "Surgery", "nob": "Kirurgi" }
+    },
+    {
+      "parent": "SDO.02.01",
+      "child": "SDO.02.01.03",
+      "childLabel": { "en": "Pediatrics", "nob": "Pediatri" }
+    },
+    {
+      "parent": "SDO.02.01",
+      "child": "SDO.02.01.04",
+      "childLabel": {
+        "en": "Obstetrics & Gynecology",
+        "nob": "Fødselshjelp og gynekologi"
+      }
+    },
+
+    {
+      "parent": "SDO.02.02",
+      "child": "SDO.02.02.01",
+      "childLabel": {
+        "en": "Pharmacokinetics & Pharmacodynamics",
+        "nob": "Farmakokinetikk og farmakodynamikk"
+      }
+    },
+    {
+      "parent": "SDO.02.02",
+      "child": "SDO.02.02.02",
+      "childLabel": {
+        "en": "Drug Discovery & Development",
+        "nob": "Legemiddeloppdagelse og -utvikling"
+      }
+    },
+    {
+      "parent": "SDO.02.02",
+      "child": "SDO.02.02.03",
+      "childLabel": { "en": "Clinical Trials", "nob": "Kliniske studier" }
+    },
+    {
+      "parent": "SDO.02.02",
+      "child": "SDO.02.02.04",
+      "childLabel": { "en": "Toxicology", "nob": "Toksikologi" }
+    },
+
+    {
+      "parent": "SDO.02.03",
+      "child": "SDO.02.03.01",
+      "childLabel": { "en": "Gross Anatomy", "nob": "Makroskopisk anatomi" }
+    },
+    {
+      "parent": "SDO.02.03",
+      "child": "SDO.02.03.02",
+      "childLabel": { "en": "Histology", "nob": "Histologi" }
+    },
+    {
+      "parent": "SDO.02.03",
+      "child": "SDO.02.03.03",
+      "childLabel": { "en": "Neuroanatomy", "nob": "Neuroanatomi" }
+    },
+    {
+      "parent": "SDO.02.03",
+      "child": "SDO.02.03.04",
+      "childLabel": {
+        "en": "Comparative Anatomy",
+        "nob": "Sammenlignende anatomi"
+      }
+    },
+
+    {
+      "parent": "SDO.02.04",
+      "child": "SDO.02.04.01",
+      "childLabel": {
+        "en": "Epidemiologic Methods",
+        "nob": "Epidemiologiske metoder"
+      }
+    },
+    {
+      "parent": "SDO.02.04",
+      "child": "SDO.02.04.02",
+      "childLabel": {
+        "en": "Health Policy & Management",
+        "nob": "Helsepolitikk og -ledelse"
+      }
+    },
+    {
+      "parent": "SDO.02.04",
+      "child": "SDO.02.04.03",
+      "childLabel": {
+        "en": "Environmental & Occupational Health",
+        "nob": "Miljø- og arbeidshelse"
+      }
+    },
+    {
+      "parent": "SDO.02.04",
+      "child": "SDO.02.04.04",
+      "childLabel": { "en": "Global Health", "nob": "Global helse" }
+    },
+
+    {
+      "parent": "SDO.03.01",
+      "child": "SDO.03.01.01",
+      "childLabel": { "en": "Organic Synthesis", "nob": "Organisk syntese" }
+    },
+    {
+      "parent": "SDO.03.01",
+      "child": "SDO.03.01.02",
+      "childLabel": {
+        "en": "Organometallic Chemistry",
+        "nob": "Organometallisk kjemi"
+      }
+    },
+    {
+      "parent": "SDO.03.01",
+      "child": "SDO.03.01.03",
+      "childLabel": {
+        "en": "Coordination Chemistry",
+        "nob": "Koordinasjonskjemi"
+      }
+    },
+    {
+      "parent": "SDO.03.01",
+      "child": "SDO.03.01.04",
+      "childLabel": {
+        "en": "Inorganic Materials",
+        "nob": "Uorganiske materialer"
+      }
+    },
+
+    {
+      "parent": "SDO.03.02",
+      "child": "SDO.03.02.01",
+      "childLabel": { "en": "Spectroscopy", "nob": "Spektroskopi" }
+    },
+    {
+      "parent": "SDO.03.02",
+      "child": "SDO.03.02.02",
+      "childLabel": { "en": "Electrochemistry", "nob": "Elektrokjemi" }
+    },
+    {
+      "parent": "SDO.03.02",
+      "child": "SDO.03.02.03",
+      "childLabel": {
+        "en": "Thermodynamics & Kinetics",
+        "nob": "Termodynamikk og kinetikk"
+      }
+    },
+    {
+      "parent": "SDO.03.02",
+      "child": "SDO.03.02.04",
+      "childLabel": {
+        "en": "Surface & Colloid Chemistry",
+        "nob": "Overflate- og kolloidkjemi"
+      }
+    },
+
+    {
+      "parent": "SDO.03.03",
+      "child": "SDO.03.03.01",
+      "childLabel": {
+        "en": "Ceramics & Composites",
+        "nob": "Keramikk og kompositter"
+      }
+    },
+    {
+      "parent": "SDO.03.03",
+      "child": "SDO.03.03.02",
+      "childLabel": { "en": "Metals & Alloys", "nob": "Metaller og legeringer" }
+    },
+    {
+      "parent": "SDO.03.03",
+      "child": "SDO.03.03.03",
+      "childLabel": { "en": "Semiconductors", "nob": "Halvledere" }
+    },
+    {
+      "parent": "SDO.03.03",
+      "child": "SDO.03.03.04",
+      "childLabel": { "en": "Soft Materials", "nob": "Myke materialer" }
+    },
+
+    {
+      "parent": "SDO.03.04",
+      "child": "SDO.03.04.01",
+      "childLabel": { "en": "Polymer Chemistry", "nob": "Polymerkjemi" }
+    },
+    {
+      "parent": "SDO.03.04",
+      "child": "SDO.03.04.02",
+      "childLabel": { "en": "Polymer Physics", "nob": "Polymerfysikk" }
+    },
+    {
+      "parent": "SDO.03.04",
+      "child": "SDO.03.04.03",
+      "childLabel": {
+        "en": "Nanomaterial Synthesis",
+        "nob": "Nanomaterialsyntese"
+      }
+    },
+    {
+      "parent": "SDO.03.04",
+      "child": "SDO.03.04.04",
+      "childLabel": {
+        "en": "Nanofabrication & Applications",
+        "nob": "Nanofabrikasjon og anvendelser"
+      }
+    },
+
+    {
+      "parent": "SDO.04.01",
+      "child": "SDO.04.01.01",
+      "childLabel": {
+        "en": "Mechanics & Thermodynamics",
+        "nob": "Mekanikk og termodynamikk"
+      }
+    },
+    {
+      "parent": "SDO.04.01",
+      "child": "SDO.04.01.02",
+      "childLabel": { "en": "Electromagnetism", "nob": "Elektromagnetisme" }
+    },
+    {
+      "parent": "SDO.04.01",
+      "child": "SDO.04.01.03",
+      "childLabel": { "en": "Quantum Mechanics", "nob": "Kvantemekanikk" }
+    },
+    {
+      "parent": "SDO.04.01",
+      "child": "SDO.04.01.04",
+      "childLabel": { "en": "Statistical Physics", "nob": "Statistisk fysikk" }
+    },
+
+    {
+      "parent": "SDO.04.02",
+      "child": "SDO.04.02.01",
+      "childLabel": {
+        "en": "Stellar Astrophysics",
+        "nob": "Stjerneastrofysikk"
+      }
+    },
+    {
+      "parent": "SDO.04.02",
+      "child": "SDO.04.02.02",
+      "childLabel": {
+        "en": "Exoplanets & Planetary Science",
+        "nob": "Eksoplaneter og planetforskning"
+      }
+    },
+    {
+      "parent": "SDO.04.02",
+      "child": "SDO.04.02.03",
+      "childLabel": {
+        "en": "Galaxies & Cosmology",
+        "nob": "Galakser og kosmologi"
+      }
+    },
+    {
+      "parent": "SDO.04.02",
+      "child": "SDO.04.02.04",
+      "childLabel": {
+        "en": "High-Energy Astrophysics",
+        "nob": "Høyenergiastrofysikk"
+      }
+    },
+
+    {
+      "parent": "SDO.04.03",
+      "child": "SDO.04.03.01",
+      "childLabel": {
+        "en": "Geometrical & Physical Optics",
+        "nob": "Geometrisk og fysisk optikk"
+      }
+    },
+    {
+      "parent": "SDO.04.03",
+      "child": "SDO.04.03.02",
+      "childLabel": { "en": "Lasers", "nob": "Lasere" }
+    },
+    {
+      "parent": "SDO.04.03",
+      "child": "SDO.04.03.03",
+      "childLabel": { "en": "Nonlinear Optics", "nob": "Ikke-lineær optikk" }
+    },
+    {
+      "parent": "SDO.04.03",
+      "child": "SDO.04.03.04",
+      "childLabel": {
+        "en": "Optical Communications",
+        "nob": "Optisk kommunikasjon"
+      }
+    },
+
+    {
+      "parent": "SDO.04.04",
+      "child": "SDO.04.04.01",
+      "childLabel": { "en": "Nuclear Structure", "nob": "Kjernestruktur" }
+    },
+    {
+      "parent": "SDO.04.04",
+      "child": "SDO.04.04.02",
+      "childLabel": {
+        "en": "Particle Physics (HEP)",
+        "nob": "Partikkelfysikk (HEP)"
+      }
+    },
+    {
+      "parent": "SDO.04.04",
+      "child": "SDO.04.04.03",
+      "childLabel": { "en": "Detector Physics", "nob": "Detektorfysikk" }
+    },
+    {
+      "parent": "SDO.04.04",
+      "child": "SDO.04.04.04",
+      "childLabel": { "en": "Nuclear Astrophysics", "nob": "Kjerneastrofysikk" }
+    },
+
+    {
+      "parent": "SDO.05.01",
+      "child": "SDO.05.01.01",
+      "childLabel": { "en": "Linear Algebra", "nob": "Lineær algebra" }
+    },
+    {
+      "parent": "SDO.05.01",
+      "child": "SDO.05.01.02",
+      "childLabel": { "en": "Abstract Algebra", "nob": "Abstrakt algebra" }
+    },
+    {
+      "parent": "SDO.05.01",
+      "child": "SDO.05.01.03",
+      "childLabel": {
+        "en": "Differential Geometry",
+        "nob": "Differensialgeometri"
+      }
+    },
+    {
+      "parent": "SDO.05.01",
+      "child": "SDO.05.01.04",
+      "childLabel": { "en": "Topology", "nob": "Topologi" }
+    },
+
+    {
+      "parent": "SDO.05.02",
+      "child": "SDO.05.02.01",
+      "childLabel": { "en": "Real Analysis", "nob": "Reell analyse" }
+    },
+    {
+      "parent": "SDO.05.02",
+      "child": "SDO.05.02.02",
+      "childLabel": { "en": "Complex Analysis", "nob": "Kompleks analyse" }
+    },
+    {
+      "parent": "SDO.05.02",
+      "child": "SDO.05.02.03",
+      "childLabel": {
+        "en": "Differential Equations",
+        "nob": "Differensialligninger"
+      }
+    },
+    {
+      "parent": "SDO.05.02",
+      "child": "SDO.05.02.04",
+      "childLabel": { "en": "Numerical Analysis", "nob": "Numerisk analyse" }
+    },
+
+    {
+      "parent": "SDO.05.03",
+      "child": "SDO.05.03.01",
+      "childLabel": { "en": "Probability Theory", "nob": "Sannsynlighetsteori" }
+    },
+    {
+      "parent": "SDO.05.03",
+      "child": "SDO.05.03.02",
+      "childLabel": {
+        "en": "Statistical Inference",
+        "nob": "Statistisk inferens"
+      }
+    },
+    {
+      "parent": "SDO.05.03",
+      "child": "SDO.05.03.03",
+      "childLabel": {
+        "en": "Bayesian Statistics",
+        "nob": "Bayesiansk statistikk"
+      }
+    },
+    {
+      "parent": "SDO.05.03",
+      "child": "SDO.05.03.04",
+      "childLabel": {
+        "en": "Stochastic Processes",
+        "nob": "Stokastiske prosesser"
+      }
+    },
+
+    {
+      "parent": "SDO.05.04",
+      "child": "SDO.05.04.01",
+      "childLabel": {
+        "en": "Mathematical Modeling",
+        "nob": "Matematisk modellering"
+      }
+    },
+    {
+      "parent": "SDO.05.04",
+      "child": "SDO.05.04.02",
+      "childLabel": { "en": "Operations Research", "nob": "Operasjonsanalyse" }
+    },
+    {
+      "parent": "SDO.05.04",
+      "child": "SDO.05.04.03",
+      "childLabel": {
+        "en": "Computational Mathematics",
+        "nob": "Beregningsmatematikk"
+      }
+    },
+    {
+      "parent": "SDO.05.04",
+      "child": "SDO.05.04.04",
+      "childLabel": {
+        "en": "Applied Optimization",
+        "nob": "Anvendt optimering"
+      }
+    },
+
+    {
+      "parent": "SDO.06.01",
+      "child": "SDO.06.01.01",
+      "childLabel": {
+        "en": "Programming Languages",
+        "nob": "Programmeringsspråk"
+      }
+    },
+    {
+      "parent": "SDO.06.01",
+      "child": "SDO.06.01.02",
+      "childLabel": {
+        "en": "Software Architecture",
+        "nob": "Programvarearkitektur"
+      }
+    },
+    {
+      "parent": "SDO.06.01",
+      "child": "SDO.06.01.03",
+      "childLabel": {
+        "en": "Software Testing & QA",
+        "nob": "Programvaretesting og kvalitetssikring"
+      }
+    },
+    {
+      "parent": "SDO.06.01",
+      "child": "SDO.06.01.04",
+      "childLabel": { "en": "Agile & DevOps", "nob": "Agile og DevOps" }
+    },
+
+    {
+      "parent": "SDO.06.02",
+      "child": "SDO.06.02.01",
+      "childLabel": { "en": "Computer Networks", "nob": "Datamaskinnettverk" }
+    },
+    {
+      "parent": "SDO.06.02",
+      "child": "SDO.06.02.02",
+      "childLabel": { "en": "Cybersecurity", "nob": "Cybersikkerhet" }
+    },
+    {
+      "parent": "SDO.06.02",
+      "child": "SDO.06.02.03",
+      "childLabel": { "en": "Cryptography", "nob": "Kryptografi" }
+    },
+    {
+      "parent": "SDO.06.02",
+      "child": "SDO.06.02.04",
+      "childLabel": {
+        "en": "Cloud Infrastructure",
+        "nob": "Skytjenesteinfrastruktur"
+      }
+    },
+
+    {
+      "parent": "SDO.06.03",
+      "child": "SDO.06.03.01",
+      "childLabel": {
+        "en": "Databases & Big Data",
+        "nob": "Databaser og stordata"
+      }
+    },
+    {
+      "parent": "SDO.06.03",
+      "child": "SDO.06.03.02",
+      "childLabel": {
+        "en": "Artificial Intelligence",
+        "nob": "Kunstig intelligens"
+      }
+    },
+    {
+      "parent": "SDO.06.03",
+      "child": "SDO.06.03.03",
+      "childLabel": { "en": "Machine Learning", "nob": "Maskinlæring" }
+    },
+    {
+      "parent": "SDO.06.03",
+      "child": "SDO.06.03.04",
+      "childLabel": { "en": "Data Mining", "nob": "Datagruvedrift" }
+    },
+
+    {
+      "parent": "SDO.06.04",
+      "child": "SDO.06.04.01",
+      "childLabel": {
+        "en": "Human-Computer Interaction",
+        "nob": "Menneske–maskin-interaksjon"
+      }
+    },
+    {
+      "parent": "SDO.06.04",
+      "child": "SDO.06.04.02",
+      "childLabel": {
+        "en": "User Experience (UX)",
+        "nob": "Brukeropplevelse (UX)"
+      }
+    },
+    {
+      "parent": "SDO.06.04",
+      "child": "SDO.06.04.03",
+      "childLabel": { "en": "Interface Design", "nob": "Grensesnittdesign" }
+    },
+    {
+      "parent": "SDO.06.04",
+      "child": "SDO.06.04.04",
+      "childLabel": { "en": "Accessibility", "nob": "Universell utforming" }
+    },
+
+    {
+      "parent": "SDO.07.01",
+      "child": "SDO.07.01.01",
+      "childLabel": { "en": "Mechanical Design", "nob": "Maskindesign" }
+    },
+    {
+      "parent": "SDO.07.01",
+      "child": "SDO.07.01.02",
+      "childLabel": {
+        "en": "Manufacturing Processes",
+        "nob": "Produksjonsprosesser"
+      }
+    },
+    {
+      "parent": "SDO.07.01",
+      "child": "SDO.07.01.03",
+      "childLabel": { "en": "Robotics", "nob": "Robotikk" }
+    },
+    {
+      "parent": "SDO.07.01",
+      "child": "SDO.07.01.04",
+      "childLabel": { "en": "Mechatronics", "nob": "Mekatronikk" }
+    },
+
+    {
+      "parent": "SDO.07.02",
+      "child": "SDO.07.02.01",
+      "childLabel": { "en": "Power Systems", "nob": "Kraftsystemer" }
+    },
+    {
+      "parent": "SDO.07.02",
+      "child": "SDO.07.02.02",
+      "childLabel": { "en": "Electronics", "nob": "Elektronikk" }
+    },
+    {
+      "parent": "SDO.07.02",
+      "child": "SDO.07.02.03",
+      "childLabel": { "en": "Control Systems", "nob": "Reguleringsteknikk" }
+    },
+    {
+      "parent": "SDO.07.02",
+      "child": "SDO.07.02.04",
+      "childLabel": { "en": "Telecommunications", "nob": "Telekommunikasjon" }
+    },
+
+    {
+      "parent": "SDO.07.03",
+      "child": "SDO.07.03.01",
+      "childLabel": {
+        "en": "Structural Engineering",
+        "nob": "Konstruksjonsteknikk"
+      }
+    },
+    {
+      "parent": "SDO.07.03",
+      "child": "SDO.07.03.02",
+      "childLabel": { "en": "Geotechnical Engineering", "nob": "Geoteknikk" }
+    },
+    {
+      "parent": "SDO.07.03",
+      "child": "SDO.07.03.03",
+      "childLabel": {
+        "en": "Transportation Engineering",
+        "nob": "Samferdselsteknikk"
+      }
+    },
+    {
+      "parent": "SDO.07.03",
+      "child": "SDO.07.03.04",
+      "childLabel": {
+        "en": "Water Resources Engineering",
+        "nob": "Vannressursteknikk"
+      }
+    },
+
+    {
+      "parent": "SDO.07.04",
+      "child": "SDO.07.04.01",
+      "childLabel": { "en": "Renewable Energy", "nob": "Fornybar energi" }
+    },
+    {
+      "parent": "SDO.07.04",
+      "child": "SDO.07.04.02",
+      "childLabel": {
+        "en": "Sustainable Engineering",
+        "nob": "Bærekraftig ingeniørfag"
+      }
+    },
+    {
+      "parent": "SDO.07.04",
+      "child": "SDO.07.04.03",
+      "childLabel": { "en": "Energy Storage", "nob": "Energilagring" }
+    },
+    {
+      "parent": "SDO.07.04",
+      "child": "SDO.07.04.04",
+      "childLabel": { "en": "Nuclear Energy", "nob": "Kjernekraft" }
+    },
+
+    {
+      "parent": "SDO.08.01",
+      "child": "SDO.08.01.01",
+      "childLabel": {
+        "en": "Mineralogy & Petrology",
+        "nob": "Mineralogi og petrologi"
+      }
+    },
+    {
+      "parent": "SDO.08.01",
+      "child": "SDO.08.01.02",
+      "childLabel": { "en": "Seismology", "nob": "Seismologi" }
+    },
+    {
+      "parent": "SDO.08.01",
+      "child": "SDO.08.01.03",
+      "childLabel": { "en": "Volcanology", "nob": "Vulkanologi" }
+    },
+    {
+      "parent": "SDO.08.01",
+      "child": "SDO.08.01.04",
+      "childLabel": { "en": "Geochemistry", "nob": "Geokjemi" }
+    },
+
+    {
+      "parent": "SDO.08.02",
+      "child": "SDO.08.02.01",
+      "childLabel": { "en": "Climatology", "nob": "Klimatologi" }
+    },
+    {
+      "parent": "SDO.08.02",
+      "child": "SDO.08.02.02",
+      "childLabel": { "en": "Weather Forecasting", "nob": "Værvarsling" }
+    },
+    {
+      "parent": "SDO.08.02",
+      "child": "SDO.08.02.03",
+      "childLabel": { "en": "Atmospheric Science", "nob": "Atmosfærevitenskap" }
+    },
+    {
+      "parent": "SDO.08.02",
+      "child": "SDO.08.02.04",
+      "childLabel": { "en": "Climate Modeling", "nob": "Klimamodellering" }
+    },
+
+    {
+      "parent": "SDO.08.03",
+      "child": "SDO.08.03.01",
+      "childLabel": {
+        "en": "Physical Oceanography",
+        "nob": "Fysisk oseanografi"
+      }
+    },
+    {
+      "parent": "SDO.08.03",
+      "child": "SDO.08.03.02",
+      "childLabel": {
+        "en": "Chemical Oceanography",
+        "nob": "Kjemisk oseanografi"
+      }
+    },
+    {
+      "parent": "SDO.08.03",
+      "child": "SDO.08.03.03",
+      "childLabel": { "en": "Hydrology", "nob": "Hydrologi" }
+    },
+    {
+      "parent": "SDO.08.03",
+      "child": "SDO.08.03.04",
+      "childLabel": { "en": "Glaciology", "nob": "Glasiologi" }
+    },
+
+    {
+      "parent": "SDO.08.04",
+      "child": "SDO.08.04.01",
+      "childLabel": { "en": "Environmental Policy", "nob": "Miljøpolitikk" }
+    },
+    {
+      "parent": "SDO.08.04",
+      "child": "SDO.08.04.02",
+      "childLabel": {
+        "en": "Pollution & Waste Management",
+        "nob": "Forurensning og avfallshåndtering"
+      }
+    },
+    {
+      "parent": "SDO.08.04",
+      "child": "SDO.08.04.03",
+      "childLabel": {
+        "en": "Conservation Science",
+        "nob": "Bevaringsvitenskap"
+      }
+    },
+    {
+      "parent": "SDO.08.04",
+      "child": "SDO.08.04.04",
+      "childLabel": {
+        "en": "Sustainability Studies",
+        "nob": "Bærekraftstudier"
+      }
+    },
+
+    {
+      "parent": "SDO.09.01",
+      "child": "SDO.09.01.01",
+      "childLabel": { "en": "Crop Science", "nob": "Plantevitenskap" }
+    },
+    {
+      "parent": "SDO.09.01",
+      "child": "SDO.09.01.02",
+      "childLabel": { "en": "Soil Science", "nob": "Jordfag" }
+    },
+    {
+      "parent": "SDO.09.01",
+      "child": "SDO.09.01.03",
+      "childLabel": { "en": "Agroecology", "nob": "Agroøkologi" }
+    },
+    {
+      "parent": "SDO.09.01",
+      "child": "SDO.09.01.04",
+      "childLabel": { "en": "Plant Breeding", "nob": "Planteforedling" }
+    },
+
+    {
+      "parent": "SDO.09.02",
+      "child": "SDO.09.02.01",
+      "childLabel": { "en": "Animal Nutrition", "nob": "Dyreernæring" }
+    },
+    {
+      "parent": "SDO.09.02",
+      "child": "SDO.09.02.02",
+      "childLabel": {
+        "en": "Animal Breeding & Genetics",
+        "nob": "Avl og genetikk"
+      }
+    },
+    {
+      "parent": "SDO.09.02",
+      "child": "SDO.09.02.03",
+      "childLabel": { "en": "Veterinary Medicine", "nob": "Veterinærmedisin" }
+    },
+    {
+      "parent": "SDO.09.02",
+      "child": "SDO.09.02.04",
+      "childLabel": { "en": "Livestock Management", "nob": "Husdyrhold" }
+    },
+
+    {
+      "parent": "SDO.09.03",
+      "child": "SDO.09.03.01",
+      "childLabel": { "en": "Food Chemistry", "nob": "Matkjemi" }
+    },
+    {
+      "parent": "SDO.09.03",
+      "child": "SDO.09.03.02",
+      "childLabel": { "en": "Food Processing", "nob": "Matforedling" }
+    },
+    {
+      "parent": "SDO.09.03",
+      "child": "SDO.09.03.03",
+      "childLabel": { "en": "Food Safety", "nob": "Matsikkerhet" }
+    },
+    {
+      "parent": "SDO.09.03",
+      "child": "SDO.09.03.04",
+      "childLabel": { "en": "Nutrition Science", "nob": "Ernæringsvitenskap" }
+    },
+
+    {
+      "parent": "SDO.09.04",
+      "child": "SDO.09.04.01",
+      "childLabel": { "en": "Silviculture", "nob": "Skogskjøtsel" }
+    },
+    {
+      "parent": "SDO.09.04",
+      "child": "SDO.09.04.02",
+      "childLabel": { "en": "Forest Ecology", "nob": "Skogøkologi" }
+    },
+    {
+      "parent": "SDO.09.04",
+      "child": "SDO.09.04.03",
+      "childLabel": { "en": "Aquaculture", "nob": "Akvakultur" }
+    },
+    {
+      "parent": "SDO.09.04",
+      "child": "SDO.09.04.04",
+      "childLabel": {
+        "en": "Fisheries Management",
+        "nob": "Fiskeriforvaltning"
+      }
+    },
+
+    {
+      "parent": "SDO.10.01",
+      "child": "SDO.10.01.01",
+      "childLabel": { "en": "Residential Buildings", "nob": "Boligbygninger" }
+    },
+    {
+      "parent": "SDO.10.01",
+      "child": "SDO.10.01.02",
+      "childLabel": {
+        "en": "Commercial Buildings",
+        "nob": "Kommersielle bygninger"
+      }
+    },
+    {
+      "parent": "SDO.10.01",
+      "child": "SDO.10.01.03",
+      "childLabel": { "en": "Public Buildings", "nob": "Offentlige bygninger" }
+    },
+    {
+      "parent": "SDO.10.01",
+      "child": "SDO.10.01.04",
+      "childLabel": { "en": "Industrial Buildings", "nob": "Industribygninger" }
+    },
+
+    {
+      "parent": "SDO.10.02",
+      "child": "SDO.10.02.01",
+      "childLabel": { "en": "Construction Techniques", "nob": "Byggeteknikker" }
+    },
+    {
+      "parent": "SDO.10.02",
+      "child": "SDO.10.02.02",
+      "childLabel": { "en": "Building Materials", "nob": "Byggematerialer" }
+    },
+    {
+      "parent": "SDO.10.02",
+      "child": "SDO.10.02.03",
+      "childLabel": {
+        "en": "Structural Systems",
+        "nob": "Konstruksjonssystemer"
+      }
+    },
+    {
+      "parent": "SDO.10.02",
+      "child": "SDO.10.02.04",
+      "childLabel": {
+        "en": "Sustainable Construction",
+        "nob": "Bærekraftig bygging"
+      }
+    },
+
+    {
+      "parent": "SDO.10.03",
+      "child": "SDO.10.03.01",
+      "childLabel": { "en": "Urban Design", "nob": "Bydesign" }
+    },
+    {
+      "parent": "SDO.10.03",
+      "child": "SDO.10.03.02",
+      "childLabel": { "en": "Land Use Planning", "nob": "Arealplanlegging" }
+    },
+    {
+      "parent": "SDO.10.03",
+      "child": "SDO.10.03.03",
+      "childLabel": {
+        "en": "Transport Planning",
+        "nob": "Transportplanlegging"
+      }
+    },
+    {
+      "parent": "SDO.10.03",
+      "child": "SDO.10.03.04",
+      "childLabel": { "en": "Smart Cities", "nob": "Småbyer og smartbyer" }
+    },
+
+    {
+      "parent": "SDO.10.04",
+      "child": "SDO.10.04.01",
+      "childLabel": {
+        "en": "Classical Architecture",
+        "nob": "Klassisk arkitektur"
+      }
+    },
+    {
+      "parent": "SDO.10.04",
+      "child": "SDO.10.04.02",
+      "childLabel": { "en": "Modern Architecture", "nob": "Moderne arkitektur" }
+    },
+    {
+      "parent": "SDO.10.04",
+      "child": "SDO.10.04.03",
+      "childLabel": {
+        "en": "Postmodern Architecture",
+        "nob": "Postmoderne arkitektur"
+      }
+    },
+    {
+      "parent": "SDO.10.04",
+      "child": "SDO.10.04.04",
+      "childLabel": {
+        "en": "Regional Architecture",
+        "nob": "Regional arkitektur"
+      }
+    },
+
+    {
+      "parent": "SDO.11.01",
+      "child": "SDO.11.01.01",
+      "childLabel": { "en": "Painting", "nob": "Malerkunst" }
+    },
+    {
+      "parent": "SDO.11.01",
+      "child": "SDO.11.01.02",
+      "childLabel": { "en": "Sculpture", "nob": "Skulptur" }
+    },
+    {
+      "parent": "SDO.11.01",
+      "child": "SDO.11.01.03",
+      "childLabel": { "en": "Drawing", "nob": "Tegning" }
+    },
+    {
+      "parent": "SDO.11.01",
+      "child": "SDO.11.01.04",
+      "childLabel": { "en": "Printmaking", "nob": "Grafikk (trykk)" }
+    },
+
+    {
+      "parent": "SDO.11.02",
+      "child": "SDO.11.02.01",
+      "childLabel": { "en": "Industrial Design", "nob": "Industridesign" }
+    },
+    {
+      "parent": "SDO.11.02",
+      "child": "SDO.11.02.02",
+      "childLabel": { "en": "Fashion Design", "nob": "Motedesign" }
+    },
+    {
+      "parent": "SDO.11.02",
+      "child": "SDO.11.02.03",
+      "childLabel": { "en": "Graphic Design", "nob": "Grafisk design" }
+    },
+    {
+      "parent": "SDO.11.02",
+      "child": "SDO.11.02.04",
+      "childLabel": { "en": "Product Design", "nob": "Produktdesign" }
+    },
+
+    {
+      "parent": "SDO.11.03",
+      "child": "SDO.11.03.01",
+      "childLabel": { "en": "Portrait Photography", "nob": "Portrettfotografi" }
+    },
+    {
+      "parent": "SDO.11.03",
+      "child": "SDO.11.03.02",
+      "childLabel": {
+        "en": "Documentary Photography",
+        "nob": "Dokumentarfotografi"
+      }
+    },
+    {
+      "parent": "SDO.11.03",
+      "child": "SDO.11.03.03",
+      "childLabel": { "en": "Art Photography", "nob": "Kunstfotografi" }
+    },
+    {
+      "parent": "SDO.11.03",
+      "child": "SDO.11.03.04",
+      "childLabel": { "en": "Digital Photography", "nob": "Digitalfotografi" }
+    },
+
+    {
+      "parent": "SDO.11.04",
+      "child": "SDO.11.04.01",
+      "childLabel": { "en": "Renaissance Art", "nob": "Renessansekunst" }
+    },
+    {
+      "parent": "SDO.11.04",
+      "child": "SDO.11.04.02",
+      "childLabel": { "en": "Modern Art", "nob": "Moderne kunst" }
+    },
+    {
+      "parent": "SDO.11.04",
+      "child": "SDO.11.04.03",
+      "childLabel": { "en": "Contemporary Art", "nob": "Samtidskunst" }
+    },
+    {
+      "parent": "SDO.11.04",
+      "child": "SDO.11.04.04",
+      "childLabel": { "en": "Art Criticism", "nob": "Kunstkritikk" }
+    },
+
+    {
+      "parent": "SDO.12.01",
+      "child": "SDO.12.01.01",
+      "childLabel": {
+        "en": "Harmony & Counterpoint",
+        "nob": "Harmonilære og kontrapunkt"
+      }
+    },
+    {
+      "parent": "SDO.12.01",
+      "child": "SDO.12.01.02",
+      "childLabel": {
+        "en": "Composition Techniques",
+        "nob": "Komposisjonsteknikker"
+      }
+    },
+    {
+      "parent": "SDO.12.01",
+      "child": "SDO.12.01.03",
+      "childLabel": {
+        "en": "Music Theory History",
+        "nob": "Musikkteoriens historie"
+      }
+    },
+    {
+      "parent": "SDO.12.01",
+      "child": "SDO.12.01.04",
+      "childLabel": { "en": "Analysis of Music", "nob": "Musikkanalyse" }
+    },
+
+    {
+      "parent": "SDO.12.02",
+      "child": "SDO.12.02.01",
+      "childLabel": { "en": "Classical Music", "nob": "Klassisk musikk" }
+    },
+    {
+      "parent": "SDO.12.02",
+      "child": "SDO.12.02.02",
+      "childLabel": { "en": "Jazz & Blues", "nob": "Jazz og blues" }
+    },
+    {
+      "parent": "SDO.12.02",
+      "child": "SDO.12.02.03",
+      "childLabel": { "en": "Popular Music", "nob": "Populærmusikk" }
+    },
+    {
+      "parent": "SDO.12.02",
+      "child": "SDO.12.02.04",
+      "childLabel": {
+        "en": "Folk & World Music",
+        "nob": "Folke- og verdensmusikk"
+      }
+    },
+
+    {
+      "parent": "SDO.12.03",
+      "child": "SDO.12.03.01",
+      "childLabel": {
+        "en": "Keyboard Instruments",
+        "nob": "Tangent­instrumenter"
+      }
+    },
+    {
+      "parent": "SDO.12.03",
+      "child": "SDO.12.03.02",
+      "childLabel": { "en": "String Instruments", "nob": "Strykeinstrumenter" }
+    },
+    {
+      "parent": "SDO.12.03",
+      "child": "SDO.12.03.03",
+      "childLabel": { "en": "Wind Instruments", "nob": "Blåseinstrumenter" }
+    },
+    {
+      "parent": "SDO.12.03",
+      "child": "SDO.12.03.04",
+      "childLabel": { "en": "Vocal Performance", "nob": "Vokal fremføring" }
+    },
+
+    {
+      "parent": "SDO.12.04",
+      "child": "SDO.12.04.01",
+      "childLabel": { "en": "Music Production", "nob": "Musikkproduksjon" }
+    },
+    {
+      "parent": "SDO.12.04",
+      "child": "SDO.12.04.02",
+      "childLabel": { "en": "Music Distribution", "nob": "Musikkdistribusjon" }
+    },
+    {
+      "parent": "SDO.12.04",
+      "child": "SDO.12.04.03",
+      "childLabel": { "en": "Music Business", "nob": "Musikkbransje" }
+    },
+    {
+      "parent": "SDO.12.04",
+      "child": "SDO.12.04.04",
+      "childLabel": {
+        "en": "Recording Technology",
+        "nob": "Innspillingsteknologi"
+      }
+    },
+
+    {
+      "parent": "SDO.13.01",
+      "child": "SDO.13.01.01",
+      "childLabel": {
+        "en": "Epic & Narrative Poetry",
+        "nob": "Epos og fortellende poesi"
+      }
+    },
+    {
+      "parent": "SDO.13.01",
+      "child": "SDO.13.01.02",
+      "childLabel": { "en": "Lyric Poetry", "nob": "Lyrikk" }
+    },
+    {
+      "parent": "SDO.13.01",
+      "child": "SDO.13.01.03",
+      "childLabel": { "en": "Short Stories", "nob": "Noveller" }
+    },
+    {
+      "parent": "SDO.13.01",
+      "child": "SDO.13.01.04",
+      "childLabel": { "en": "Novels", "nob": "Romaner" }
+    },
+
+    {
+      "parent": "SDO.13.02",
+      "child": "SDO.13.02.01",
+      "childLabel": { "en": "Romanticism", "nob": "Romantikken" }
+    },
+    {
+      "parent": "SDO.13.02",
+      "child": "SDO.13.02.02",
+      "childLabel": {
+        "en": "Realism & Naturalism",
+        "nob": "Realisme og naturalisme"
+      }
+    },
+    {
+      "parent": "SDO.13.02",
+      "child": "SDO.13.02.03",
+      "childLabel": { "en": "Modernism", "nob": "Modernisme" }
+    },
+    {
+      "parent": "SDO.13.02",
+      "child": "SDO.13.02.04",
+      "childLabel": { "en": "Postmodernism", "nob": "Postmodernisme" }
+    },
+
+    {
+      "parent": "SDO.13.03",
+      "child": "SDO.13.03.01",
+      "childLabel": { "en": "Classical Rhetoric", "nob": "Klassisk retorikk" }
+    },
+    {
+      "parent": "SDO.13.03",
+      "child": "SDO.13.03.02",
+      "childLabel": {
+        "en": "Stylistic Devices",
+        "nob": "Stilistiske virkemidler"
+      }
+    },
+    {
+      "parent": "SDO.13.03",
+      "child": "SDO.13.03.03",
+      "childLabel": { "en": "Discourse Analysis", "nob": "Diskursanalyse" }
+    },
+    {
+      "parent": "SDO.13.03",
+      "child": "SDO.13.03.04",
+      "childLabel": { "en": "Narratology", "nob": "Narratologi" }
+    },
+
+    {
+      "parent": "SDO.13.04",
+      "child": "SDO.13.04.01",
+      "childLabel": {
+        "en": "Editing Techniques",
+        "nob": "Redigeringsteknikker"
+      }
+    },
+    {
+      "parent": "SDO.13.04",
+      "child": "SDO.13.04.02",
+      "childLabel": { "en": "Publishing Industry", "nob": "Forlagsbransjen" }
+    },
+    {
+      "parent": "SDO.13.04",
+      "child": "SDO.13.04.03",
+      "childLabel": { "en": "Digital Publishing", "nob": "Digital publisering" }
+    },
+    {
+      "parent": "SDO.13.04",
+      "child": "SDO.13.04.04",
+      "childLabel": {
+        "en": "Translation Studies",
+        "nob": "Oversettelsesvitenskap"
+      }
+    },
+
+    {
+      "parent": "SDO.14.01",
+      "child": "SDO.14.01.01",
+      "childLabel": { "en": "Playwriting", "nob": "Dramatikk (skrivekunst)" }
+    },
+    {
+      "parent": "SDO.14.01",
+      "child": "SDO.14.01.02",
+      "childLabel": { "en": "Theatre Performance", "nob": "Teaterfremføring" }
+    },
+    {
+      "parent": "SDO.14.01",
+      "child": "SDO.14.01.03",
+      "childLabel": { "en": "Stage Design", "nob": "Scenografi" }
+    },
+    {
+      "parent": "SDO.14.01",
+      "child": "SDO.14.01.04",
+      "childLabel": { "en": "Theatre History", "nob": "Teaterhistorie" }
+    },
+
+    {
+      "parent": "SDO.14.02",
+      "child": "SDO.14.02.01",
+      "childLabel": { "en": "Film History", "nob": "Filmhistorie" }
+    },
+    {
+      "parent": "SDO.14.02",
+      "child": "SDO.14.02.02",
+      "childLabel": { "en": "Film Theory", "nob": "Filmateori" }
+    },
+    {
+      "parent": "SDO.14.02",
+      "child": "SDO.14.02.03",
+      "childLabel": {
+        "en": "Cinematography",
+        "nob": "Filmfoto (kinematografi)"
+      }
+    },
+    {
+      "parent": "SDO.14.02",
+      "child": "SDO.14.02.04",
+      "childLabel": { "en": "Film Production", "nob": "Filmproduksjon" }
+    },
+
+    {
+      "parent": "SDO.14.03",
+      "child": "SDO.14.03.01",
+      "childLabel": { "en": "Television Studies", "nob": "TV-studier" }
+    },
+    {
+      "parent": "SDO.14.03",
+      "child": "SDO.14.03.02",
+      "childLabel": { "en": "Radio Broadcasting", "nob": "Radiokringkasting" }
+    },
+    {
+      "parent": "SDO.14.03",
+      "child": "SDO.14.03.03",
+      "childLabel": { "en": "Television Production", "nob": "TV-produksjon" }
+    },
+    {
+      "parent": "SDO.14.03",
+      "child": "SDO.14.03.04",
+      "childLabel": {
+        "en": "Digital Streaming Media",
+        "nob": "Digitale strømmetjenester"
+      }
+    },
+
+    {
+      "parent": "SDO.14.04",
+      "child": "SDO.14.04.01",
+      "childLabel": { "en": "Digital Animation", "nob": "Digital animasjon" }
+    },
+    {
+      "parent": "SDO.14.04",
+      "child": "SDO.14.04.02",
+      "childLabel": { "en": "Interactive Media", "nob": "Interaktive medier" }
+    },
+    {
+      "parent": "SDO.14.04",
+      "child": "SDO.14.04.03",
+      "childLabel": { "en": "Video Art", "nob": "Videokunst" }
+    },
+    {
+      "parent": "SDO.14.04",
+      "child": "SDO.14.04.04",
+      "childLabel": {
+        "en": "Virtual & Augmented Reality Arts",
+        "nob": "Virtuell og utvidet virkelighetskunst"
+      }
+    },
+
+    {
+      "parent": "SDO.15.01",
+      "child": "SDO.15.01.01",
+      "childLabel": {
+        "en": "Ancient Civilizations",
+        "nob": "Antikke sivilisasjoner"
+      }
+    },
+    {
+      "parent": "SDO.15.01",
+      "child": "SDO.15.01.02",
+      "childLabel": { "en": "Medieval Europe", "nob": "Middelalderens Europa" }
+    },
+    {
+      "parent": "SDO.15.01",
+      "child": "SDO.15.01.03",
+      "childLabel": {
+        "en": "Asian & Middle Eastern History",
+        "nob": "Asiatisk og Midtøstens historie"
+      }
+    },
+    {
+      "parent": "SDO.15.01",
+      "child": "SDO.15.01.04",
+      "childLabel": {
+        "en": "Pre-Columbian Americas",
+        "nob": "Førkolumbianske Amerika"
+      }
+    },
+
+    {
+      "parent": "SDO.15.02",
+      "child": "SDO.15.02.01",
+      "childLabel": {
+        "en": "Renaissance History",
+        "nob": "Renessansens historie"
+      }
+    },
+    {
+      "parent": "SDO.15.02",
+      "child": "SDO.15.02.02",
+      "childLabel": { "en": "Enlightenment Era", "nob": "Opplysningstiden" }
+    },
+    {
+      "parent": "SDO.15.02",
+      "child": "SDO.15.02.03",
+      "childLabel": {
+        "en": "19th Century History",
+        "nob": "1800-tallets historie"
+      }
+    },
+    {
+      "parent": "SDO.15.02",
+      "child": "SDO.15.02.04",
+      "childLabel": {
+        "en": "20th Century History",
+        "nob": "1900-tallets historie"
+      }
+    },
+
+    {
+      "parent": "SDO.15.03",
+      "child": "SDO.15.03.01",
+      "childLabel": { "en": "European History", "nob": "Europeisk historie" }
+    },
+    {
+      "parent": "SDO.15.03",
+      "child": "SDO.15.03.02",
+      "childLabel": { "en": "American History", "nob": "Amerikansk historie" }
+    },
+    {
+      "parent": "SDO.15.03",
+      "child": "SDO.15.03.03",
+      "childLabel": { "en": "Asian History", "nob": "Asiatisk historie" }
+    },
+    {
+      "parent": "SDO.15.03",
+      "child": "SDO.15.03.04",
+      "childLabel": { "en": "African History", "nob": "Afrikansk historie" }
+    },
+
+    {
+      "parent": "SDO.15.04",
+      "child": "SDO.15.04.01",
+      "childLabel": { "en": "Historiography", "nob": "Historieskriving" }
+    },
+    {
+      "parent": "SDO.15.04",
+      "child": "SDO.15.04.02",
+      "childLabel": { "en": "Historical Methods", "nob": "Historiske metoder" }
+    },
+    {
+      "parent": "SDO.15.04",
+      "child": "SDO.15.04.03",
+      "childLabel": { "en": "Archival Studies", "nob": "Arkivstudier" }
+    },
+    {
+      "parent": "SDO.15.04",
+      "child": "SDO.15.04.04",
+      "childLabel": { "en": "Oral History", "nob": "Muntlig historie" }
+    },
+
+    {
+      "parent": "SDO.16.01",
+      "child": "SDO.16.01.01",
+      "childLabel": { "en": "Ontology", "nob": "Ontologi" }
+    },
+    {
+      "parent": "SDO.16.01",
+      "child": "SDO.16.01.02",
+      "childLabel": { "en": "Epistemology", "nob": "Erkjennelsesteori" }
+    },
+    {
+      "parent": "SDO.16.01",
+      "child": "SDO.16.01.03",
+      "childLabel": { "en": "Philosophy of Mind", "nob": "Bevissthetsfilosofi" }
+    },
+    {
+      "parent": "SDO.16.01",
+      "child": "SDO.16.01.04",
+      "childLabel": {
+        "en": "Philosophy of Science",
+        "nob": "Vitenskapsfilosofi"
+      }
+    },
+
+    {
+      "parent": "SDO.16.02",
+      "child": "SDO.16.02.01",
+      "childLabel": { "en": "Normative Ethics", "nob": "Normativ etikk" }
+    },
+    {
+      "parent": "SDO.16.02",
+      "child": "SDO.16.02.02",
+      "childLabel": { "en": "Applied Ethics", "nob": "Anvendt etikk" }
+    },
+    {
+      "parent": "SDO.16.02",
+      "child": "SDO.16.02.03",
+      "childLabel": { "en": "Bioethics", "nob": "Bioetikk" }
+    },
+    {
+      "parent": "SDO.16.02",
+      "child": "SDO.16.02.04",
+      "childLabel": { "en": "Environmental Ethics", "nob": "Miljøetikk" }
+    },
+
+    {
+      "parent": "SDO.16.03",
+      "child": "SDO.16.03.01",
+      "childLabel": { "en": "Formal Logic", "nob": "Formell logikk" }
+    },
+    {
+      "parent": "SDO.16.03",
+      "child": "SDO.16.03.02",
+      "childLabel": { "en": "Mathematical Logic", "nob": "Matematisk logikk" }
+    },
+    {
+      "parent": "SDO.16.03",
+      "child": "SDO.16.03.03",
+      "childLabel": { "en": "Philosophical Logic", "nob": "Filosofisk logikk" }
+    },
+    {
+      "parent": "SDO.16.03",
+      "child": "SDO.16.03.04",
+      "childLabel": { "en": "Computational Logic", "nob": "Beregningslogikk" }
+    },
+
+    {
+      "parent": "SDO.16.04",
+      "child": "SDO.16.04.01",
+      "childLabel": { "en": "Philosophy of Art", "nob": "Kunstfilosofi" }
+    },
+    {
+      "parent": "SDO.16.04",
+      "child": "SDO.16.04.02",
+      "childLabel": {
+        "en": "Philosophy of Literature",
+        "nob": "Litteraturfilosofi"
+      }
+    },
+    {
+      "parent": "SDO.16.04",
+      "child": "SDO.16.04.03",
+      "childLabel": { "en": "Philosophy of Music", "nob": "Musikkfilosofi" }
+    },
+    {
+      "parent": "SDO.16.04",
+      "child": "SDO.16.04.04",
+      "childLabel": {
+        "en": "Philosophy of Beauty",
+        "nob": "Skjønnhetsfilosofi"
+      }
+    },
+
+    {
+      "parent": "SDO.17.01",
+      "child": "SDO.17.01.01",
+      "childLabel": { "en": "Christianity", "nob": "Kristendom" }
+    },
+    {
+      "parent": "SDO.17.01",
+      "child": "SDO.17.01.02",
+      "childLabel": { "en": "Islam", "nob": "Islam" }
+    },
+    {
+      "parent": "SDO.17.01",
+      "child": "SDO.17.01.03",
+      "childLabel": { "en": "Judaism", "nob": "Jødedom" }
+    },
+    {
+      "parent": "SDO.17.01",
+      "child": "SDO.17.01.04",
+      "childLabel": {
+        "en": "Buddhism & Hinduism",
+        "nob": "Buddhisme og hinduisme"
+      }
+    },
+
+    {
+      "parent": "SDO.17.02",
+      "child": "SDO.17.02.01",
+      "childLabel": {
+        "en": "Systematic Theology",
+        "nob": "Systematisk teologi"
+      }
+    },
+    {
+      "parent": "SDO.17.02",
+      "child": "SDO.17.02.02",
+      "childLabel": { "en": "Dogmatics", "nob": "Dogmatikk" }
+    },
+    {
+      "parent": "SDO.17.02",
+      "child": "SDO.17.02.03",
+      "childLabel": {
+        "en": "Comparative Theology",
+        "nob": "Sammenlignende teologi"
+      }
+    },
+    {
+      "parent": "SDO.17.02",
+      "child": "SDO.17.02.04",
+      "childLabel": {
+        "en": "Philosophy of Religion",
+        "nob": "Religionsfilosofi"
+      }
+    },
+
+    {
+      "parent": "SDO.17.03",
+      "child": "SDO.17.03.01",
+      "childLabel": {
+        "en": "Greek & Roman Mythology",
+        "nob": "Gresk og romersk mytologi"
+      }
+    },
+    {
+      "parent": "SDO.17.03",
+      "child": "SDO.17.03.02",
+      "childLabel": { "en": "Norse Mythology", "nob": "Norrøn mytologi" }
+    },
+    {
+      "parent": "SDO.17.03",
+      "child": "SDO.17.03.03",
+      "childLabel": { "en": "World Mythologies", "nob": "Verdensmytologier" }
+    },
+    {
+      "parent": "SDO.17.03",
+      "child": "SDO.17.03.04",
+      "childLabel": { "en": "Folklore Studies", "nob": "Folkloristikk" }
+    },
+
+    {
+      "parent": "SDO.17.04",
+      "child": "SDO.17.04.01",
+      "childLabel": { "en": "Ritual Studies", "nob": "Ritualstudier" }
+    },
+    {
+      "parent": "SDO.17.04",
+      "child": "SDO.17.04.02",
+      "childLabel": { "en": "Sacred Texts", "nob": "Hellige tekster" }
+    },
+    {
+      "parent": "SDO.17.04",
+      "child": "SDO.17.04.03",
+      "childLabel": {
+        "en": "Religious Practices",
+        "nob": "Religiøse praksiser"
+      }
+    },
+    {
+      "parent": "SDO.17.04",
+      "child": "SDO.17.04.04",
+      "childLabel": {
+        "en": "Pilgrimage & Festivals",
+        "nob": "Pilegrimsferd og festivaler"
+      }
+    },
+
+    {
+      "parent": "SDO.18.01",
+      "child": "SDO.18.01.01",
+      "childLabel": {
+        "en": "Articulatory Phonetics",
+        "nob": "Artikulatorisk fonetikk"
+      }
+    },
+    {
+      "parent": "SDO.18.01",
+      "child": "SDO.18.01.02",
+      "childLabel": { "en": "Acoustic Phonetics", "nob": "Akustisk fonetikk" }
+    },
+    {
+      "parent": "SDO.18.01",
+      "child": "SDO.18.01.03",
+      "childLabel": { "en": "Phonological Theory", "nob": "Fonologisk teori" }
+    },
+    {
+      "parent": "SDO.18.01",
+      "child": "SDO.18.01.04",
+      "childLabel": { "en": "Prosody", "nob": "Prosodi" }
+    },
+
+    {
+      "parent": "SDO.18.02",
+      "child": "SDO.18.02.01",
+      "childLabel": { "en": "Word Formation", "nob": "Orddannelse" }
+    },
+    {
+      "parent": "SDO.18.02",
+      "child": "SDO.18.02.02",
+      "childLabel": { "en": "Sentence Structure", "nob": "Setningsstruktur" }
+    },
+    {
+      "parent": "SDO.18.02",
+      "child": "SDO.18.02.03",
+      "childLabel": { "en": "Syntax Theory", "nob": "Syntaksteori" }
+    },
+    {
+      "parent": "SDO.18.02",
+      "child": "SDO.18.02.04",
+      "childLabel": { "en": "Morphosyntax", "nob": "Morfosyntaks" }
+    },
+
+    {
+      "parent": "SDO.18.03",
+      "child": "SDO.18.03.01",
+      "childLabel": { "en": "Lexical Semantics", "nob": "Leksikalsk semantikk" }
+    },
+    {
+      "parent": "SDO.18.03",
+      "child": "SDO.18.03.02",
+      "childLabel": { "en": "Pragmatics of Language", "nob": "Pragmatikk" }
+    },
+    {
+      "parent": "SDO.18.03",
+      "child": "SDO.18.03.03",
+      "childLabel": { "en": "Discourse Semantics", "nob": "Diskurssemantikk" }
+    },
+    {
+      "parent": "SDO.18.03",
+      "child": "SDO.18.03.04",
+      "childLabel": { "en": "Cognitive Semantics", "nob": "Kognitiv semantikk" }
+    },
+
+    {
+      "parent": "SDO.18.04",
+      "child": "SDO.18.04.01",
+      "childLabel": { "en": "Dialectology", "nob": "Dialektologi" }
+    },
+    {
+      "parent": "SDO.18.04",
+      "child": "SDO.18.04.02",
+      "childLabel": { "en": "Language Variation", "nob": "Språkvariasjon" }
+    },
+    {
+      "parent": "SDO.18.04",
+      "child": "SDO.18.04.03",
+      "childLabel": {
+        "en": "Sociolinguistic Theory",
+        "nob": "Sosiolingvistisk teori"
+      }
+    },
+    {
+      "parent": "SDO.18.04",
+      "child": "SDO.18.04.04",
+      "childLabel": { "en": "Language Contact", "nob": "Språkkontakt" }
+    },
+
+    {
+      "parent": "SDO.19.01",
+      "child": "SDO.19.01.01",
+      "childLabel": { "en": "Popular Culture", "nob": "Populærkultur" }
+    },
+    {
+      "parent": "SDO.19.01",
+      "child": "SDO.19.01.02",
+      "childLabel": { "en": "Media & Culture", "nob": "Media og kultur" }
+    },
+    {
+      "parent": "SDO.19.01",
+      "child": "SDO.19.01.03",
+      "childLabel": { "en": "Cultural Theory", "nob": "Kulturteori" }
+    },
+    {
+      "parent": "SDO.19.01",
+      "child": "SDO.19.01.04",
+      "childLabel": {
+        "en": "Globalization & Culture",
+        "nob": "Globalisering og kultur"
+      }
+    },
+
+    {
+      "parent": "SDO.19.02",
+      "child": "SDO.19.02.01",
+      "childLabel": { "en": "Kinship Studies", "nob": "Slektskapsstudier" }
+    },
+    {
+      "parent": "SDO.19.02",
+      "child": "SDO.19.02.02",
+      "childLabel": {
+        "en": "Anthropology of Religion",
+        "nob": "Religionsantropologi"
+      }
+    },
+    {
+      "parent": "SDO.19.02",
+      "child": "SDO.19.02.03",
+      "childLabel": {
+        "en": "Political Anthropology",
+        "nob": "Politisk antropologi"
+      }
+    },
+    {
+      "parent": "SDO.19.02",
+      "child": "SDO.19.02.04",
+      "childLabel": {
+        "en": "Economic Anthropology",
+        "nob": "Økonomisk antropologi"
+      }
+    },
+
+    {
+      "parent": "SDO.19.03",
+      "child": "SDO.19.03.01",
+      "childLabel": {
+        "en": "Ethnographic Methods",
+        "nob": "Etnografiske metoder"
+      }
+    },
+    {
+      "parent": "SDO.19.03",
+      "child": "SDO.19.03.02",
+      "childLabel": { "en": "Fieldwork Studies", "nob": "Feltarbeid" }
+    },
+    {
+      "parent": "SDO.19.03",
+      "child": "SDO.19.03.03",
+      "childLabel": { "en": "Visual Ethnography", "nob": "Visuell etnografi" }
+    },
+    {
+      "parent": "SDO.19.03",
+      "child": "SDO.19.03.04",
+      "childLabel": {
+        "en": "Comparative Ethnography",
+        "nob": "Sammenlignende etnografi"
+      }
+    },
+
+    {
+      "parent": "SDO.19.04",
+      "child": "SDO.19.04.01",
+      "childLabel": { "en": "Folklore Genres", "nob": "Folklore-sjangre" }
+    },
+    {
+      "parent": "SDO.19.04",
+      "child": "SDO.19.04.02",
+      "childLabel": { "en": "Oral Traditions", "nob": "Muntlige tradisjoner" }
+    },
+    {
+      "parent": "SDO.19.04",
+      "child": "SDO.19.04.03",
+      "childLabel": {
+        "en": "Festivals & Rituals",
+        "nob": "Festivaler og ritualer"
+      }
+    },
+    {
+      "parent": "SDO.19.04",
+      "child": "SDO.19.04.04",
+      "childLabel": {
+        "en": "Traditional Music & Dance",
+        "nob": "Tradisjonell musikk og dans"
+      }
+    },
+
+    {
+      "parent": "SDO.20.01",
+      "child": "SDO.20.01.01",
+      "childLabel": { "en": "Teaching Methods", "nob": "Undervisningsmetoder" }
+    },
+    {
+      "parent": "SDO.20.01",
+      "child": "SDO.20.01.02",
+      "childLabel": { "en": "Learning Theories", "nob": "Læringsteorier" }
+    },
+    {
+      "parent": "SDO.20.01",
+      "child": "SDO.20.01.03",
+      "childLabel": { "en": "Teacher Education", "nob": "Lærerutdanning" }
+    },
+    {
+      "parent": "SDO.20.01",
+      "child": "SDO.20.01.04",
+      "childLabel": { "en": "Classroom Management", "nob": "Klasseromsledelse" }
+    },
+
+    {
+      "parent": "SDO.20.02",
+      "child": "SDO.20.02.01",
+      "childLabel": { "en": "Curriculum Design", "nob": "Læreplandesign" }
+    },
+    {
+      "parent": "SDO.20.02",
+      "child": "SDO.20.02.02",
+      "childLabel": { "en": "Assessment Methods", "nob": "Vurderingsmetoder" }
+    },
+    {
+      "parent": "SDO.20.02",
+      "child": "SDO.20.02.03",
+      "childLabel": { "en": "Educational Policy", "nob": "Utdanningspolitikk" }
+    },
+    {
+      "parent": "SDO.20.02",
+      "child": "SDO.20.02.04",
+      "childLabel": {
+        "en": "Standards & Testing",
+        "nob": "Standarder og testing"
+      }
+    },
+
+    {
+      "parent": "SDO.20.03",
+      "child": "SDO.20.03.01",
+      "childLabel": {
+        "en": "University Education",
+        "nob": "Universitetsutdanning"
+      }
+    },
+    {
+      "parent": "SDO.20.03",
+      "child": "SDO.20.03.02",
+      "childLabel": { "en": "Adult Education", "nob": "Voksenopplæring" }
+    },
+    {
+      "parent": "SDO.20.03",
+      "child": "SDO.20.03.03",
+      "childLabel": { "en": "Vocational Training", "nob": "Yrkesutdanning" }
+    },
+    {
+      "parent": "SDO.20.03",
+      "child": "SDO.20.03.04",
+      "childLabel": { "en": "Lifelong Learning", "nob": "Livslang læring" }
+    },
+
+    {
+      "parent": "SDO.20.04",
+      "child": "SDO.20.04.01",
+      "childLabel": { "en": "E-learning", "nob": "Nettbasert læring" }
+    },
+    {
+      "parent": "SDO.20.04",
+      "child": "SDO.20.04.02",
+      "childLabel": { "en": "Learning Technologies", "nob": "Læringsteknologi" }
+    },
+    {
+      "parent": "SDO.20.04",
+      "child": "SDO.20.04.03",
+      "childLabel": { "en": "Digital Classrooms", "nob": "Digitale klasserom" }
+    },
+    {
+      "parent": "SDO.20.04",
+      "child": "SDO.20.04.04",
+      "childLabel": {
+        "en": "Educational Data Analytics",
+        "nob": "Utdanningsanalyse"
+      }
+    },
+
+    {
+      "parent": "SDO.21.01",
+      "child": "SDO.21.01.01",
+      "childLabel": { "en": "Perception", "nob": "Persepsjon" }
+    },
+    {
+      "parent": "SDO.21.01",
+      "child": "SDO.21.01.02",
+      "childLabel": { "en": "Memory & Learning", "nob": "Hukommelse og læring" }
+    },
+    {
+      "parent": "SDO.21.01",
+      "child": "SDO.21.01.03",
+      "childLabel": {
+        "en": "Attention & Cognition",
+        "nob": "Oppmerksomhet og kognisjon"
+      }
+    },
+    {
+      "parent": "SDO.21.01",
+      "child": "SDO.21.01.04",
+      "childLabel": { "en": "Decision-Making", "nob": "Beslutningstaking" }
+    },
+
+    {
+      "parent": "SDO.21.02",
+      "child": "SDO.21.02.01",
+      "childLabel": { "en": "Clinical Psychology", "nob": "Klinisk psykologi" }
+    },
+    {
+      "parent": "SDO.21.02",
+      "child": "SDO.21.02.02",
+      "childLabel": { "en": "Psychotherapy", "nob": "Psykoterapi" }
+    },
+    {
+      "parent": "SDO.21.02",
+      "child": "SDO.21.02.03",
+      "childLabel": {
+        "en": "Counseling Psychology",
+        "nob": "Rådgivningspsykologi"
+      }
+    },
+    {
+      "parent": "SDO.21.02",
+      "child": "SDO.21.02.04",
+      "childLabel": { "en": "Abnormal Psychology", "nob": "Abnormalpsykologi" }
+    },
+
+    {
+      "parent": "SDO.21.03",
+      "child": "SDO.21.03.01",
+      "childLabel": { "en": "Child Psychology", "nob": "Barnepsykologi" }
+    },
+    {
+      "parent": "SDO.21.03",
+      "child": "SDO.21.03.02",
+      "childLabel": { "en": "Adolescent Psychology", "nob": "Ungdomspsykologi" }
+    },
+    {
+      "parent": "SDO.21.03",
+      "child": "SDO.21.03.03",
+      "childLabel": { "en": "Adult Development", "nob": "Voksenutvikling" }
+    },
+    {
+      "parent": "SDO.21.03",
+      "child": "SDO.21.03.04",
+      "childLabel": {
+        "en": "Aging & Gerontology",
+        "nob": "Aldring og gerontologi"
+      }
+    },
+
+    {
+      "parent": "SDO.21.04",
+      "child": "SDO.21.04.01",
+      "childLabel": { "en": "Social Influence", "nob": "Sosial påvirkning" }
+    },
+    {
+      "parent": "SDO.21.04",
+      "child": "SDO.21.04.02",
+      "childLabel": {
+        "en": "Personality Theories",
+        "nob": "Personlighetsteorier"
+      }
+    },
+    {
+      "parent": "SDO.21.04",
+      "child": "SDO.21.04.03",
+      "childLabel": { "en": "Group Psychology", "nob": "Gruppepsykologi" }
+    },
+    {
+      "parent": "SDO.21.04",
+      "child": "SDO.21.04.04",
+      "childLabel": {
+        "en": "Emotions & Motivation",
+        "nob": "Emosjoner og motivasjon"
+      }
+    },
+
+    {
+      "parent": "SDO.22.01",
+      "child": "SDO.22.01.01",
+      "childLabel": { "en": "Classical Sociology", "nob": "Klassisk sosiologi" }
+    },
+    {
+      "parent": "SDO.22.01",
+      "child": "SDO.22.01.02",
+      "childLabel": {
+        "en": "Contemporary Sociology",
+        "nob": "Moderne sosiologi"
+      }
+    },
+    {
+      "parent": "SDO.22.01",
+      "child": "SDO.22.01.03",
+      "childLabel": { "en": "Critical Theory", "nob": "Kritisk teori" }
+    },
+    {
+      "parent": "SDO.22.01",
+      "child": "SDO.22.01.04",
+      "childLabel": { "en": "Social Movements", "nob": "Sosiale bevegelser" }
+    },
+
+    {
+      "parent": "SDO.22.02",
+      "child": "SDO.22.02.01",
+      "childLabel": { "en": "Population Studies", "nob": "Befolkningsstudier" }
+    },
+    {
+      "parent": "SDO.22.02",
+      "child": "SDO.22.02.02",
+      "childLabel": {
+        "en": "Demographic Methods",
+        "nob": "Demografiske metoder"
+      }
+    },
+    {
+      "parent": "SDO.22.02",
+      "child": "SDO.22.02.03",
+      "childLabel": { "en": "Migration Studies", "nob": "Migrasjonsstudier" }
+    },
+    {
+      "parent": "SDO.22.02",
+      "child": "SDO.22.02.04",
+      "childLabel": { "en": "Population Policy", "nob": "Befolkningspolitikk" }
+    },
+
+    {
+      "parent": "SDO.22.03",
+      "child": "SDO.22.03.01",
+      "childLabel": { "en": "Social Stratification", "nob": "Sosial lagdeling" }
+    },
+    {
+      "parent": "SDO.22.03",
+      "child": "SDO.22.03.02",
+      "childLabel": { "en": "Poverty Studies", "nob": "Fattigdomsstudier" }
+    },
+    {
+      "parent": "SDO.22.03",
+      "child": "SDO.22.03.03",
+      "childLabel": { "en": "Welfare Studies", "nob": "Velferdsstudier" }
+    },
+    {
+      "parent": "SDO.22.03",
+      "child": "SDO.22.03.04",
+      "childLabel": { "en": "Social Inequality", "nob": "Sosial ulikhet" }
+    },
+
+    {
+      "parent": "SDO.22.04",
+      "child": "SDO.22.04.01",
+      "childLabel": {
+        "en": "Quantitative Sociology",
+        "nob": "Kvantitativ sosiologi"
+      }
+    },
+    {
+      "parent": "SDO.22.04",
+      "child": "SDO.22.04.02",
+      "childLabel": {
+        "en": "Qualitative Sociology",
+        "nob": "Kvalitativ sosiologi"
+      }
+    },
+    {
+      "parent": "SDO.22.04",
+      "child": "SDO.22.04.03",
+      "childLabel": { "en": "Mixed Methods", "nob": "Blandede metoder" }
+    },
+    {
+      "parent": "SDO.22.04",
+      "child": "SDO.22.04.04",
+      "childLabel": {
+        "en": "Statistical Sociology",
+        "nob": "Statistisk sosiologi"
+      }
+    },
+
+    {
+      "parent": "SDO.23.01",
+      "child": "SDO.23.01.01",
+      "childLabel": { "en": "Democracy Studies", "nob": "Demokratistudier" }
+    },
+    {
+      "parent": "SDO.23.01",
+      "child": "SDO.23.01.02",
+      "childLabel": {
+        "en": "Authoritarianism Studies",
+        "nob": "Autoritære systemer"
+      }
+    },
+    {
+      "parent": "SDO.23.01",
+      "child": "SDO.23.01.03",
+      "childLabel": { "en": "Political Philosophy", "nob": "Politisk filosofi" }
+    },
+    {
+      "parent": "SDO.23.01",
+      "child": "SDO.23.01.04",
+      "childLabel": {
+        "en": "Comparative Politics",
+        "nob": "Sammenlignende politikk"
+      }
+    },
+
+    {
+      "parent": "SDO.23.02",
+      "child": "SDO.23.02.01",
+      "childLabel": { "en": "Public Management", "nob": "Offentlig ledelse" }
+    },
+    {
+      "parent": "SDO.23.02",
+      "child": "SDO.23.02.02",
+      "childLabel": { "en": "Policy Analysis", "nob": "Poliseanalyse" }
+    },
+    {
+      "parent": "SDO.23.02",
+      "child": "SDO.23.02.03",
+      "childLabel": { "en": "Local Government", "nob": "Kommuneforvaltning" }
+    },
+    {
+      "parent": "SDO.23.02",
+      "child": "SDO.23.02.04",
+      "childLabel": {
+        "en": "Governance & Regulation",
+        "nob": "Styring og regulering"
+      }
+    },
+
+    {
+      "parent": "SDO.23.03",
+      "child": "SDO.23.03.01",
+      "childLabel": {
+        "en": "International Organizations",
+        "nob": "Internasjonale organisasjoner"
+      }
+    },
+    {
+      "parent": "SDO.23.03",
+      "child": "SDO.23.03.02",
+      "childLabel": { "en": "Foreign Policy", "nob": "Utenrikspolitikk" }
+    },
+    {
+      "parent": "SDO.23.03",
+      "child": "SDO.23.03.03",
+      "childLabel": {
+        "en": "Peace & Conflict Studies",
+        "nob": "Fred- og konfliktstudier"
+      }
+    },
+    {
+      "parent": "SDO.23.03",
+      "child": "SDO.23.03.04",
+      "childLabel": { "en": "Diplomacy", "nob": "Diplomati" }
+    },
+
+    {
+      "parent": "SDO.23.04",
+      "child": "SDO.23.04.01",
+      "childLabel": { "en": "Electoral Systems", "nob": "Valgsystemer" }
+    },
+    {
+      "parent": "SDO.23.04",
+      "child": "SDO.23.04.02",
+      "childLabel": { "en": "Political Parties", "nob": "Politiske partier" }
+    },
+    {
+      "parent": "SDO.23.04",
+      "child": "SDO.23.04.03",
+      "childLabel": { "en": "Voting Behavior", "nob": "Valgatferd" }
+    },
+    {
+      "parent": "SDO.23.04",
+      "child": "SDO.23.04.04",
+      "childLabel": { "en": "Campaign Studies", "nob": "Kampanjestudier" }
+    },
+
+    {
+      "parent": "SDO.24.01",
+      "child": "SDO.24.01.01",
+      "childLabel": { "en": "Civil Procedure", "nob": "Sivilprosess" }
+    },
+    {
+      "parent": "SDO.24.01",
+      "child": "SDO.24.01.02",
+      "childLabel": { "en": "Property Law", "nob": "Tingsrett" }
+    },
+    {
+      "parent": "SDO.24.01",
+      "child": "SDO.24.01.03",
+      "childLabel": { "en": "Family Law", "nob": "Familierett" }
+    },
+    {
+      "parent": "SDO.24.01",
+      "child": "SDO.24.01.04",
+      "childLabel": { "en": "Inheritance Law", "nob": "Arverett" }
+    },
+
+    {
+      "parent": "SDO.24.02",
+      "child": "SDO.24.02.01",
+      "childLabel": { "en": "Criminal Procedure", "nob": "Straffeprosess" }
+    },
+    {
+      "parent": "SDO.24.02",
+      "child": "SDO.24.02.02",
+      "childLabel": { "en": "Criminology", "nob": "Kriminologi" }
+    },
+    {
+      "parent": "SDO.24.02",
+      "child": "SDO.24.02.03",
+      "childLabel": { "en": "Penology", "nob": "Strafferettspleie (penologi)" }
+    },
+    {
+      "parent": "SDO.24.02",
+      "child": "SDO.24.02.04",
+      "childLabel": {
+        "en": "Forensic Science & Law",
+        "nob": "Rettsteknikk og juss"
+      }
+    },
+
+    {
+      "parent": "SDO.24.03",
+      "child": "SDO.24.03.01",
+      "childLabel": { "en": "Contract Law", "nob": "Kontraktsrett" }
+    },
+    {
+      "parent": "SDO.24.03",
+      "child": "SDO.24.03.02",
+      "childLabel": { "en": "Commercial Law", "nob": "Handelsrett" }
+    },
+    {
+      "parent": "SDO.24.03",
+      "child": "SDO.24.03.03",
+      "childLabel": { "en": "Corporate Law", "nob": "Selskapsrett" }
+    },
+    {
+      "parent": "SDO.24.03",
+      "child": "SDO.24.03.04",
+      "childLabel": {
+        "en": "International Business Law",
+        "nob": "Internasjonal forretningsjus"
+      }
+    },
+
+    {
+      "parent": "SDO.24.04",
+      "child": "SDO.24.04.01",
+      "childLabel": {
+        "en": "Constitutional Law",
+        "nob": "Konstitusjonell rett"
+      }
+    },
+    {
+      "parent": "SDO.24.04",
+      "child": "SDO.24.04.02",
+      "childLabel": { "en": "Administrative Law", "nob": "Forvaltningsrett" }
+    },
+    {
+      "parent": "SDO.24.04",
+      "child": "SDO.24.04.03",
+      "childLabel": { "en": "Human Rights Law", "nob": "Menneskerettigheter" }
+    },
+    {
+      "parent": "SDO.24.04",
+      "child": "SDO.24.04.04",
+      "childLabel": { "en": "Public International Law", "nob": "Folkerett" }
+    },
+
+    {
+      "parent": "SDO.25.01",
+      "child": "SDO.25.01.01",
+      "childLabel": { "en": "Economic Growth", "nob": "Økonomisk vekst" }
+    },
+    {
+      "parent": "SDO.25.01",
+      "child": "SDO.25.01.02",
+      "childLabel": { "en": "Fiscal Policy", "nob": "Finanspolitikk" }
+    },
+    {
+      "parent": "SDO.25.01",
+      "child": "SDO.25.01.03",
+      "childLabel": { "en": "Monetary Policy", "nob": "Pengepolitikk" }
+    },
+    {
+      "parent": "SDO.25.01",
+      "child": "SDO.25.01.04",
+      "childLabel": {
+        "en": "International Economics",
+        "nob": "Internasjonal økonomi"
+      }
+    },
+
+    {
+      "parent": "SDO.25.02",
+      "child": "SDO.25.02.01",
+      "childLabel": { "en": "Consumer Behavior", "nob": "Forbrukeratferd" }
+    },
+    {
+      "parent": "SDO.25.02",
+      "child": "SDO.25.02.02",
+      "childLabel": { "en": "Labor Economics", "nob": "Arbeidsøkonomi" }
+    },
+    {
+      "parent": "SDO.25.02",
+      "child": "SDO.25.02.03",
+      "childLabel": { "en": "Market Structures", "nob": "Markedsteori" }
+    },
+    {
+      "parent": "SDO.25.02",
+      "child": "SDO.25.02.04",
+      "childLabel": { "en": "Game Theory", "nob": "Spillteori" }
+    },
+
+    {
+      "parent": "SDO.25.03",
+      "child": "SDO.25.03.01",
+      "childLabel": { "en": "Banking", "nob": "Bankvesen" }
+    },
+    {
+      "parent": "SDO.25.03",
+      "child": "SDO.25.03.02",
+      "childLabel": { "en": "Investment", "nob": "Investering" }
+    },
+    {
+      "parent": "SDO.25.03",
+      "child": "SDO.25.03.03",
+      "childLabel": { "en": "Corporate Finance", "nob": "Bedriftsfinans" }
+    },
+    {
+      "parent": "SDO.25.03",
+      "child": "SDO.25.03.04",
+      "childLabel": { "en": "Risk Management", "nob": "Risikostyring" }
+    },
+
+    {
+      "parent": "SDO.25.04",
+      "child": "SDO.25.04.01",
+      "childLabel": { "en": "Management Theory", "nob": "Ledelsesteori" }
+    },
+    {
+      "parent": "SDO.25.04",
+      "child": "SDO.25.04.02",
+      "childLabel": { "en": "Marketing Strategy", "nob": "Markedsstrategi" }
+    },
+    {
+      "parent": "SDO.25.04",
+      "child": "SDO.25.04.03",
+      "childLabel": {
+        "en": "Business Administration",
+        "nob": "Forretningsadministrasjon"
+      }
+    },
+    {
+      "parent": "SDO.25.04",
+      "child": "SDO.25.04.04",
+      "childLabel": { "en": "Entrepreneurship", "nob": "Entreprenørskap" }
+    },
+
+    {
+      "parent": "SDO.26.01",
+      "child": "SDO.26.01.01",
+      "childLabel": { "en": "News Writing", "nob": "Nyhetsskriving" }
+    },
+    {
+      "parent": "SDO.26.01",
+      "child": "SDO.26.01.02",
+      "childLabel": {
+        "en": "Investigative Journalism",
+        "nob": "Gravejournalistikk"
+      }
+    },
+    {
+      "parent": "SDO.26.01",
+      "child": "SDO.26.01.03",
+      "childLabel": { "en": "Feature Writing", "nob": "Featurejournalistikk" }
+    },
+    {
+      "parent": "SDO.26.01",
+      "child": "SDO.26.01.04",
+      "childLabel": {
+        "en": "Digital Journalism",
+        "nob": "Digital journalistikk"
+      }
+    },
+
+    {
+      "parent": "SDO.26.02",
+      "child": "SDO.26.02.01",
+      "childLabel": { "en": "Publishing Practices", "nob": "Forlagspraksis" }
+    },
+    {
+      "parent": "SDO.26.02",
+      "child": "SDO.26.02.02",
+      "childLabel": { "en": "Media Ownership", "nob": "Medieeierskap" }
+    },
+    {
+      "parent": "SDO.26.02",
+      "child": "SDO.26.02.03",
+      "childLabel": { "en": "Advertising", "nob": "Reklame" }
+    },
+    {
+      "parent": "SDO.26.02",
+      "child": "SDO.26.02.04",
+      "childLabel": {
+        "en": "Digital Media Industry",
+        "nob": "Digital mediebransje"
+      }
+    },
+
+    {
+      "parent": "SDO.26.03",
+      "child": "SDO.26.03.01",
+      "childLabel": { "en": "Media Ethics", "nob": "Medieetikk" }
+    },
+    {
+      "parent": "SDO.26.03",
+      "child": "SDO.26.03.02",
+      "childLabel": { "en": "Media Law", "nob": "Mediejuss" }
+    },
+    {
+      "parent": "SDO.26.03",
+      "child": "SDO.26.03.03",
+      "childLabel": { "en": "Freedom of Press", "nob": "Pressefrihet" }
+    },
+    {
+      "parent": "SDO.26.03",
+      "child": "SDO.26.03.04",
+      "childLabel": { "en": "Censorship Studies", "nob": "Sensurstudier" }
+    },
+
+    {
+      "parent": "SDO.26.04",
+      "child": "SDO.26.04.01",
+      "childLabel": {
+        "en": "Editorial Processes",
+        "nob": "Redaksjonelle prosesser"
+      }
+    },
+    {
+      "parent": "SDO.26.04",
+      "child": "SDO.26.04.02",
+      "childLabel": { "en": "Fact-checking", "nob": "Faktasjekk" }
+    },
+    {
+      "parent": "SDO.26.04",
+      "child": "SDO.26.04.03",
+      "childLabel": { "en": "Copy Editing", "nob": "Korrektur og redigering" }
+    },
+    {
+      "parent": "SDO.26.04",
+      "child": "SDO.26.04.04",
+      "childLabel": { "en": "Newsroom Management", "nob": "Nyhetsromledelse" }
+    },
+
+    {
+      "parent": "SDO.27.01",
+      "child": "SDO.27.01.01",
+      "childLabel": { "en": "Highways & Roads", "nob": "Veier og motorveier" }
+    },
+    {
+      "parent": "SDO.27.01",
+      "child": "SDO.27.01.02",
+      "childLabel": { "en": "Railways", "nob": "Jernbane" }
+    },
+    {
+      "parent": "SDO.27.01",
+      "child": "SDO.27.01.03",
+      "childLabel": { "en": "Urban Transit", "nob": "Bytransport" }
+    },
+    {
+      "parent": "SDO.27.01",
+      "child": "SDO.27.01.04",
+      "childLabel": {
+        "en": "Sustainable Transport",
+        "nob": "Bærekraftig transport"
+      }
+    },
+
+    {
+      "parent": "SDO.27.02",
+      "child": "SDO.27.02.01",
+      "childLabel": { "en": "Shipping", "nob": "Skipsfart" }
+    },
+    {
+      "parent": "SDO.27.02",
+      "child": "SDO.27.02.02",
+      "childLabel": {
+        "en": "Harbor & Port Studies",
+        "nob": "Havne- og portstudier"
+      }
+    },
+    {
+      "parent": "SDO.27.02",
+      "child": "SDO.27.02.03",
+      "childLabel": { "en": "Naval Architecture", "nob": "Skipsdesign" }
+    },
+    {
+      "parent": "SDO.27.02",
+      "child": "SDO.27.02.04",
+      "childLabel": { "en": "Maritime Logistics", "nob": "Maritim logistikk" }
+    },
+
+    {
+      "parent": "SDO.27.03",
+      "child": "SDO.27.03.01",
+      "childLabel": { "en": "Aviation Studies", "nob": "Luftfartsstudier" }
+    },
+    {
+      "parent": "SDO.27.03",
+      "child": "SDO.27.03.02",
+      "childLabel": {
+        "en": "Air Traffic Management",
+        "nob": "Lufttrafikkstyring"
+      }
+    },
+    {
+      "parent": "SDO.27.03",
+      "child": "SDO.27.03.03",
+      "childLabel": {
+        "en": "Aerospace Engineering",
+        "nob": "Romfartsteknologi"
+      }
+    },
+    {
+      "parent": "SDO.27.03",
+      "child": "SDO.27.03.04",
+      "childLabel": { "en": "Aviation Safety", "nob": "Luftfartssikkerhet" }
+    },
+
+    {
+      "parent": "SDO.27.04",
+      "child": "SDO.27.04.01",
+      "childLabel": {
+        "en": "Supply Chain Management",
+        "nob": "Forsyningskjedeledelse"
+      }
+    },
+    {
+      "parent": "SDO.27.04",
+      "child": "SDO.27.04.02",
+      "childLabel": { "en": "Logistics Systems", "nob": "Logistikksystemer" }
+    },
+    {
+      "parent": "SDO.27.04",
+      "child": "SDO.27.04.03",
+      "childLabel": { "en": "Transport Economics", "nob": "Transportøkonomi" }
+    },
+    {
+      "parent": "SDO.27.04",
+      "child": "SDO.27.04.04",
+      "childLabel": { "en": "Freight Transport", "nob": "Godstransport" }
+    },
+
+    {
+      "parent": "SDO.28.01",
+      "child": "SDO.28.01.01",
+      "childLabel": { "en": "Geomorphology", "nob": "Geomorfologi" }
+    },
+    {
+      "parent": "SDO.28.01",
+      "child": "SDO.28.01.02",
+      "childLabel": { "en": "Climatology", "nob": "Klimatologi" }
+    },
+    {
+      "parent": "SDO.28.01",
+      "child": "SDO.28.01.03",
+      "childLabel": { "en": "Biogeography", "nob": "Biogeografi" }
+    },
+    {
+      "parent": "SDO.28.01",
+      "child": "SDO.28.01.04",
+      "childLabel": { "en": "Hydrology", "nob": "Hydrologi" }
+    },
+
+    {
+      "parent": "SDO.28.02",
+      "child": "SDO.28.02.01",
+      "childLabel": { "en": "Urban Geography", "nob": "Bygeografi" }
+    },
+    {
+      "parent": "SDO.28.02",
+      "child": "SDO.28.02.02",
+      "childLabel": { "en": "Economic Geography", "nob": "Økonomisk geografi" }
+    },
+    {
+      "parent": "SDO.28.02",
+      "child": "SDO.28.02.03",
+      "childLabel": { "en": "Cultural Geography", "nob": "Kulturgeografi" }
+    },
+    {
+      "parent": "SDO.28.02",
+      "child": "SDO.28.02.04",
+      "childLabel": { "en": "Political Geography", "nob": "Politisk geografi" }
+    },
+
+    {
+      "parent": "SDO.28.03",
+      "child": "SDO.28.03.01",
+      "childLabel": {
+        "en": "Cartographic Methods",
+        "nob": "Kartografiske metoder"
+      }
+    },
+    {
+      "parent": "SDO.28.03",
+      "child": "SDO.28.03.02",
+      "childLabel": { "en": "GIS Applications", "nob": "GIS-applikasjoner" }
+    },
+    {
+      "parent": "SDO.28.03",
+      "child": "SDO.28.03.03",
+      "childLabel": { "en": "Remote Sensing", "nob": "Fjernmåling" }
+    },
+    {
+      "parent": "SDO.28.03",
+      "child": "SDO.28.03.04",
+      "childLabel": {
+        "en": "Geospatial Analysis",
+        "nob": "Geospatiale analyser"
+      }
+    },
+
+    {
+      "parent": "SDO.28.04",
+      "child": "SDO.28.04.01",
+      "childLabel": { "en": "Toponyms", "nob": "Stedsnavn" }
+    },
+    {
+      "parent": "SDO.28.04",
+      "child": "SDO.28.04.02",
+      "childLabel": {
+        "en": "Regions & Territories",
+        "nob": "Regioner og territorier"
+      }
+    },
+    {
+      "parent": "SDO.28.04",
+      "child": "SDO.28.04.03",
+      "childLabel": { "en": "Urban Settlements", "nob": "Bybosetninger" }
+    },
+    {
+      "parent": "SDO.28.04",
+      "child": "SDO.28.04.04",
+      "childLabel": { "en": "Rural Landscapes", "nob": "Landsbygdslandskap" }
+    },
+
+    {
+      "parent": "SDO.29.01",
+      "child": "SDO.29.01.01",
+      "childLabel": { "en": "Military History", "nob": "Militærhistorie" }
+    },
+    {
+      "parent": "SDO.29.01",
+      "child": "SDO.29.01.02",
+      "childLabel": {
+        "en": "Military Organization",
+        "nob": "Militær organisasjon"
+      }
+    },
+    {
+      "parent": "SDO.29.01",
+      "child": "SDO.29.01.03",
+      "childLabel": { "en": "Military Technology", "nob": "Militærteknologi" }
+    },
+    {
+      "parent": "SDO.29.01",
+      "child": "SDO.29.01.04",
+      "childLabel": { "en": "Military Training", "nob": "Militær utdanning" }
+    },
+
+    {
+      "parent": "SDO.29.02",
+      "child": "SDO.29.02.01",
+      "childLabel": { "en": "Intelligence Studies", "nob": "Etterretning" }
+    },
+    {
+      "parent": "SDO.29.02",
+      "child": "SDO.29.02.02",
+      "childLabel": { "en": "Counterterrorism", "nob": "Antiterror" }
+    },
+    {
+      "parent": "SDO.29.02",
+      "child": "SDO.29.02.03",
+      "childLabel": {
+        "en": "Cybersecurity & Cyberwarfare",
+        "nob": "Cybersikkerhet og cyberkrigføring"
+      }
+    },
+    {
+      "parent": "SDO.29.02",
+      "child": "SDO.29.02.04",
+      "childLabel": { "en": "Security Policy", "nob": "Sikkerhetspolitikk" }
+    },
+
+    {
+      "parent": "SDO.29.03",
+      "child": "SDO.29.03.01",
+      "childLabel": { "en": "Military Strategy", "nob": "Militærstrategi" }
+    },
+    {
+      "parent": "SDO.29.03",
+      "child": "SDO.29.03.02",
+      "childLabel": { "en": "Tactics", "nob": "Taktikk" }
+    },
+    {
+      "parent": "SDO.29.03",
+      "child": "SDO.29.03.03",
+      "childLabel": { "en": "Operational Art", "nob": "Operasjonskunst" }
+    },
+    {
+      "parent": "SDO.29.03",
+      "child": "SDO.29.03.04",
+      "childLabel": {
+        "en": "Wargaming & Simulation",
+        "nob": "Krigsspill og simulering"
+      }
+    },
+
+    {
+      "parent": "SDO.29.04",
+      "child": "SDO.29.04.01",
+      "childLabel": { "en": "Weapons Systems", "nob": "Våpensystemer" }
+    },
+    {
+      "parent": "SDO.29.04",
+      "child": "SDO.29.04.02",
+      "childLabel": { "en": "Military Vehicles", "nob": "Militære kjøretøy" }
+    },
+    {
+      "parent": "SDO.29.04",
+      "child": "SDO.29.04.03",
+      "childLabel": { "en": "Defense Industry", "nob": "Forsvarsindustri" }
+    },
+    {
+      "parent": "SDO.29.04",
+      "child": "SDO.29.04.04",
+      "childLabel": {
+        "en": "Emerging Defense Tech",
+        "nob": "Ny forsvarsteknologi"
+      }
+    },
+
+    {
+      "parent": "SDO.30.01",
+      "child": "SDO.30.01.01",
+      "childLabel": { "en": "Team Sports", "nob": "Lagidrett" }
+    },
+    {
+      "parent": "SDO.30.01",
+      "child": "SDO.30.01.02",
+      "childLabel": { "en": "Track & Field", "nob": "Friidrett" }
+    },
+    {
+      "parent": "SDO.30.01",
+      "child": "SDO.30.01.03",
+      "childLabel": { "en": "Winter Sports", "nob": "Vinteridrett" }
+    },
+    {
+      "parent": "SDO.30.01",
+      "child": "SDO.30.01.04",
+      "childLabel": { "en": "Water Sports", "nob": "Vannsport" }
+    },
+
+    {
+      "parent": "SDO.30.02",
+      "child": "SDO.30.02.01",
+      "childLabel": { "en": "Hiking & Camping", "nob": "Fotturer og camping" }
+    },
+    {
+      "parent": "SDO.30.02",
+      "child": "SDO.30.02.02",
+      "childLabel": { "en": "Hunting & Fishing", "nob": "Jakt og fiske" }
+    },
+    {
+      "parent": "SDO.30.02",
+      "child": "SDO.30.02.03",
+      "childLabel": {
+        "en": "Climbing & Mountaineering",
+        "nob": "Klatring og fjellsport"
+      }
+    },
+    {
+      "parent": "SDO.30.02",
+      "child": "SDO.30.02.04",
+      "childLabel": { "en": "Outdoor Survival", "nob": "Overlevelse i naturen" }
+    },
+
+    {
+      "parent": "SDO.30.03",
+      "child": "SDO.30.03.01",
+      "childLabel": { "en": "Strength Training", "nob": "Styrketrening" }
+    },
+    {
+      "parent": "SDO.30.03",
+      "child": "SDO.30.03.02",
+      "childLabel": { "en": "Cardio Training", "nob": "Kondisjonstrening" }
+    },
+    {
+      "parent": "SDO.30.03",
+      "child": "SDO.30.03.03",
+      "childLabel": { "en": "Yoga & Pilates", "nob": "Yoga og pilates" }
+    },
+    {
+      "parent": "SDO.30.03",
+      "child": "SDO.30.03.04",
+      "childLabel": { "en": "Martial Arts", "nob": "Kampsport" }
+    },
+
+    {
+      "parent": "SDO.30.04",
+      "child": "SDO.30.04.01",
+      "childLabel": {
+        "en": "Sports Organizations",
+        "nob": "Idrettsorganisasjoner"
+      }
+    },
+    {
+      "parent": "SDO.30.04",
+      "child": "SDO.30.04.02",
+      "childLabel": { "en": "Sports Law", "nob": "Idrettsjuss" }
+    },
+    {
+      "parent": "SDO.30.04",
+      "child": "SDO.30.04.03",
+      "childLabel": {
+        "en": "Rules & Regulations",
+        "nob": "Regler og forskrifter"
+      }
+    },
+    {
+      "parent": "SDO.30.04",
+      "child": "SDO.30.04.04",
+      "childLabel": { "en": "Anti-Doping", "nob": "Antidoping" }
+    },
+
+    {
+      "parent": "SDO.31.01",
+      "child": "SDO.31.01.01",
+      "childLabel": { "en": "Chess", "nob": "Sjakk" }
+    },
+    {
+      "parent": "SDO.31.01",
+      "child": "SDO.31.01.02",
+      "childLabel": { "en": "Card Games", "nob": "Kortspill" }
+    },
+    {
+      "parent": "SDO.31.01",
+      "child": "SDO.31.01.03",
+      "childLabel": {
+        "en": "Board Strategy Games",
+        "nob": "Brettstrategispill"
+      }
+    },
+    {
+      "parent": "SDO.31.01",
+      "child": "SDO.31.01.04",
+      "childLabel": { "en": "Role-Playing Games", "nob": "Rollespill" }
+    },
+
+    {
+      "parent": "SDO.31.02",
+      "child": "SDO.31.02.01",
+      "childLabel": { "en": "Action Games", "nob": "Actionspill" }
+    },
+    {
+      "parent": "SDO.31.02",
+      "child": "SDO.31.02.02",
+      "childLabel": { "en": "Strategy Games", "nob": "Strategispill" }
+    },
+    {
+      "parent": "SDO.31.02",
+      "child": "SDO.31.02.03",
+      "childLabel": { "en": "Simulation Games", "nob": "Simulatorspill" }
+    },
+    {
+      "parent": "SDO.31.02",
+      "child": "SDO.31.02.04",
+      "childLabel": {
+        "en": "Role-Playing Video Games",
+        "nob": "Rollespill (dataspill)"
+      }
+    },
+
+    {
+      "parent": "SDO.31.03",
+      "child": "SDO.31.03.01",
+      "childLabel": { "en": "Game Mechanics", "nob": "Spillmekanikker" }
+    },
+    {
+      "parent": "SDO.31.03",
+      "child": "SDO.31.03.02",
+      "childLabel": { "en": "Game Narratives", "nob": "Spillfortelling" }
+    },
+    {
+      "parent": "SDO.31.03",
+      "child": "SDO.31.03.03",
+      "childLabel": { "en": "Level Design", "nob": "Nivådesign" }
+    },
+    {
+      "parent": "SDO.31.03",
+      "child": "SDO.31.03.04",
+      "childLabel": { "en": "Game Engines", "nob": "Spillmotorer" }
+    },
+
+    {
+      "parent": "SDO.31.04",
+      "child": "SDO.31.04.01",
+      "childLabel": {
+        "en": "Esports Tournaments",
+        "nob": "E-sportsturneringer"
+      }
+    },
+    {
+      "parent": "SDO.31.04",
+      "child": "SDO.31.04.02",
+      "childLabel": { "en": "Gaming Industry", "nob": "Spillindustri" }
+    },
+    {
+      "parent": "SDO.31.04",
+      "child": "SDO.31.04.03",
+      "childLabel": {
+        "en": "Streaming & Content Creation",
+        "nob": "Streaming og innholdsproduksjon"
+      }
+    },
+    {
+      "parent": "SDO.31.04",
+      "child": "SDO.31.04.04",
+      "childLabel": { "en": "Game Marketing", "nob": "Spillmarkedsføring" }
+    },
+
+    {
+      "parent": "SDO.32.01",
+      "child": "SDO.32.01.01",
+      "childLabel": { "en": "Coin Collecting", "nob": "Mynsamling" }
+    },
+    {
+      "parent": "SDO.32.01",
+      "child": "SDO.32.01.02",
+      "childLabel": { "en": "Ancient Coins", "nob": "Antikke mynter" }
+    },
+    {
+      "parent": "SDO.32.01",
+      "child": "SDO.32.01.03",
+      "childLabel": { "en": "Paper Money", "nob": "Papirpenger" }
+    },
+    {
+      "parent": "SDO.32.01",
+      "child": "SDO.32.01.04",
+      "childLabel": { "en": "Medals & Tokens", "nob": "Medaljer og polletter" }
+    },
+
+    {
+      "parent": "SDO.32.02",
+      "child": "SDO.32.02.01",
+      "childLabel": { "en": "Coats of Arms", "nob": "Våpenskjold" }
+    },
+    {
+      "parent": "SDO.32.02",
+      "child": "SDO.32.02.02",
+      "childLabel": { "en": "Genealogical Heraldry", "nob": "Slektsheraldikk" }
+    },
+    {
+      "parent": "SDO.32.02",
+      "child": "SDO.32.02.03",
+      "childLabel": {
+        "en": "Ecclesiastical Heraldry",
+        "nob": "Kirkelig heraldikk"
+      }
+    },
+    {
+      "parent": "SDO.32.02",
+      "child": "SDO.32.02.04",
+      "childLabel": { "en": "Civic Heraldry", "nob": "Borgerlig heraldikk" }
+    },
+
+    {
+      "parent": "SDO.32.03",
+      "child": "SDO.32.03.01",
+      "childLabel": { "en": "Flag History", "nob": "Flagghistorie" }
+    },
+    {
+      "parent": "SDO.32.03",
+      "child": "SDO.32.03.02",
+      "childLabel": { "en": "National Flags", "nob": "Nasjonalflagg" }
+    },
+    {
+      "parent": "SDO.32.03",
+      "child": "SDO.32.03.03",
+      "childLabel": {
+        "en": "Regional & Local Flags",
+        "nob": "Regionale og lokale flagg"
+      }
+    },
+    {
+      "parent": "SDO.32.03",
+      "child": "SDO.32.03.04",
+      "childLabel": {
+        "en": "Flag Design & Symbolism",
+        "nob": "Flaggdesign og symbolikk"
+      }
+    },
+
+    {
+      "parent": "SDO.32.04",
+      "child": "SDO.32.04.01",
+      "childLabel": { "en": "Orders of Chivalry", "nob": "Ridderordener" }
+    },
+    {
+      "parent": "SDO.32.04",
+      "child": "SDO.32.04.02",
+      "childLabel": {
+        "en": "Military Decorations",
+        "nob": "Militære dekorasjoner"
+      }
+    },
+    {
+      "parent": "SDO.32.04",
+      "child": "SDO.32.04.03",
+      "childLabel": { "en": "Civil Decorations", "nob": "Sivile utmerkelser" }
+    },
+    {
+      "parent": "SDO.32.04",
+      "child": "SDO.32.04.04",
+      "childLabel": {
+        "en": "International Honors",
+        "nob": "Internasjonale utmerkelser"
+      }
+    }
+  ]
+}

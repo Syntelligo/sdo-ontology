@@ -1,0 +1,691 @@
+parent,child,child_en,child_nob
+SDO.01,SDO.01.01,Botany,Botanikk
+SDO.01,SDO.01.02,Zoology,Zoologi
+SDO.01,SDO.01.03,Genetics & Molecular Biology,Genetikk og molekylærbiologi
+SDO.01,SDO.01.04,Ecology & Evolution,Økologi og evolusjon
+SDO.01,SDO.01.05,Microbiology & Virology,Mikrobiologi og virologi
+SDO.01,SDO.01.06,Immunology,Immunologi
+SDO.01,SDO.01.07,Cell & Developmental Biology,Celle- og utviklingsbiologi
+SDO.01,SDO.01.08,Biochemistry & Biophysics,Biokjemi og biofysikk
+SDO.01,SDO.01.09,Physiology (Organismal & Systems),Fysiologi (organisme og systemer)
+SDO.01,SDO.01.10,Marine & Aquatic Biology,Marin og akvatisk biologi
+SDO.01,SDO.01.11,Bioinformatics & Computational Biology,Bioinformatikk og beregningsbiologi
+SDO.01,SDO.01.12,Biotechnology,Bioteknologi
+SDO.01,SDO.01.13,Paleontology,Paleontologi
+SDO.01,SDO.01.14,Conservation Biology,Bevaringsbiologi
+SDO.02,SDO.02.01,Clinical Medicine,Klinisk medisin
+SDO.02,SDO.02.02,Pharmacology & Therapeutics,Farmakologi og behandling
+SDO.02,SDO.02.03,Anatomy & Physiology,Anatomi og fysiologi
+SDO.02,SDO.02.04,Public Health & Epidemiology,Folkehelse og epidemiologi
+SDO.03,SDO.03.01,Organic & Inorganic Chemistry,Organisk og uorganisk kjemi
+SDO.03,SDO.03.02,Analytical & Physical Chemistry,Analytisk og fysikalsk kjemi
+SDO.03,SDO.03.03,Materials Science,Materialvitenskap
+SDO.03,SDO.03.04,Polymers & Nanomaterials,Polymerer og nanomaterialer
+SDO.04,SDO.04.01,Classical & Quantum Physics,Klassisk og kvantefysikk
+SDO.04,SDO.04.02,Astrophysics & Cosmology,Astrofysikk og kosmologi
+SDO.04,SDO.04.03,Optics & Photonics,Optikk og fotonikk
+SDO.04,SDO.04.04,Nuclear & Particle Physics,Kjerne- og partikkelfysikk
+SDO.05,SDO.05.01,Algebra & Geometry,Algebra og geometri
+SDO.05,SDO.05.02,Calculus & Analysis,Kalkulus og analyse
+SDO.05,SDO.05.03,Probability & Statistics,Sannsynlighet og statistikk
+SDO.05,SDO.05.04,Applied Mathematics,Anvendt matematikk
+SDO.06,SDO.06.01,Software Engineering,Programvareutvikling
+SDO.06,SDO.06.02,Networking & Security,Nettverk og sikkerhet
+SDO.06,SDO.06.03,"Data, AI & Machine Learning","Data, KI og maskinlæring"
+SDO.06,SDO.06.04,HCI & UX,Menneske–maskin og UX
+SDO.07,SDO.07.01,Mechanical & Manufacturing,Mekanisk og produksjon
+SDO.07,SDO.07.02,Electrical & Electronics,Elektro og elektronikk
+SDO.07,SDO.07.03,Civil & Structural,Bygg og konstruksjon
+SDO.07,SDO.07.04,Energy & Sustainability,Energi og bærekraft
+SDO.08,SDO.08.01,Geology & Geophysics,Geologi og geofysikk
+SDO.08,SDO.08.02,Meteorology & Climate,Meteorologi og klima
+SDO.08,SDO.08.03,Oceanography & Hydrology,Oseanografi og hydrologi
+SDO.08,SDO.08.04,Environmental Science,Miljøvitenskap
+SDO.09,SDO.09.01,Crop & Soil Science,Plante- og jordfag
+SDO.09,SDO.09.02,Animal Science & Veterinary,Husdyrfag og veterinær
+SDO.09,SDO.09.03,Food Technology & Safety,Matteknologi og matsikkerhet
+SDO.09,SDO.09.04,Forestry & Fisheries,Skogbruk og fiskeri
+SDO.10,SDO.10.01,Building Types,Bygningstyper
+SDO.10,SDO.10.02,Construction & Materials,Konstruksjon og materialer
+SDO.10,SDO.10.03,Urban Planning & Zoning,Byplanlegging og regulering
+SDO.10,SDO.10.04,Architectural Styles,Arkitektoniske stiler
+SDO.11,SDO.11.01,Visual Arts,Visuell kunst
+SDO.11,SDO.11.02,Design & Applied Arts,Design og brukskunst
+SDO.11,SDO.11.03,Photography,Fotografi
+SDO.11,SDO.11.04,Art History & Criticism,Kunsthistorie og kritikk
+SDO.12,SDO.12.01,Music Theory & Composition,Musikkteori og komposisjon
+SDO.12,SDO.12.02,Genres & Styles,Sjangre og stiler
+SDO.12,SDO.12.03,Instruments & Performance,Instrumenter og fremføring
+SDO.12,SDO.12.04,Music Industry,Musikkbransjen
+SDO.13,SDO.13.01,Poetry & Prose,Poesi og prosa
+SDO.13,SDO.13.02,Genres & Movements,Sjangre og retninger
+SDO.13,SDO.13.03,Rhetoric & Stylistics,Retorikk og stilistikk
+SDO.13,SDO.13.04,Publishing & Editing,Forlagsvirksomhet og redaksjon
+SDO.14,SDO.14.01,Theatre & Drama,Teater og drama
+SDO.14,SDO.14.02,Film & Cinema,Film og kino
+SDO.14,SDO.14.03,Television & Radio,TV og radio
+SDO.14,SDO.14.04,Digital & Media Arts,Digital- og mediekunst
+SDO.15,SDO.15.01,Ancient & Medieval,Antikken og middelalderen
+SDO.15,SDO.15.02,Early Modern & Modern,Tidlig moderne og moderne tid
+SDO.15,SDO.15.03,Regional & World History,Regional- og verdenshistorie
+SDO.15,SDO.15.04,Historiography & Methods,Historiografi og metode
+SDO.16,SDO.16.01,Metaphysics & Epistemology,Metafysikk og erkjennelse
+SDO.16,SDO.16.02,Ethics & Moral Philosophy,Etikk og moralfilosofi
+SDO.16,SDO.16.03,Logic,Logikk
+SDO.16,SDO.16.04,Aesthetics & Philosophy of Art,Estetikk og kunstfilosofi
+SDO.17,SDO.17.01,World Religions,Verdensreligioner
+SDO.17,SDO.17.02,Theology & Doctrine,Teologi og lære
+SDO.17,SDO.17.03,Mythology & Folklore,Mytologi og folketro
+SDO.17,SDO.17.04,Rituals & Practices,Ritualer og praksis
+SDO.18,SDO.18.01,Phonetics & Phonology,Fonetikk og fonologi
+SDO.18,SDO.18.02,Morphology & Syntax,Morfologi og syntaks
+SDO.18,SDO.18.03,Semantics & Pragmatics,Semantikk og pragmatikk
+SDO.18,SDO.18.04,Sociolinguistics & Dialects,Sosiolingvistikk og dialekter
+SDO.19,SDO.19.01,Cultural Studies,Kulturstudier
+SDO.19,SDO.19.02,Social & Cultural Anthropology,Sosial- og kulturantropologi
+SDO.19,SDO.19.03,Ethnography,Etnografi
+SDO.19,SDO.19.04,Folklore & Traditions,Folklore og tradisjoner
+SDO.20,SDO.20.01,Pedagogy & Didactics,Pedagogikk og didaktikk
+SDO.20,SDO.20.02,Curriculum & Assessment,Læreplan og vurdering
+SDO.20,SDO.20.03,Higher & Lifelong Education,Høyere og livslang læring
+SDO.20,SDO.20.04,Educational Technology,Utdanningsteknologi
+SDO.21,SDO.21.01,Cognitive Psychology,Kognitiv psykologi
+SDO.21,SDO.21.02,Clinical & Counseling,Klinisk og rådgivning
+SDO.21,SDO.21.03,Developmental Psychology,Utviklingspsykologi
+SDO.21,SDO.21.04,Social & Personality,Sosial og personlighet
+SDO.22,SDO.22.01,Social Theory,Sosial teori
+SDO.22,SDO.22.02,Population & Demography,Befolkning og demografi
+SDO.22,SDO.22.03,Inequality & Welfare,Ulikhet og velferd
+SDO.22,SDO.22.04,Methods & Statistics,Metoder og statistikk
+SDO.23,SDO.23.01,Political Systems & Theory,Politiske systemer og teori
+SDO.23,SDO.23.02,Public Policy & Administration,Offentlig politikk og forvaltning
+SDO.23,SDO.23.03,International Relations,Internasjonale relasjoner
+SDO.23,SDO.23.04,Elections & Parties,Valg og partier
+SDO.24,SDO.24.01,Civil Law,Sivilrett
+SDO.24,SDO.24.02,Criminal Law,Strafferett
+SDO.24,SDO.24.03,Contract & Commercial Law,Kontrakt- og forretningsjus
+SDO.24,SDO.24.04,Public & Constitutional Law,Offentlig og konstitusjonell rett
+SDO.25,SDO.25.01,Macroeconomics,Makroøkonomi
+SDO.25,SDO.25.02,Microeconomics,Mikroøkonomi
+SDO.25,SDO.25.03,Finance & Banking,Finans og bank
+SDO.25,SDO.25.04,Management & Marketing,Ledelse og markedsføring
+SDO.26,SDO.26.01,News & Reporting,Nyheter og reportasje
+SDO.26,SDO.26.02,Publishing & Media Industry,Forlags- og mediebransje
+SDO.26,SDO.26.03,Ethics & Media Law,Etikk og mediejuss
+SDO.26,SDO.26.04,Editorial & Fact-checking,Redaksjon og faktasjekk
+SDO.27,SDO.27.01,Road & Rail,Vei og bane
+SDO.27,SDO.27.02,Maritime,Sjøfart
+SDO.27,SDO.27.03,Aviation & Aerospace,Luftfart og romfart
+SDO.27,SDO.27.04,Logistics & Supply Chain,Logistikk og forsyningskjede
+SDO.28,SDO.28.01,Physical Geography,Fysisk geografi
+SDO.28,SDO.28.02,Human Geography,Menneskelig geografi
+SDO.28,SDO.28.03,Cartography & GIS,Kartografi og GIS
+SDO.28,SDO.28.04,Places & Toponyms,Steder og stedsnavn
+SDO.29,SDO.29.01,Military Science,Militærfag
+SDO.29,SDO.29.02,Security & Intelligence,Sikkerhet og etterretning
+SDO.29,SDO.29.03,Strategy & Tactics,Strategi og taktikk
+SDO.29,SDO.29.04,Defense Technology,Forsvarsteknologi
+SDO.30,SDO.30.01,Athletics & Team Sports,Friidrett og lagidrett
+SDO.30,SDO.30.02,Outdoor & Recreation,Friluftsliv og fritid
+SDO.30,SDO.30.03,Fitness & Training,Trening og fitness
+SDO.30,SDO.30.04,Sports Governance & Rules,Idrettsstyring og regler
+SDO.31,SDO.31.01,Board & Card Games,Brett- og kortspill
+SDO.31,SDO.31.02,Video Game Genres,Dataspillsjangre
+SDO.31,SDO.31.03,Game Design & Mechanics,Spilldesign og mekanikker
+SDO.31,SDO.31.04,Esports & Industry,E-sport og bransje
+SDO.32,SDO.32.01,Numismatics,Numismatikk
+SDO.32,SDO.32.02,Heraldry,Heraldikk
+SDO.32,SDO.32.03,Vexillology (Flags),Flagglære (vexillologi)
+SDO.32,SDO.32.04,Orders & Honors,Ordener og utmerkelser
+SDO.01.01,SDO.01.01.01,Plant Anatomy & Morphology,Planteanatomi og morfologi
+SDO.01.01,SDO.01.01.02,Plant Physiology,Plantefysiologi
+SDO.01.01,SDO.01.01.03,Plant Taxonomy & Systematics,Plantetaxonomi og systematikk
+SDO.01.01,SDO.01.01.04,Plant Ecology,Planteøkologi
+SDO.01.02,SDO.01.02.01,Invertebrate Zoology,Invertebratzoologi
+SDO.01.02,SDO.01.02.02,Vertebrate Zoology,Virveldyrzoologi
+SDO.01.02,SDO.01.02.03,Ethology (Animal Behavior),Etologi (dyreatferd)
+SDO.01.02,SDO.01.02.04,Comparative Anatomy,Sammenlignende anatomi
+SDO.01.03,SDO.01.03.01,Genomics,Genomikk
+SDO.01.03,SDO.01.03.02,Proteomics,Proteomikk
+SDO.01.03,SDO.01.03.03,Epigenetics,Epigenetikk
+SDO.01.03,SDO.01.03.04,Molecular Genetics,Molekylærgenetikk
+SDO.01.04,SDO.01.04.01,Population Ecology,Populasjonsøkologi
+SDO.01.04,SDO.01.04.02,Community Ecology,Samfunnsøkologi
+SDO.01.04,SDO.01.04.03,Evolutionary Biology,Evolusjonsbiologi
+SDO.01.04,SDO.01.04.04,Conservation Ecology,Bevaringsøkologi
+SDO.01.05,SDO.01.05.01,Bacteriology,Bakteriologi
+SDO.01.05,SDO.01.05.02,Virology,Virologi
+SDO.01.05,SDO.01.05.03,Mycology,Mykologi
+SDO.01.05,SDO.01.05.04,Parasitology,Parasitologi
+SDO.01.06,SDO.01.06.01,Innate Immunity,Medfødt immunitet
+SDO.01.06,SDO.01.06.02,Adaptive Immunity,Adaptiv immunitet
+SDO.01.06,SDO.01.06.03,Immunopathology,Immunopatologi
+SDO.01.06,SDO.01.06.04,Vaccinology,Vaksinologi
+SDO.01.07,SDO.01.07.01,Cell Structure & Function,Celleoppbygning og funksjon
+SDO.01.07,SDO.01.07.02,Developmental Genetics,Utviklingsgenetikk
+SDO.01.07,SDO.01.07.03,Stem Cell Biology,Stamcellebiologi
+SDO.01.07,SDO.01.07.04,Cell Signaling & Communication,Celle­signalering og kommunikasjon
+SDO.01.08,SDO.01.08.01,Enzymology,Enzymologi
+SDO.01.08,SDO.01.08.02,Metabolism,Metabolisme
+SDO.01.08,SDO.01.08.03,Structural Biology,Strukturell biologi
+SDO.01.08,SDO.01.08.04,Biophysical Methods,Biofysiske metoder
+SDO.01.09,SDO.01.09.01,Neurophysiology,Nevrofysiologi
+SDO.01.09,SDO.01.09.02,Cardiovascular Physiology,Hjerte- og karsfysiologi
+SDO.01.09,SDO.01.09.03,Endocrinology,Endokrinologi
+SDO.01.09,SDO.01.09.04,Systems Physiology,Systemfysiologi
+SDO.01.10,SDO.01.10.01,Marine Ecology,Marin økologi
+SDO.01.10,SDO.01.10.02,Freshwater Ecology,Ferskvannsøkologi
+SDO.01.10,SDO.01.10.03,Fisheries Biology,Fiskeribiologi
+SDO.01.10,SDO.01.10.04,Marine Biotechnology,Marin bioteknologi
+SDO.01.11,SDO.01.11.01,Sequence Analysis,Sekvensanalyse
+SDO.01.11,SDO.01.11.02,Structural Bioinformatics,Strukturell bioinformatikk
+SDO.01.11,SDO.01.11.03,Systems Biology,Systembiologi
+SDO.01.11,SDO.01.11.04,Computational Genomics,Beregnet genomikk
+SDO.01.12,SDO.01.12.01,Genetic Engineering,Genetisk ingeniørkunst
+SDO.01.12,SDO.01.12.02,Synthetic Biology,Syntetisk biologi
+SDO.01.12,SDO.01.12.03,Industrial Biotechnology,Industriell bioteknologi
+SDO.01.12,SDO.01.12.04,Biomedical Biotechnology,Biomedisinsk bioteknologi
+SDO.01.13,SDO.01.13.01,Vertebrate Paleontology,Virveldy rpaleontologi
+SDO.01.13,SDO.01.13.02,Invertebrate Paleontology,Invertebratpaleontologi
+SDO.01.13,SDO.01.13.03,Paleobotany,Paleobotanikk
+SDO.01.13,SDO.01.13.04,Micropaleontology,Mikropaleontologi
+SDO.01.14,SDO.01.14.01,Conservation Genetics,Bevaringsgenetikk
+SDO.01.14,SDO.01.14.02,Protected Area Management,Forvaltning av verneområder
+SDO.01.14,SDO.01.14.03,Restoration Ecology,Restaureringsøkologi
+SDO.01.14,SDO.01.14.04,Wildlife Management,Viltforvaltning
+SDO.02.01,SDO.02.01.01,Internal Medicine,Indremedisin
+SDO.02.01,SDO.02.01.02,Surgery,Kirurgi
+SDO.02.01,SDO.02.01.03,Pediatrics,Pediatri
+SDO.02.01,SDO.02.01.04,Obstetrics & Gynecology,Fødselshjelp og gynekologi
+SDO.02.02,SDO.02.02.01,Pharmacokinetics & Pharmacodynamics,Farmakokinetikk og farmakodynamikk
+SDO.02.02,SDO.02.02.02,Drug Discovery & Development,Legemiddeloppdagelse og -utvikling
+SDO.02.02,SDO.02.02.03,Clinical Trials,Kliniske studier
+SDO.02.02,SDO.02.02.04,Toxicology,Toksikologi
+SDO.02.03,SDO.02.03.01,Gross Anatomy,Makroskopisk anatomi
+SDO.02.03,SDO.02.03.02,Histology,Histologi
+SDO.02.03,SDO.02.03.03,Neuroanatomy,Neuroanatomi
+SDO.02.03,SDO.02.03.04,Comparative Anatomy,Sammenlignende anatomi
+SDO.02.04,SDO.02.04.01,Epidemiologic Methods,Epidemiologiske metoder
+SDO.02.04,SDO.02.04.02,Health Policy & Management,Helsepolitikk og -ledelse
+SDO.02.04,SDO.02.04.03,Environmental & Occupational Health,Miljø- og arbeidshelse
+SDO.02.04,SDO.02.04.04,Global Health,Global helse
+SDO.03.01,SDO.03.01.01,Organic Synthesis,Organisk syntese
+SDO.03.01,SDO.03.01.02,Organometallic Chemistry,Organometallisk kjemi
+SDO.03.01,SDO.03.01.03,Coordination Chemistry,Koordinasjonskjemi
+SDO.03.01,SDO.03.01.04,Inorganic Materials,Uorganiske materialer
+SDO.03.02,SDO.03.02.01,Spectroscopy,Spektroskopi
+SDO.03.02,SDO.03.02.02,Electrochemistry,Elektrokjemi
+SDO.03.02,SDO.03.02.03,Thermodynamics & Kinetics,Termodynamikk og kinetikk
+SDO.03.02,SDO.03.02.04,Surface & Colloid Chemistry,Overflate- og kolloidkjemi
+SDO.03.03,SDO.03.03.01,Ceramics & Composites,Keramikk og kompositter
+SDO.03.03,SDO.03.03.02,Metals & Alloys,Metaller og legeringer
+SDO.03.03,SDO.03.03.03,Semiconductors,Halvledere
+SDO.03.03,SDO.03.03.04,Soft Materials,Myke materialer
+SDO.03.04,SDO.03.04.01,Polymer Chemistry,Polymerkjemi
+SDO.03.04,SDO.03.04.02,Polymer Physics,Polymerfysikk
+SDO.03.04,SDO.03.04.03,Nanomaterial Synthesis,Nanomaterialsyntese
+SDO.03.04,SDO.03.04.04,Nanofabrication & Applications,Nanofabrikasjon og anvendelser
+SDO.04.01,SDO.04.01.01,Mechanics & Thermodynamics,Mekanikk og termodynamikk
+SDO.04.01,SDO.04.01.02,Electromagnetism,Elektromagnetisme
+SDO.04.01,SDO.04.01.03,Quantum Mechanics,Kvantemekanikk
+SDO.04.01,SDO.04.01.04,Statistical Physics,Statistisk fysikk
+SDO.04.02,SDO.04.02.01,Stellar Astrophysics,Stjerneastrofysikk
+SDO.04.02,SDO.04.02.02,Exoplanets & Planetary Science,Eksoplaneter og planetforskning
+SDO.04.02,SDO.04.02.03,Galaxies & Cosmology,Galakser og kosmologi
+SDO.04.02,SDO.04.02.04,High-Energy Astrophysics,Høyenergiastrofysikk
+SDO.04.03,SDO.04.03.01,Geometrical & Physical Optics,Geometrisk og fysisk optikk
+SDO.04.03,SDO.04.03.02,Lasers,Lasere
+SDO.04.03,SDO.04.03.03,Nonlinear Optics,Ikke-lineær optikk
+SDO.04.03,SDO.04.03.04,Optical Communications,Optisk kommunikasjon
+SDO.04.04,SDO.04.04.01,Nuclear Structure,Kjernestruktur
+SDO.04.04,SDO.04.04.02,Particle Physics (HEP),Partikkelfysikk (HEP)
+SDO.04.04,SDO.04.04.03,Detector Physics,Detektorfysikk
+SDO.04.04,SDO.04.04.04,Nuclear Astrophysics,Kjerneastrofysikk
+SDO.05.01,SDO.05.01.01,Linear Algebra,Lineær algebra
+SDO.05.01,SDO.05.01.02,Abstract Algebra,Abstrakt algebra
+SDO.05.01,SDO.05.01.03,Differential Geometry,Differensialgeometri
+SDO.05.01,SDO.05.01.04,Topology,Topologi
+SDO.05.02,SDO.05.02.01,Real Analysis,Reell analyse
+SDO.05.02,SDO.05.02.02,Complex Analysis,Kompleks analyse
+SDO.05.02,SDO.05.02.03,Differential Equations,Differensialligninger
+SDO.05.02,SDO.05.02.04,Numerical Analysis,Numerisk analyse
+SDO.05.03,SDO.05.03.01,Probability Theory,Sannsynlighetsteori
+SDO.05.03,SDO.05.03.02,Statistical Inference,Statistisk inferens
+SDO.05.03,SDO.05.03.03,Bayesian Statistics,Bayesiansk statistikk
+SDO.05.03,SDO.05.03.04,Stochastic Processes,Stokastiske prosesser
+SDO.05.04,SDO.05.04.01,Mathematical Modeling,Matematisk modellering
+SDO.05.04,SDO.05.04.02,Operations Research,Operasjonsanalyse
+SDO.05.04,SDO.05.04.03,Computational Mathematics,Beregningsmatematikk
+SDO.05.04,SDO.05.04.04,Applied Optimization,Anvendt optimering
+SDO.06.01,SDO.06.01.01,Programming Languages,Programmeringsspråk
+SDO.06.01,SDO.06.01.02,Software Architecture,Programvarearkitektur
+SDO.06.01,SDO.06.01.03,Software Testing & QA,Programvaretesting og kvalitetssikring
+SDO.06.01,SDO.06.01.04,Agile & DevOps,Agile og DevOps
+SDO.06.02,SDO.06.02.01,Computer Networks,Datamaskinnettverk
+SDO.06.02,SDO.06.02.02,Cybersecurity,Cybersikkerhet
+SDO.06.02,SDO.06.02.03,Cryptography,Kryptografi
+SDO.06.02,SDO.06.02.04,Cloud Infrastructure,Skytjenesteinfrastruktur
+SDO.06.03,SDO.06.03.01,Databases & Big Data,Databaser og stordata
+SDO.06.03,SDO.06.03.02,Artificial Intelligence,Kunstig intelligens
+SDO.06.03,SDO.06.03.03,Machine Learning,Maskinlæring
+SDO.06.03,SDO.06.03.04,Data Mining,Datagruvedrift
+SDO.06.04,SDO.06.04.01,Human-Computer Interaction,Menneske–maskin-interaksjon
+SDO.06.04,SDO.06.04.02,User Experience (UX),Brukeropplevelse (UX)
+SDO.06.04,SDO.06.04.03,Interface Design,Grensesnittdesign
+SDO.06.04,SDO.06.04.04,Accessibility,Universell utforming
+SDO.07.01,SDO.07.01.01,Mechanical Design,Maskindesign
+SDO.07.01,SDO.07.01.02,Manufacturing Processes,Produksjonsprosesser
+SDO.07.01,SDO.07.01.03,Robotics,Robotikk
+SDO.07.01,SDO.07.01.04,Mechatronics,Mekatronikk
+SDO.07.02,SDO.07.02.01,Power Systems,Kraftsystemer
+SDO.07.02,SDO.07.02.02,Electronics,Elektronikk
+SDO.07.02,SDO.07.02.03,Control Systems,Reguleringsteknikk
+SDO.07.02,SDO.07.02.04,Telecommunications,Telekommunikasjon
+SDO.07.03,SDO.07.03.01,Structural Engineering,Konstruksjonsteknikk
+SDO.07.03,SDO.07.03.02,Geotechnical Engineering,Geoteknikk
+SDO.07.03,SDO.07.03.03,Transportation Engineering,Samferdselsteknikk
+SDO.07.03,SDO.07.03.04,Water Resources Engineering,Vannressursteknikk
+SDO.07.04,SDO.07.04.01,Renewable Energy,Fornybar energi
+SDO.07.04,SDO.07.04.02,Sustainable Engineering,Bærekraftig ingeniørfag
+SDO.07.04,SDO.07.04.03,Energy Storage,Energilagring
+SDO.07.04,SDO.07.04.04,Nuclear Energy,Kjernekraft
+SDO.08.01,SDO.08.01.01,Mineralogy & Petrology,Mineralogi og petrologi
+SDO.08.01,SDO.08.01.02,Seismology,Seismologi
+SDO.08.01,SDO.08.01.03,Volcanology,Vulkanologi
+SDO.08.01,SDO.08.01.04,Geochemistry,Geokjemi
+SDO.08.02,SDO.08.02.01,Climatology,Klimatologi
+SDO.08.02,SDO.08.02.02,Weather Forecasting,Værvarsling
+SDO.08.02,SDO.08.02.03,Atmospheric Science,Atmosfærevitenskap
+SDO.08.02,SDO.08.02.04,Climate Modeling,Klimamodellering
+SDO.08.03,SDO.08.03.01,Physical Oceanography,Fysisk oseanografi
+SDO.08.03,SDO.08.03.02,Chemical Oceanography,Kjemisk oseanografi
+SDO.08.03,SDO.08.03.03,Hydrology,Hydrologi
+SDO.08.03,SDO.08.03.04,Glaciology,Glasiologi
+SDO.08.04,SDO.08.04.01,Environmental Policy,Miljøpolitikk
+SDO.08.04,SDO.08.04.02,Pollution & Waste Management,Forurensning og avfallshåndtering
+SDO.08.04,SDO.08.04.03,Conservation Science,Bevaringsvitenskap
+SDO.08.04,SDO.08.04.04,Sustainability Studies,Bærekraftstudier
+SDO.09.01,SDO.09.01.01,Crop Science,Plantevitenskap
+SDO.09.01,SDO.09.01.02,Soil Science,Jordfag
+SDO.09.01,SDO.09.01.03,Agroecology,Agroøkologi
+SDO.09.01,SDO.09.01.04,Plant Breeding,Planteforedling
+SDO.09.02,SDO.09.02.01,Animal Nutrition,Dyreernæring
+SDO.09.02,SDO.09.02.02,Animal Breeding & Genetics,Avl og genetikk
+SDO.09.02,SDO.09.02.03,Veterinary Medicine,Veterinærmedisin
+SDO.09.02,SDO.09.02.04,Livestock Management,Husdyrhold
+SDO.09.03,SDO.09.03.01,Food Chemistry,Matkjemi
+SDO.09.03,SDO.09.03.02,Food Processing,Matforedling
+SDO.09.03,SDO.09.03.03,Food Safety,Matsikkerhet
+SDO.09.03,SDO.09.03.04,Nutrition Science,Ernæringsvitenskap
+SDO.09.04,SDO.09.04.01,Silviculture,Skogskjøtsel
+SDO.09.04,SDO.09.04.02,Forest Ecology,Skogøkologi
+SDO.09.04,SDO.09.04.03,Aquaculture,Akvakultur
+SDO.09.04,SDO.09.04.04,Fisheries Management,Fiskeriforvaltning
+SDO.10.01,SDO.10.01.01,Residential Buildings,Boligbygninger
+SDO.10.01,SDO.10.01.02,Commercial Buildings,Kommersielle bygninger
+SDO.10.01,SDO.10.01.03,Public Buildings,Offentlige bygninger
+SDO.10.01,SDO.10.01.04,Industrial Buildings,Industribygninger
+SDO.10.02,SDO.10.02.01,Construction Techniques,Byggeteknikker
+SDO.10.02,SDO.10.02.02,Building Materials,Byggematerialer
+SDO.10.02,SDO.10.02.03,Structural Systems,Konstruksjonssystemer
+SDO.10.02,SDO.10.02.04,Sustainable Construction,Bærekraftig bygging
+SDO.10.03,SDO.10.03.01,Urban Design,Bydesign
+SDO.10.03,SDO.10.03.02,Land Use Planning,Arealplanlegging
+SDO.10.03,SDO.10.03.03,Transport Planning,Transportplanlegging
+SDO.10.03,SDO.10.03.04,Smart Cities,Småbyer og smartbyer
+SDO.10.04,SDO.10.04.01,Classical Architecture,Klassisk arkitektur
+SDO.10.04,SDO.10.04.02,Modern Architecture,Moderne arkitektur
+SDO.10.04,SDO.10.04.03,Postmodern Architecture,Postmoderne arkitektur
+SDO.10.04,SDO.10.04.04,Regional Architecture,Regional arkitektur
+SDO.11.01,SDO.11.01.01,Painting,Malerkunst
+SDO.11.01,SDO.11.01.02,Sculpture,Skulptur
+SDO.11.01,SDO.11.01.03,Drawing,Tegning
+SDO.11.01,SDO.11.01.04,Printmaking,Grafikk (trykk)
+SDO.11.02,SDO.11.02.01,Industrial Design,Industridesign
+SDO.11.02,SDO.11.02.02,Fashion Design,Motedesign
+SDO.11.02,SDO.11.02.03,Graphic Design,Grafisk design
+SDO.11.02,SDO.11.02.04,Product Design,Produktdesign
+SDO.11.03,SDO.11.03.01,Portrait Photography,Portrettfotografi
+SDO.11.03,SDO.11.03.02,Documentary Photography,Dokumentarfotografi
+SDO.11.03,SDO.11.03.03,Art Photography,Kunstfotografi
+SDO.11.03,SDO.11.03.04,Digital Photography,Digitalfotografi
+SDO.11.04,SDO.11.04.01,Renaissance Art,Renessansekunst
+SDO.11.04,SDO.11.04.02,Modern Art,Moderne kunst
+SDO.11.04,SDO.11.04.03,Contemporary Art,Samtidskunst
+SDO.11.04,SDO.11.04.04,Art Criticism,Kunstkritikk
+SDO.12.01,SDO.12.01.01,Harmony & Counterpoint,Harmonilære og kontrapunkt
+SDO.12.01,SDO.12.01.02,Composition Techniques,Komposisjonsteknikker
+SDO.12.01,SDO.12.01.03,Music Theory History,Musikkteoriens historie
+SDO.12.01,SDO.12.01.04,Analysis of Music,Musikkanalyse
+SDO.12.02,SDO.12.02.01,Classical Music,Klassisk musikk
+SDO.12.02,SDO.12.02.02,Jazz & Blues,Jazz og blues
+SDO.12.02,SDO.12.02.03,Popular Music,Populærmusikk
+SDO.12.02,SDO.12.02.04,Folk & World Music,Folke- og verdensmusikk
+SDO.12.03,SDO.12.03.01,Keyboard Instruments,Tangent­instrumenter
+SDO.12.03,SDO.12.03.02,String Instruments,Strykeinstrumenter
+SDO.12.03,SDO.12.03.03,Wind Instruments,Blåseinstrumenter
+SDO.12.03,SDO.12.03.04,Vocal Performance,Vokal fremføring
+SDO.12.04,SDO.12.04.01,Music Production,Musikkproduksjon
+SDO.12.04,SDO.12.04.02,Music Distribution,Musikkdistribusjon
+SDO.12.04,SDO.12.04.03,Music Business,Musikkbransje
+SDO.12.04,SDO.12.04.04,Recording Technology,Innspillingsteknologi
+SDO.13.01,SDO.13.01.01,Epic & Narrative Poetry,Epos og fortellende poesi
+SDO.13.01,SDO.13.01.02,Lyric Poetry,Lyrikk
+SDO.13.01,SDO.13.01.03,Short Stories,Noveller
+SDO.13.01,SDO.13.01.04,Novels,Romaner
+SDO.13.02,SDO.13.02.01,Romanticism,Romantikken
+SDO.13.02,SDO.13.02.02,Realism & Naturalism,Realisme og naturalisme
+SDO.13.02,SDO.13.02.03,Modernism,Modernisme
+SDO.13.02,SDO.13.02.04,Postmodernism,Postmodernisme
+SDO.13.03,SDO.13.03.01,Classical Rhetoric,Klassisk retorikk
+SDO.13.03,SDO.13.03.02,Stylistic Devices,Stilistiske virkemidler
+SDO.13.03,SDO.13.03.03,Discourse Analysis,Diskursanalyse
+SDO.13.03,SDO.13.03.04,Narratology,Narratologi
+SDO.13.04,SDO.13.04.01,Editing Techniques,Redigeringsteknikker
+SDO.13.04,SDO.13.04.02,Publishing Industry,Forlagsbransjen
+SDO.13.04,SDO.13.04.03,Digital Publishing,Digital publisering
+SDO.13.04,SDO.13.04.04,Translation Studies,Oversettelsesvitenskap
+SDO.14.01,SDO.14.01.01,Playwriting,Dramatikk (skrivekunst)
+SDO.14.01,SDO.14.01.02,Theatre Performance,Teaterfremføring
+SDO.14.01,SDO.14.01.03,Stage Design,Scenografi
+SDO.14.01,SDO.14.01.04,Theatre History,Teaterhistorie
+SDO.14.02,SDO.14.02.01,Film History,Filmhistorie
+SDO.14.02,SDO.14.02.02,Film Theory,Filmateori
+SDO.14.02,SDO.14.02.03,Cinematography,Filmfoto (kinematografi)
+SDO.14.02,SDO.14.02.04,Film Production,Filmproduksjon
+SDO.14.03,SDO.14.03.01,Television Studies,TV-studier
+SDO.14.03,SDO.14.03.02,Radio Broadcasting,Radiokringkasting
+SDO.14.03,SDO.14.03.03,Television Production,TV-produksjon
+SDO.14.03,SDO.14.03.04,Digital Streaming Media,Digitale strømmetjenester
+SDO.14.04,SDO.14.04.01,Digital Animation,Digital animasjon
+SDO.14.04,SDO.14.04.02,Interactive Media,Interaktive medier
+SDO.14.04,SDO.14.04.03,Video Art,Videokunst
+SDO.14.04,SDO.14.04.04,Virtual & Augmented Reality Arts,Virtuell og utvidet virkelighetskunst
+SDO.15.01,SDO.15.01.01,Ancient Civilizations,Antikke sivilisasjoner
+SDO.15.01,SDO.15.01.02,Medieval Europe,Middelalderens Europa
+SDO.15.01,SDO.15.01.03,Asian & Middle Eastern History,Asiatisk og Midtøstens historie
+SDO.15.01,SDO.15.01.04,Pre-Columbian Americas,Førkolumbianske Amerika
+SDO.15.02,SDO.15.02.01,Renaissance History,Renessansens historie
+SDO.15.02,SDO.15.02.02,Enlightenment Era,Opplysningstiden
+SDO.15.02,SDO.15.02.03,19th Century History,1800-tallets historie
+SDO.15.02,SDO.15.02.04,20th Century History,1900-tallets historie
+SDO.15.03,SDO.15.03.01,European History,Europeisk historie
+SDO.15.03,SDO.15.03.02,American History,Amerikansk historie
+SDO.15.03,SDO.15.03.03,Asian History,Asiatisk historie
+SDO.15.03,SDO.15.03.04,African History,Afrikansk historie
+SDO.15.04,SDO.15.04.01,Historiography,Historieskriving
+SDO.15.04,SDO.15.04.02,Historical Methods,Historiske metoder
+SDO.15.04,SDO.15.04.03,Archival Studies,Arkivstudier
+SDO.15.04,SDO.15.04.04,Oral History,Muntlig historie
+SDO.16.01,SDO.16.01.01,Ontology,Ontologi
+SDO.16.01,SDO.16.01.02,Epistemology,Erkjennelsesteori
+SDO.16.01,SDO.16.01.03,Philosophy of Mind,Bevissthetsfilosofi
+SDO.16.01,SDO.16.01.04,Philosophy of Science,Vitenskapsfilosofi
+SDO.16.02,SDO.16.02.01,Normative Ethics,Normativ etikk
+SDO.16.02,SDO.16.02.02,Applied Ethics,Anvendt etikk
+SDO.16.02,SDO.16.02.03,Bioethics,Bioetikk
+SDO.16.02,SDO.16.02.04,Environmental Ethics,Miljøetikk
+SDO.16.03,SDO.16.03.01,Formal Logic,Formell logikk
+SDO.16.03,SDO.16.03.02,Mathematical Logic,Matematisk logikk
+SDO.16.03,SDO.16.03.03,Philosophical Logic,Filosofisk logikk
+SDO.16.03,SDO.16.03.04,Computational Logic,Beregningslogikk
+SDO.16.04,SDO.16.04.01,Philosophy of Art,Kunstfilosofi
+SDO.16.04,SDO.16.04.02,Philosophy of Literature,Litteraturfilosofi
+SDO.16.04,SDO.16.04.03,Philosophy of Music,Musikkfilosofi
+SDO.16.04,SDO.16.04.04,Philosophy of Beauty,Skjønnhetsfilosofi
+SDO.17.01,SDO.17.01.01,Christianity,Kristendom
+SDO.17.01,SDO.17.01.02,Islam,Islam
+SDO.17.01,SDO.17.01.03,Judaism,Jødedom
+SDO.17.01,SDO.17.01.04,Buddhism & Hinduism,Buddhisme og hinduisme
+SDO.17.02,SDO.17.02.01,Systematic Theology,Systematisk teologi
+SDO.17.02,SDO.17.02.02,Dogmatics,Dogmatikk
+SDO.17.02,SDO.17.02.03,Comparative Theology,Sammenlignende teologi
+SDO.17.02,SDO.17.02.04,Philosophy of Religion,Religionsfilosofi
+SDO.17.03,SDO.17.03.01,Greek & Roman Mythology,Gresk og romersk mytologi
+SDO.17.03,SDO.17.03.02,Norse Mythology,Norrøn mytologi
+SDO.17.03,SDO.17.03.03,World Mythologies,Verdensmytologier
+SDO.17.03,SDO.17.03.04,Folklore Studies,Folkloristikk
+SDO.17.04,SDO.17.04.01,Ritual Studies,Ritualstudier
+SDO.17.04,SDO.17.04.02,Sacred Texts,Hellige tekster
+SDO.17.04,SDO.17.04.03,Religious Practices,Religiøse praksiser
+SDO.17.04,SDO.17.04.04,Pilgrimage & Festivals,Pilegrimsferd og festivaler
+SDO.18.01,SDO.18.01.01,Articulatory Phonetics,Artikulatorisk fonetikk
+SDO.18.01,SDO.18.01.02,Acoustic Phonetics,Akustisk fonetikk
+SDO.18.01,SDO.18.01.03,Phonological Theory,Fonologisk teori
+SDO.18.01,SDO.18.01.04,Prosody,Prosodi
+SDO.18.02,SDO.18.02.01,Word Formation,Orddannelse
+SDO.18.02,SDO.18.02.02,Sentence Structure,Setningsstruktur
+SDO.18.02,SDO.18.02.03,Syntax Theory,Syntaksteori
+SDO.18.02,SDO.18.02.04,Morphosyntax,Morfosyntaks
+SDO.18.03,SDO.18.03.01,Lexical Semantics,Leksikalsk semantikk
+SDO.18.03,SDO.18.03.02,Pragmatics of Language,Pragmatikk
+SDO.18.03,SDO.18.03.03,Discourse Semantics,Diskurssemantikk
+SDO.18.03,SDO.18.03.04,Cognitive Semantics,Kognitiv semantikk
+SDO.18.04,SDO.18.04.01,Dialectology,Dialektologi
+SDO.18.04,SDO.18.04.02,Language Variation,Språkvariasjon
+SDO.18.04,SDO.18.04.03,Sociolinguistic Theory,Sosiolingvistisk teori
+SDO.18.04,SDO.18.04.04,Language Contact,Språkkontakt
+SDO.19.01,SDO.19.01.01,Popular Culture,Populærkultur
+SDO.19.01,SDO.19.01.02,Media & Culture,Media og kultur
+SDO.19.01,SDO.19.01.03,Cultural Theory,Kulturteori
+SDO.19.01,SDO.19.01.04,Globalization & Culture,Globalisering og kultur
+SDO.19.02,SDO.19.02.01,Kinship Studies,Slektskapsstudier
+SDO.19.02,SDO.19.02.02,Anthropology of Religion,Religionsantropologi
+SDO.19.02,SDO.19.02.03,Political Anthropology,Politisk antropologi
+SDO.19.02,SDO.19.02.04,Economic Anthropology,Økonomisk antropologi
+SDO.19.03,SDO.19.03.01,Ethnographic Methods,Etnografiske metoder
+SDO.19.03,SDO.19.03.02,Fieldwork Studies,Feltarbeid
+SDO.19.03,SDO.19.03.03,Visual Ethnography,Visuell etnografi
+SDO.19.03,SDO.19.03.04,Comparative Ethnography,Sammenlignende etnografi
+SDO.19.04,SDO.19.04.01,Folklore Genres,Folklore-sjangre
+SDO.19.04,SDO.19.04.02,Oral Traditions,Muntlige tradisjoner
+SDO.19.04,SDO.19.04.03,Festivals & Rituals,Festivaler og ritualer
+SDO.19.04,SDO.19.04.04,Traditional Music & Dance,Tradisjonell musikk og dans
+SDO.20.01,SDO.20.01.01,Teaching Methods,Undervisningsmetoder
+SDO.20.01,SDO.20.01.02,Learning Theories,Læringsteorier
+SDO.20.01,SDO.20.01.03,Teacher Education,Lærerutdanning
+SDO.20.01,SDO.20.01.04,Classroom Management,Klasseromsledelse
+SDO.20.02,SDO.20.02.01,Curriculum Design,Læreplandesign
+SDO.20.02,SDO.20.02.02,Assessment Methods,Vurderingsmetoder
+SDO.20.02,SDO.20.02.03,Educational Policy,Utdanningspolitikk
+SDO.20.02,SDO.20.02.04,Standards & Testing,Standarder og testing
+SDO.20.03,SDO.20.03.01,University Education,Universitetsutdanning
+SDO.20.03,SDO.20.03.02,Adult Education,Voksenopplæring
+SDO.20.03,SDO.20.03.03,Vocational Training,Yrkesutdanning
+SDO.20.03,SDO.20.03.04,Lifelong Learning,Livslang læring
+SDO.20.04,SDO.20.04.01,E-learning,Nettbasert læring
+SDO.20.04,SDO.20.04.02,Learning Technologies,Læringsteknologi
+SDO.20.04,SDO.20.04.03,Digital Classrooms,Digitale klasserom
+SDO.20.04,SDO.20.04.04,Educational Data Analytics,Utdanningsanalyse
+SDO.21.01,SDO.21.01.01,Perception,Persepsjon
+SDO.21.01,SDO.21.01.02,Memory & Learning,Hukommelse og læring
+SDO.21.01,SDO.21.01.03,Attention & Cognition,Oppmerksomhet og kognisjon
+SDO.21.01,SDO.21.01.04,Decision-Making,Beslutningstaking
+SDO.21.02,SDO.21.02.01,Clinical Psychology,Klinisk psykologi
+SDO.21.02,SDO.21.02.02,Psychotherapy,Psykoterapi
+SDO.21.02,SDO.21.02.03,Counseling Psychology,Rådgivningspsykologi
+SDO.21.02,SDO.21.02.04,Abnormal Psychology,Abnormalpsykologi
+SDO.21.03,SDO.21.03.01,Child Psychology,Barnepsykologi
+SDO.21.03,SDO.21.03.02,Adolescent Psychology,Ungdomspsykologi
+SDO.21.03,SDO.21.03.03,Adult Development,Voksenutvikling
+SDO.21.03,SDO.21.03.04,Aging & Gerontology,Aldring og gerontologi
+SDO.21.04,SDO.21.04.01,Social Influence,Sosial påvirkning
+SDO.21.04,SDO.21.04.02,Personality Theories,Personlighetsteorier
+SDO.21.04,SDO.21.04.03,Group Psychology,Gruppepsykologi
+SDO.21.04,SDO.21.04.04,Emotions & Motivation,Emosjoner og motivasjon
+SDO.22.01,SDO.22.01.01,Classical Sociology,Klassisk sosiologi
+SDO.22.01,SDO.22.01.02,Contemporary Sociology,Moderne sosiologi
+SDO.22.01,SDO.22.01.03,Critical Theory,Kritisk teori
+SDO.22.01,SDO.22.01.04,Social Movements,Sosiale bevegelser
+SDO.22.02,SDO.22.02.01,Population Studies,Befolkningsstudier
+SDO.22.02,SDO.22.02.02,Demographic Methods,Demografiske metoder
+SDO.22.02,SDO.22.02.03,Migration Studies,Migrasjonsstudier
+SDO.22.02,SDO.22.02.04,Population Policy,Befolkningspolitikk
+SDO.22.03,SDO.22.03.01,Social Stratification,Sosial lagdeling
+SDO.22.03,SDO.22.03.02,Poverty Studies,Fattigdomsstudier
+SDO.22.03,SDO.22.03.03,Welfare Studies,Velferdsstudier
+SDO.22.03,SDO.22.03.04,Social Inequality,Sosial ulikhet
+SDO.22.04,SDO.22.04.01,Quantitative Sociology,Kvantitativ sosiologi
+SDO.22.04,SDO.22.04.02,Qualitative Sociology,Kvalitativ sosiologi
+SDO.22.04,SDO.22.04.03,Mixed Methods,Blandede metoder
+SDO.22.04,SDO.22.04.04,Statistical Sociology,Statistisk sosiologi
+SDO.23.01,SDO.23.01.01,Democracy Studies,Demokratistudier
+SDO.23.01,SDO.23.01.02,Authoritarianism Studies,Autoritære systemer
+SDO.23.01,SDO.23.01.03,Political Philosophy,Politisk filosofi
+SDO.23.01,SDO.23.01.04,Comparative Politics,Sammenlignende politikk
+SDO.23.02,SDO.23.02.01,Public Management,Offentlig ledelse
+SDO.23.02,SDO.23.02.02,Policy Analysis,Poliseanalyse
+SDO.23.02,SDO.23.02.03,Local Government,Kommuneforvaltning
+SDO.23.02,SDO.23.02.04,Governance & Regulation,Styring og regulering
+SDO.23.03,SDO.23.03.01,International Organizations,Internasjonale organisasjoner
+SDO.23.03,SDO.23.03.02,Foreign Policy,Utenrikspolitikk
+SDO.23.03,SDO.23.03.03,Peace & Conflict Studies,Fred- og konfliktstudier
+SDO.23.03,SDO.23.03.04,Diplomacy,Diplomati
+SDO.23.04,SDO.23.04.01,Electoral Systems,Valgsystemer
+SDO.23.04,SDO.23.04.02,Political Parties,Politiske partier
+SDO.23.04,SDO.23.04.03,Voting Behavior,Valgatferd
+SDO.23.04,SDO.23.04.04,Campaign Studies,Kampanjestudier
+SDO.24.01,SDO.24.01.01,Civil Procedure,Sivilprosess
+SDO.24.01,SDO.24.01.02,Property Law,Tingsrett
+SDO.24.01,SDO.24.01.03,Family Law,Familierett
+SDO.24.01,SDO.24.01.04,Inheritance Law,Arverett
+SDO.24.02,SDO.24.02.01,Criminal Procedure,Straffeprosess
+SDO.24.02,SDO.24.02.02,Criminology,Kriminologi
+SDO.24.02,SDO.24.02.03,Penology,Strafferettspleie (penologi)
+SDO.24.02,SDO.24.02.04,Forensic Science & Law,Rettsteknikk og juss
+SDO.24.03,SDO.24.03.01,Contract Law,Kontraktsrett
+SDO.24.03,SDO.24.03.02,Commercial Law,Handelsrett
+SDO.24.03,SDO.24.03.03,Corporate Law,Selskapsrett
+SDO.24.03,SDO.24.03.04,International Business Law,Internasjonal forretningsjus
+SDO.24.04,SDO.24.04.01,Constitutional Law,Konstitusjonell rett
+SDO.24.04,SDO.24.04.02,Administrative Law,Forvaltningsrett
+SDO.24.04,SDO.24.04.03,Human Rights Law,Menneskerettigheter
+SDO.24.04,SDO.24.04.04,Public International Law,Folkerett
+SDO.25.01,SDO.25.01.01,Economic Growth,Økonomisk vekst
+SDO.25.01,SDO.25.01.02,Fiscal Policy,Finanspolitikk
+SDO.25.01,SDO.25.01.03,Monetary Policy,Pengepolitikk
+SDO.25.01,SDO.25.01.04,International Economics,Internasjonal økonomi
+SDO.25.02,SDO.25.02.01,Consumer Behavior,Forbrukeratferd
+SDO.25.02,SDO.25.02.02,Labor Economics,Arbeidsøkonomi
+SDO.25.02,SDO.25.02.03,Market Structures,Markedsteori
+SDO.25.02,SDO.25.02.04,Game Theory,Spillteori
+SDO.25.03,SDO.25.03.01,Banking,Bankvesen
+SDO.25.03,SDO.25.03.02,Investment,Investering
+SDO.25.03,SDO.25.03.03,Corporate Finance,Bedriftsfinans
+SDO.25.03,SDO.25.03.04,Risk Management,Risikostyring
+SDO.25.04,SDO.25.04.01,Management Theory,Ledelsesteori
+SDO.25.04,SDO.25.04.02,Marketing Strategy,Markedsstrategi
+SDO.25.04,SDO.25.04.03,Business Administration,Forretningsadministrasjon
+SDO.25.04,SDO.25.04.04,Entrepreneurship,Entreprenørskap
+SDO.26.01,SDO.26.01.01,News Writing,Nyhetsskriving
+SDO.26.01,SDO.26.01.02,Investigative Journalism,Gravejournalistikk
+SDO.26.01,SDO.26.01.03,Feature Writing,Featurejournalistikk
+SDO.26.01,SDO.26.01.04,Digital Journalism,Digital journalistikk
+SDO.26.02,SDO.26.02.01,Publishing Practices,Forlagspraksis
+SDO.26.02,SDO.26.02.02,Media Ownership,Medieeierskap
+SDO.26.02,SDO.26.02.03,Advertising,Reklame
+SDO.26.02,SDO.26.02.04,Digital Media Industry,Digital mediebransje
+SDO.26.03,SDO.26.03.01,Media Ethics,Medieetikk
+SDO.26.03,SDO.26.03.02,Media Law,Mediejuss
+SDO.26.03,SDO.26.03.03,Freedom of Press,Pressefrihet
+SDO.26.03,SDO.26.03.04,Censorship Studies,Sensurstudier
+SDO.26.04,SDO.26.04.01,Editorial Processes,Redaksjonelle prosesser
+SDO.26.04,SDO.26.04.02,Fact-checking,Faktasjekk
+SDO.26.04,SDO.26.04.03,Copy Editing,Korrektur og redigering
+SDO.26.04,SDO.26.04.04,Newsroom Management,Nyhetsromledelse
+SDO.27.01,SDO.27.01.01,Highways & Roads,Veier og motorveier
+SDO.27.01,SDO.27.01.02,Railways,Jernbane
+SDO.27.01,SDO.27.01.03,Urban Transit,Bytransport
+SDO.27.01,SDO.27.01.04,Sustainable Transport,Bærekraftig transport
+SDO.27.02,SDO.27.02.01,Shipping,Skipsfart
+SDO.27.02,SDO.27.02.02,Harbor & Port Studies,Havne- og portstudier
+SDO.27.02,SDO.27.02.03,Naval Architecture,Skipsdesign
+SDO.27.02,SDO.27.02.04,Maritime Logistics,Maritim logistikk
+SDO.27.03,SDO.27.03.01,Aviation Studies,Luftfartsstudier
+SDO.27.03,SDO.27.03.02,Air Traffic Management,Lufttrafikkstyring
+SDO.27.03,SDO.27.03.03,Aerospace Engineering,Romfartsteknologi
+SDO.27.03,SDO.27.03.04,Aviation Safety,Luftfartssikkerhet
+SDO.27.04,SDO.27.04.01,Supply Chain Management,Forsyningskjedeledelse
+SDO.27.04,SDO.27.04.02,Logistics Systems,Logistikksystemer
+SDO.27.04,SDO.27.04.03,Transport Economics,Transportøkonomi
+SDO.27.04,SDO.27.04.04,Freight Transport,Godstransport
+SDO.28.01,SDO.28.01.01,Geomorphology,Geomorfologi
+SDO.28.01,SDO.28.01.02,Climatology,Klimatologi
+SDO.28.01,SDO.28.01.03,Biogeography,Biogeografi
+SDO.28.01,SDO.28.01.04,Hydrology,Hydrologi
+SDO.28.02,SDO.28.02.01,Urban Geography,Bygeografi
+SDO.28.02,SDO.28.02.02,Economic Geography,Økonomisk geografi
+SDO.28.02,SDO.28.02.03,Cultural Geography,Kulturgeografi
+SDO.28.02,SDO.28.02.04,Political Geography,Politisk geografi
+SDO.28.03,SDO.28.03.01,Cartographic Methods,Kartografiske metoder
+SDO.28.03,SDO.28.03.02,GIS Applications,GIS-applikasjoner
+SDO.28.03,SDO.28.03.03,Remote Sensing,Fjernmåling
+SDO.28.03,SDO.28.03.04,Geospatial Analysis,Geospatiale analyser
+SDO.28.04,SDO.28.04.01,Toponyms,Stedsnavn
+SDO.28.04,SDO.28.04.02,Regions & Territories,Regioner og territorier
+SDO.28.04,SDO.28.04.03,Urban Settlements,Bybosetninger
+SDO.28.04,SDO.28.04.04,Rural Landscapes,Landsbygdslandskap
+SDO.29.01,SDO.29.01.01,Military History,Militærhistorie
+SDO.29.01,SDO.29.01.02,Military Organization,Militær organisasjon
+SDO.29.01,SDO.29.01.03,Military Technology,Militærteknologi
+SDO.29.01,SDO.29.01.04,Military Training,Militær utdanning
+SDO.29.02,SDO.29.02.01,Intelligence Studies,Etterretning
+SDO.29.02,SDO.29.02.02,Counterterrorism,Antiterror
+SDO.29.02,SDO.29.02.03,Cybersecurity & Cyberwarfare,Cybersikkerhet og cyberkrigføring
+SDO.29.02,SDO.29.02.04,Security Policy,Sikkerhetspolitikk
+SDO.29.03,SDO.29.03.01,Military Strategy,Militærstrategi
+SDO.29.03,SDO.29.03.02,Tactics,Taktikk
+SDO.29.03,SDO.29.03.03,Operational Art,Operasjonskunst
+SDO.29.03,SDO.29.03.04,Wargaming & Simulation,Krigsspill og simulering
+SDO.29.04,SDO.29.04.01,Weapons Systems,Våpensystemer
+SDO.29.04,SDO.29.04.02,Military Vehicles,Militære kjøretøy
+SDO.29.04,SDO.29.04.03,Defense Industry,Forsvarsindustri
+SDO.29.04,SDO.29.04.04,Emerging Defense Tech,Ny forsvarsteknologi
+SDO.30.01,SDO.30.01.01,Team Sports,Lagidrett
+SDO.30.01,SDO.30.01.02,Track & Field,Friidrett
+SDO.30.01,SDO.30.01.03,Winter Sports,Vinteridrett
+SDO.30.01,SDO.30.01.04,Water Sports,Vannsport
+SDO.30.02,SDO.30.02.01,Hiking & Camping,Fotturer og camping
+SDO.30.02,SDO.30.02.02,Hunting & Fishing,Jakt og fiske
+SDO.30.02,SDO.30.02.03,Climbing & Mountaineering,Klatring og fjellsport
+SDO.30.02,SDO.30.02.04,Outdoor Survival,Overlevelse i naturen
+SDO.30.03,SDO.30.03.01,Strength Training,Styrketrening
+SDO.30.03,SDO.30.03.02,Cardio Training,Kondisjonstrening
+SDO.30.03,SDO.30.03.03,Yoga & Pilates,Yoga og pilates
+SDO.30.03,SDO.30.03.04,Martial Arts,Kampsport
+SDO.30.04,SDO.30.04.01,Sports Organizations,Idrettsorganisasjoner
+SDO.30.04,SDO.30.04.02,Sports Law,Idrettsjuss
+SDO.30.04,SDO.30.04.03,Rules & Regulations,Regler og forskrifter
+SDO.30.04,SDO.30.04.04,Anti-Doping,Antidoping
+SDO.31.01,SDO.31.01.01,Chess,Sjakk
+SDO.31.01,SDO.31.01.02,Card Games,Kortspill
+SDO.31.01,SDO.31.01.03,Board Strategy Games,Brettstrategispill
+SDO.31.01,SDO.31.01.04,Role-Playing Games,Rollespill
+SDO.31.02,SDO.31.02.01,Action Games,Actionspill
+SDO.31.02,SDO.31.02.02,Strategy Games,Strategispill
+SDO.31.02,SDO.31.02.03,Simulation Games,Simulatorspill
+SDO.31.02,SDO.31.02.04,Role-Playing Video Games,Rollespill (dataspill)
+SDO.31.03,SDO.31.03.01,Game Mechanics,Spillmekanikker
+SDO.31.03,SDO.31.03.02,Game Narratives,Spillfortelling
+SDO.31.03,SDO.31.03.03,Level Design,Nivådesign
+SDO.31.03,SDO.31.03.04,Game Engines,Spillmotorer
+SDO.31.04,SDO.31.04.01,Esports Tournaments,E-sportsturneringer
+SDO.31.04,SDO.31.04.02,Gaming Industry,Spillindustri
+SDO.31.04,SDO.31.04.03,Streaming & Content Creation,Streaming og innholdsproduksjon
+SDO.31.04,SDO.31.04.04,Game Marketing,Spillmarkedsføring
+SDO.32.01,SDO.32.01.01,Coin Collecting,Mynsamling
+SDO.32.01,SDO.32.01.02,Ancient Coins,Antikke mynter
+SDO.32.01,SDO.32.01.03,Paper Money,Papirpenger
+SDO.32.01,SDO.32.01.04,Medals & Tokens,Medaljer og polletter
+SDO.32.02,SDO.32.02.01,Coats of Arms,Våpenskjold
+SDO.32.02,SDO.32.02.02,Genealogical Heraldry,Slektsheraldikk
+SDO.32.02,SDO.32.02.03,Ecclesiastical Heraldry,Kirkelig heraldikk
+SDO.32.02,SDO.32.02.04,Civic Heraldry,Borgerlig heraldikk
+SDO.32.03,SDO.32.03.01,Flag History,Flagghistorie
+SDO.32.03,SDO.32.03.02,National Flags,Nasjonalflagg
+SDO.32.03,SDO.32.03.03,Regional & Local Flags,Regionale og lokale flagg
+SDO.32.03,SDO.32.03.04,Flag Design & Symbolism,Flaggdesign og symbolikk
+SDO.32.04,SDO.32.04.01,Orders of Chivalry,Ridderordener
+SDO.32.04,SDO.32.04.02,Military Decorations,Militære dekorasjoner
+SDO.32.04,SDO.32.04.03,Civil Decorations,Sivile utmerkelser
+SDO.32.04,SDO.32.04.04,International Honors,Internasjonale utmerkelser

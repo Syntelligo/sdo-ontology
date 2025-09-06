@@ -1,0 +1,2445 @@
+@prefix sdo: <https://syntelligo.com/sdo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+sdo:scheme a skos:ConceptScheme ;
+    dct:title "SDO — Syntelligo Domain Ontology"@en ;
+    dct:description "A comprehensive domain ontology for scientific and academic classification"@en ;
+    dct:creator "Syntelligo" ;
+    dct:created "2025-01-01"^^xsd:date .
+
+sdo:SDO.01 a skos:Concept ;
+    skos:prefLabel "Biology & Life Sciences"@en ;
+    skos:prefLabel "Biologi og livsvitenskap"@nb ;
+    dct:identifier "SDO.01" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "570" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Biology> ;
+    skos:notation "A" ;
+    sdo:depth 1 ;
+    sdo:slug "biology-life-sciences" .
+
+sdo:SDO.02 a skos:Concept ;
+    skos:prefLabel "Health & Medicine"@en ;
+    skos:prefLabel "Helse og medisin"@nb ;
+    dct:identifier "SDO.02" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "610" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Medicine> ;
+    skos:notation "C" ;
+    skos:related <http://eurovoc.europa.eu/Health> ;
+    sdo:depth 1 ;
+    sdo:slug "health-medicine" .
+
+sdo:SDO.03 a skos:Concept ;
+    skos:prefLabel "Chemistry & Materials"@en ;
+    skos:prefLabel "Kjemi og materialer"@nb ;
+    dct:identifier "SDO.03" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "540" ;
+    skos:notation "620" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Chemistry> ;
+    sdo:depth 1 ;
+    sdo:slug "chemistry-materials" .
+
+sdo:SDO.04 a skos:Concept ;
+    skos:prefLabel "Physics & Astronomy"@en ;
+    skos:prefLabel "Fysikk og astronomi"@nb ;
+    dct:identifier "SDO.04" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "530" ;
+    skos:notation "520" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Physics> ;
+    sdo:depth 1 ;
+    sdo:slug "physics-astronomy" .
+
+sdo:SDO.05 a skos:Concept ;
+    skos:prefLabel "Mathematics & Statistics"@en ;
+    skos:prefLabel "Matematikk og statistikk"@nb ;
+    dct:identifier "SDO.05" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "510" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Mathematics> ;
+    sdo:depth 1 ;
+    sdo:slug "mathematics-statistics" .
+
+sdo:SDO.06 a skos:Concept ;
+    skos:prefLabel "Computing & IT"@en ;
+    skos:prefLabel "IT og informatikk"@nb ;
+    dct:identifier "SDO.06" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "004" ;
+    skos:notation "005" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Computing> ;
+    skos:related <http://eurovoc.europa.eu/Information%20technology> ;
+    sdo:depth 1 ;
+    sdo:slug "computing-it" .
+
+sdo:SDO.07 a skos:Concept ;
+    skos:prefLabel "Engineering & Technology"@en ;
+    skos:prefLabel "Ingeniørfag og teknologi"@nb ;
+    dct:identifier "SDO.07" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "620" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Engineering> ;
+    sdo:depth 1 ;
+    sdo:slug "engineering-technology" .
+
+sdo:SDO.08 a skos:Concept ;
+    skos:prefLabel "Earth & Environmental Sciences"@en ;
+    skos:prefLabel "Geovitenskap og miljø"@nb ;
+    dct:identifier "SDO.08" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "550" ;
+    skos:notation "551" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Earth_science> ;
+    skos:related <http://eurovoc.europa.eu/Environment> ;
+    sdo:depth 1 ;
+    sdo:slug "earth-environmental-sciences" .
+
+sdo:SDO.09 a skos:Concept ;
+    skos:prefLabel "Agriculture & Food Science"@en ;
+    skos:prefLabel "Landbruk og matvitenskap"@nb ;
+    dct:identifier "SDO.09" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "630" ;
+    skos:notation "641" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Agriculture> ;
+    skos:related <http://eurovoc.europa.eu/Agriculture> ;
+    sdo:depth 1 ;
+    sdo:slug "agriculture-food-science" .
+
+sdo:SDO.10 a skos:Concept ;
+    skos:prefLabel "Architecture & Urban Planning"@en ;
+    skos:prefLabel "Arkitektur og byplanlegging"@nb ;
+    dct:identifier "SDO.10" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "720" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Architecture> ;
+    skos:related <http://eurovoc.europa.eu/Architecture> ;
+    sdo:depth 1 ;
+    sdo:slug "architecture-urban-planning" .
+
+sdo:SDO.11 a skos:Concept ;
+    skos:prefLabel "Art & Design"@en ;
+    skos:prefLabel "Kunst og design"@nb ;
+    dct:identifier "SDO.11" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "700" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Arts> ;
+    sdo:depth 1 ;
+    sdo:slug "art-design" .
+
+sdo:SDO.12 a skos:Concept ;
+    skos:prefLabel "Music"@en ;
+    skos:prefLabel "Musikk"@nb ;
+    dct:identifier "SDO.12" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "780" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Music> ;
+    sdo:depth 1 ;
+    sdo:slug "music" .
+
+sdo:SDO.13 a skos:Concept ;
+    skos:prefLabel "Literature & Writing"@en ;
+    skos:prefLabel "Litteratur og skriving"@nb ;
+    dct:identifier "SDO.13" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "800" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Literature> ;
+    sdo:depth 1 ;
+    sdo:slug "literature-writing" .
+
+sdo:SDO.14 a skos:Concept ;
+    skos:prefLabel "Theatre, Film & Media Arts"@en ;
+    skos:prefLabel "Teater, film og mediekunst"@nb ;
+    dct:identifier "SDO.14" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "790" ;
+    skos:notation "791" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Performing_arts> ;
+    sdo:depth 1 ;
+    sdo:slug "theatre-film-media-arts" .
+
+sdo:SDO.15 a skos:Concept ;
+    skos:prefLabel "History"@en ;
+    skos:prefLabel "Historie"@nb ;
+    dct:identifier "SDO.15" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "900" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/History> ;
+    sdo:depth 1 ;
+    sdo:slug "history" .
+
+sdo:SDO.16 a skos:Concept ;
+    skos:prefLabel "Philosophy & Ethics"@en ;
+    skos:prefLabel "Filosofi og etikk"@nb ;
+    dct:identifier "SDO.16" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "100" ;
+    skos:notation "170" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Philosophy> ;
+    sdo:depth 1 ;
+    sdo:slug "philosophy-ethics" .
+
+sdo:SDO.17 a skos:Concept ;
+    skos:prefLabel "Religion & Mythology"@en ;
+    skos:prefLabel "Religion og mytologi"@nb ;
+    dct:identifier "SDO.17" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "200" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Religion> ;
+    sdo:depth 1 ;
+    sdo:slug "religion-mythology" .
+
+sdo:SDO.18 a skos:Concept ;
+    skos:prefLabel "Language & Linguistics"@en ;
+    skos:prefLabel "Språk og lingvistikk"@nb ;
+    dct:identifier "SDO.18" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "400" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Linguistics> ;
+    sdo:depth 1 ;
+    sdo:slug "language-linguistics" .
+
+sdo:SDO.19 a skos:Concept ;
+    skos:prefLabel "Culture & Anthropology"@en ;
+    skos:prefLabel "Kultur og antropologi"@nb ;
+    dct:identifier "SDO.19" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "300" ;
+    skos:notation "306" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Anthropology> ;
+    sdo:depth 1 ;
+    sdo:slug "culture-anthropology" .
+
+sdo:SDO.20 a skos:Concept ;
+    skos:prefLabel "Education"@en ;
+    skos:prefLabel "Utdanning"@nb ;
+    dct:identifier "SDO.20" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "370" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Education> ;
+    skos:related <http://eurovoc.europa.eu/Education> ;
+    sdo:depth 1 ;
+    sdo:slug "education" .
+
+sdo:SDO.21 a skos:Concept ;
+    skos:prefLabel "Psychology"@en ;
+    skos:prefLabel "Psykologi"@nb ;
+    dct:identifier "SDO.21" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "150" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Psychology> ;
+    sdo:depth 1 ;
+    sdo:slug "psychology" .
+
+sdo:SDO.22 a skos:Concept ;
+    skos:prefLabel "Sociology & Demography"@en ;
+    skos:prefLabel "Sosiologi og demografi"@nb ;
+    dct:identifier "SDO.22" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "300" ;
+    skos:notation "301" ;
+    skos:notation "304" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Sociology> ;
+    sdo:depth 1 ;
+    sdo:slug "sociology-demography" .
+
+sdo:SDO.23 a skos:Concept ;
+    skos:prefLabel "Politics & Government"@en ;
+    skos:prefLabel "Politikk og forvaltning"@nb ;
+    dct:identifier "SDO.23" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "320" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Politics> ;
+    skos:related <http://eurovoc.europa.eu/Politics> ;
+    sdo:depth 1 ;
+    sdo:slug "politics-government" .
+
+sdo:SDO.24 a skos:Concept ;
+    skos:prefLabel "Law & Justice"@en ;
+    skos:prefLabel "Juss og rettsvesen"@nb ;
+    dct:identifier "SDO.24" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "340" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Law> ;
+    skos:related <http://eurovoc.europa.eu/Law> ;
+    sdo:depth 1 ;
+    sdo:slug "law-justice" .
+
+sdo:SDO.25 a skos:Concept ;
+    skos:prefLabel "Business, Economics & Finance"@en ;
+    skos:prefLabel "Økonomi, finans og næringsliv"@nb ;
+    dct:identifier "SDO.25" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "330" ;
+    skos:notation "658" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Economics> ;
+    skos:related <http://eurovoc.europa.eu/Economy> ;
+    skos:related <http://eurovoc.europa.eu/Finance> ;
+    sdo:depth 1 ;
+    sdo:slug "business-economics-finance" .
+
+sdo:SDO.26 a skos:Concept ;
+    skos:prefLabel "Media & Journalism"@en ;
+    skos:prefLabel "Media og journalistikk"@nb ;
+    dct:identifier "SDO.26" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "070" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Journalism> ;
+    sdo:depth 1 ;
+    sdo:slug "media-journalism" .
+
+sdo:SDO.27 a skos:Concept ;
+    skos:prefLabel "Transportation & Logistics"@en ;
+    skos:prefLabel "Transport og logistikk"@nb ;
+    dct:identifier "SDO.27" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "388" ;
+    skos:notation "629" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Transport> ;
+    sdo:depth 1 ;
+    sdo:slug "transportation-logistics" .
+
+sdo:SDO.28 a skos:Concept ;
+    skos:prefLabel "Geography & Places"@en ;
+    skos:prefLabel "Geografi og steder"@nb ;
+    dct:identifier "SDO.28" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "910" ;
+    skos:notation "914" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Geography> ;
+    sdo:depth 1 ;
+    sdo:slug "geography-places" .
+
+sdo:SDO.29 a skos:Concept ;
+    skos:prefLabel "Warfare, Security & Defense"@en ;
+    skos:prefLabel "Forsvar, sikkerhet og krigføring"@nb ;
+    dct:identifier "SDO.29" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "355" ;
+    skos:notation "359" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Military> ;
+    skos:related <http://eurovoc.europa.eu/Defense> ;
+    sdo:depth 1 ;
+    sdo:slug "warfare-security-defense" .
+
+sdo:SDO.30 a skos:Concept ;
+    skos:prefLabel "Sports & Recreation"@en ;
+    skos:prefLabel "Sport og fritid"@nb ;
+    dct:identifier "SDO.30" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "796" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Sports> ;
+    sdo:depth 1 ;
+    sdo:slug "sports-recreation" .
+
+sdo:SDO.31 a skos:Concept ;
+    skos:prefLabel "Games & Video Games"@en ;
+    skos:prefLabel "Spill og dataspill"@nb ;
+    dct:identifier "SDO.31" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "794" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Video_game> ;
+    sdo:depth 1 ;
+    sdo:slug "games-video-games" .
+
+sdo:SDO.32 a skos:Concept ;
+    skos:prefLabel "Numismatics, Heraldry & Vexillology"@en ;
+    skos:prefLabel "Numismatikk, heraldikk og flagglære"@nb ;
+    dct:identifier "SDO.32" ;
+    skos:inScheme sdo:scheme ;
+    skos:notation "737" ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Numismatics> ;
+    sdo:depth 1 ;
+    sdo:slug "numismatics-heraldry-vexillology" .
+
+sdo:SDO.01.01 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.01 .
+
+sdo:SDO.01.02 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.02 .
+
+sdo:SDO.01.03 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.03 .
+
+sdo:SDO.01.04 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.04 .
+
+sdo:SDO.01.05 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.05 .
+
+sdo:SDO.01.06 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.06 .
+
+sdo:SDO.01.07 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.07 .
+
+sdo:SDO.01.08 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.08 .
+
+sdo:SDO.01.09 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.09 .
+
+sdo:SDO.01.10 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.10 .
+
+sdo:SDO.01.11 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.11 .
+
+sdo:SDO.01.12 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.12 .
+
+sdo:SDO.01.13 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.13 .
+
+sdo:SDO.01.14 skos:broader sdo:SDO.01 .
+sdo:SDO.01 skos:narrower sdo:SDO.01.14 .
+
+sdo:SDO.02.01 skos:broader sdo:SDO.02 .
+sdo:SDO.02 skos:narrower sdo:SDO.02.01 .
+
+sdo:SDO.02.02 skos:broader sdo:SDO.02 .
+sdo:SDO.02 skos:narrower sdo:SDO.02.02 .
+
+sdo:SDO.02.03 skos:broader sdo:SDO.02 .
+sdo:SDO.02 skos:narrower sdo:SDO.02.03 .
+
+sdo:SDO.02.04 skos:broader sdo:SDO.02 .
+sdo:SDO.02 skos:narrower sdo:SDO.02.04 .
+
+sdo:SDO.03.01 skos:broader sdo:SDO.03 .
+sdo:SDO.03 skos:narrower sdo:SDO.03.01 .
+
+sdo:SDO.03.02 skos:broader sdo:SDO.03 .
+sdo:SDO.03 skos:narrower sdo:SDO.03.02 .
+
+sdo:SDO.03.03 skos:broader sdo:SDO.03 .
+sdo:SDO.03 skos:narrower sdo:SDO.03.03 .
+
+sdo:SDO.03.04 skos:broader sdo:SDO.03 .
+sdo:SDO.03 skos:narrower sdo:SDO.03.04 .
+
+sdo:SDO.04.01 skos:broader sdo:SDO.04 .
+sdo:SDO.04 skos:narrower sdo:SDO.04.01 .
+
+sdo:SDO.04.02 skos:broader sdo:SDO.04 .
+sdo:SDO.04 skos:narrower sdo:SDO.04.02 .
+
+sdo:SDO.04.03 skos:broader sdo:SDO.04 .
+sdo:SDO.04 skos:narrower sdo:SDO.04.03 .
+
+sdo:SDO.04.04 skos:broader sdo:SDO.04 .
+sdo:SDO.04 skos:narrower sdo:SDO.04.04 .
+
+sdo:SDO.05.01 skos:broader sdo:SDO.05 .
+sdo:SDO.05 skos:narrower sdo:SDO.05.01 .
+
+sdo:SDO.05.02 skos:broader sdo:SDO.05 .
+sdo:SDO.05 skos:narrower sdo:SDO.05.02 .
+
+sdo:SDO.05.03 skos:broader sdo:SDO.05 .
+sdo:SDO.05 skos:narrower sdo:SDO.05.03 .
+
+sdo:SDO.05.04 skos:broader sdo:SDO.05 .
+sdo:SDO.05 skos:narrower sdo:SDO.05.04 .
+
+sdo:SDO.06.01 skos:broader sdo:SDO.06 .
+sdo:SDO.06 skos:narrower sdo:SDO.06.01 .
+
+sdo:SDO.06.02 skos:broader sdo:SDO.06 .
+sdo:SDO.06 skos:narrower sdo:SDO.06.02 .
+
+sdo:SDO.06.03 skos:broader sdo:SDO.06 .
+sdo:SDO.06 skos:narrower sdo:SDO.06.03 .
+
+sdo:SDO.06.04 skos:broader sdo:SDO.06 .
+sdo:SDO.06 skos:narrower sdo:SDO.06.04 .
+
+sdo:SDO.07.01 skos:broader sdo:SDO.07 .
+sdo:SDO.07 skos:narrower sdo:SDO.07.01 .
+
+sdo:SDO.07.02 skos:broader sdo:SDO.07 .
+sdo:SDO.07 skos:narrower sdo:SDO.07.02 .
+
+sdo:SDO.07.03 skos:broader sdo:SDO.07 .
+sdo:SDO.07 skos:narrower sdo:SDO.07.03 .
+
+sdo:SDO.07.04 skos:broader sdo:SDO.07 .
+sdo:SDO.07 skos:narrower sdo:SDO.07.04 .
+
+sdo:SDO.08.01 skos:broader sdo:SDO.08 .
+sdo:SDO.08 skos:narrower sdo:SDO.08.01 .
+
+sdo:SDO.08.02 skos:broader sdo:SDO.08 .
+sdo:SDO.08 skos:narrower sdo:SDO.08.02 .
+
+sdo:SDO.08.03 skos:broader sdo:SDO.08 .
+sdo:SDO.08 skos:narrower sdo:SDO.08.03 .
+
+sdo:SDO.08.04 skos:broader sdo:SDO.08 .
+sdo:SDO.08 skos:narrower sdo:SDO.08.04 .
+
+sdo:SDO.09.01 skos:broader sdo:SDO.09 .
+sdo:SDO.09 skos:narrower sdo:SDO.09.01 .
+
+sdo:SDO.09.02 skos:broader sdo:SDO.09 .
+sdo:SDO.09 skos:narrower sdo:SDO.09.02 .
+
+sdo:SDO.09.03 skos:broader sdo:SDO.09 .
+sdo:SDO.09 skos:narrower sdo:SDO.09.03 .
+
+sdo:SDO.09.04 skos:broader sdo:SDO.09 .
+sdo:SDO.09 skos:narrower sdo:SDO.09.04 .
+
+sdo:SDO.10.01 skos:broader sdo:SDO.10 .
+sdo:SDO.10 skos:narrower sdo:SDO.10.01 .
+
+sdo:SDO.10.02 skos:broader sdo:SDO.10 .
+sdo:SDO.10 skos:narrower sdo:SDO.10.02 .
+
+sdo:SDO.10.03 skos:broader sdo:SDO.10 .
+sdo:SDO.10 skos:narrower sdo:SDO.10.03 .
+
+sdo:SDO.10.04 skos:broader sdo:SDO.10 .
+sdo:SDO.10 skos:narrower sdo:SDO.10.04 .
+
+sdo:SDO.11.01 skos:broader sdo:SDO.11 .
+sdo:SDO.11 skos:narrower sdo:SDO.11.01 .
+
+sdo:SDO.11.02 skos:broader sdo:SDO.11 .
+sdo:SDO.11 skos:narrower sdo:SDO.11.02 .
+
+sdo:SDO.11.03 skos:broader sdo:SDO.11 .
+sdo:SDO.11 skos:narrower sdo:SDO.11.03 .
+
+sdo:SDO.11.04 skos:broader sdo:SDO.11 .
+sdo:SDO.11 skos:narrower sdo:SDO.11.04 .
+
+sdo:SDO.12.01 skos:broader sdo:SDO.12 .
+sdo:SDO.12 skos:narrower sdo:SDO.12.01 .
+
+sdo:SDO.12.02 skos:broader sdo:SDO.12 .
+sdo:SDO.12 skos:narrower sdo:SDO.12.02 .
+
+sdo:SDO.12.03 skos:broader sdo:SDO.12 .
+sdo:SDO.12 skos:narrower sdo:SDO.12.03 .
+
+sdo:SDO.12.04 skos:broader sdo:SDO.12 .
+sdo:SDO.12 skos:narrower sdo:SDO.12.04 .
+
+sdo:SDO.13.01 skos:broader sdo:SDO.13 .
+sdo:SDO.13 skos:narrower sdo:SDO.13.01 .
+
+sdo:SDO.13.02 skos:broader sdo:SDO.13 .
+sdo:SDO.13 skos:narrower sdo:SDO.13.02 .
+
+sdo:SDO.13.03 skos:broader sdo:SDO.13 .
+sdo:SDO.13 skos:narrower sdo:SDO.13.03 .
+
+sdo:SDO.13.04 skos:broader sdo:SDO.13 .
+sdo:SDO.13 skos:narrower sdo:SDO.13.04 .
+
+sdo:SDO.14.01 skos:broader sdo:SDO.14 .
+sdo:SDO.14 skos:narrower sdo:SDO.14.01 .
+
+sdo:SDO.14.02 skos:broader sdo:SDO.14 .
+sdo:SDO.14 skos:narrower sdo:SDO.14.02 .
+
+sdo:SDO.14.03 skos:broader sdo:SDO.14 .
+sdo:SDO.14 skos:narrower sdo:SDO.14.03 .
+
+sdo:SDO.14.04 skos:broader sdo:SDO.14 .
+sdo:SDO.14 skos:narrower sdo:SDO.14.04 .
+
+sdo:SDO.15.01 skos:broader sdo:SDO.15 .
+sdo:SDO.15 skos:narrower sdo:SDO.15.01 .
+
+sdo:SDO.15.02 skos:broader sdo:SDO.15 .
+sdo:SDO.15 skos:narrower sdo:SDO.15.02 .
+
+sdo:SDO.15.03 skos:broader sdo:SDO.15 .
+sdo:SDO.15 skos:narrower sdo:SDO.15.03 .
+
+sdo:SDO.15.04 skos:broader sdo:SDO.15 .
+sdo:SDO.15 skos:narrower sdo:SDO.15.04 .
+
+sdo:SDO.16.01 skos:broader sdo:SDO.16 .
+sdo:SDO.16 skos:narrower sdo:SDO.16.01 .
+
+sdo:SDO.16.02 skos:broader sdo:SDO.16 .
+sdo:SDO.16 skos:narrower sdo:SDO.16.02 .
+
+sdo:SDO.16.03 skos:broader sdo:SDO.16 .
+sdo:SDO.16 skos:narrower sdo:SDO.16.03 .
+
+sdo:SDO.16.04 skos:broader sdo:SDO.16 .
+sdo:SDO.16 skos:narrower sdo:SDO.16.04 .
+
+sdo:SDO.17.01 skos:broader sdo:SDO.17 .
+sdo:SDO.17 skos:narrower sdo:SDO.17.01 .
+
+sdo:SDO.17.02 skos:broader sdo:SDO.17 .
+sdo:SDO.17 skos:narrower sdo:SDO.17.02 .
+
+sdo:SDO.17.03 skos:broader sdo:SDO.17 .
+sdo:SDO.17 skos:narrower sdo:SDO.17.03 .
+
+sdo:SDO.17.04 skos:broader sdo:SDO.17 .
+sdo:SDO.17 skos:narrower sdo:SDO.17.04 .
+
+sdo:SDO.18.01 skos:broader sdo:SDO.18 .
+sdo:SDO.18 skos:narrower sdo:SDO.18.01 .
+
+sdo:SDO.18.02 skos:broader sdo:SDO.18 .
+sdo:SDO.18 skos:narrower sdo:SDO.18.02 .
+
+sdo:SDO.18.03 skos:broader sdo:SDO.18 .
+sdo:SDO.18 skos:narrower sdo:SDO.18.03 .
+
+sdo:SDO.18.04 skos:broader sdo:SDO.18 .
+sdo:SDO.18 skos:narrower sdo:SDO.18.04 .
+
+sdo:SDO.19.01 skos:broader sdo:SDO.19 .
+sdo:SDO.19 skos:narrower sdo:SDO.19.01 .
+
+sdo:SDO.19.02 skos:broader sdo:SDO.19 .
+sdo:SDO.19 skos:narrower sdo:SDO.19.02 .
+
+sdo:SDO.19.03 skos:broader sdo:SDO.19 .
+sdo:SDO.19 skos:narrower sdo:SDO.19.03 .
+
+sdo:SDO.19.04 skos:broader sdo:SDO.19 .
+sdo:SDO.19 skos:narrower sdo:SDO.19.04 .
+
+sdo:SDO.20.01 skos:broader sdo:SDO.20 .
+sdo:SDO.20 skos:narrower sdo:SDO.20.01 .
+
+sdo:SDO.20.02 skos:broader sdo:SDO.20 .
+sdo:SDO.20 skos:narrower sdo:SDO.20.02 .
+
+sdo:SDO.20.03 skos:broader sdo:SDO.20 .
+sdo:SDO.20 skos:narrower sdo:SDO.20.03 .
+
+sdo:SDO.20.04 skos:broader sdo:SDO.20 .
+sdo:SDO.20 skos:narrower sdo:SDO.20.04 .
+
+sdo:SDO.21.01 skos:broader sdo:SDO.21 .
+sdo:SDO.21 skos:narrower sdo:SDO.21.01 .
+
+sdo:SDO.21.02 skos:broader sdo:SDO.21 .
+sdo:SDO.21 skos:narrower sdo:SDO.21.02 .
+
+sdo:SDO.21.03 skos:broader sdo:SDO.21 .
+sdo:SDO.21 skos:narrower sdo:SDO.21.03 .
+
+sdo:SDO.21.04 skos:broader sdo:SDO.21 .
+sdo:SDO.21 skos:narrower sdo:SDO.21.04 .
+
+sdo:SDO.22.01 skos:broader sdo:SDO.22 .
+sdo:SDO.22 skos:narrower sdo:SDO.22.01 .
+
+sdo:SDO.22.02 skos:broader sdo:SDO.22 .
+sdo:SDO.22 skos:narrower sdo:SDO.22.02 .
+
+sdo:SDO.22.03 skos:broader sdo:SDO.22 .
+sdo:SDO.22 skos:narrower sdo:SDO.22.03 .
+
+sdo:SDO.22.04 skos:broader sdo:SDO.22 .
+sdo:SDO.22 skos:narrower sdo:SDO.22.04 .
+
+sdo:SDO.23.01 skos:broader sdo:SDO.23 .
+sdo:SDO.23 skos:narrower sdo:SDO.23.01 .
+
+sdo:SDO.23.02 skos:broader sdo:SDO.23 .
+sdo:SDO.23 skos:narrower sdo:SDO.23.02 .
+
+sdo:SDO.23.03 skos:broader sdo:SDO.23 .
+sdo:SDO.23 skos:narrower sdo:SDO.23.03 .
+
+sdo:SDO.23.04 skos:broader sdo:SDO.23 .
+sdo:SDO.23 skos:narrower sdo:SDO.23.04 .
+
+sdo:SDO.24.01 skos:broader sdo:SDO.24 .
+sdo:SDO.24 skos:narrower sdo:SDO.24.01 .
+
+sdo:SDO.24.02 skos:broader sdo:SDO.24 .
+sdo:SDO.24 skos:narrower sdo:SDO.24.02 .
+
+sdo:SDO.24.03 skos:broader sdo:SDO.24 .
+sdo:SDO.24 skos:narrower sdo:SDO.24.03 .
+
+sdo:SDO.24.04 skos:broader sdo:SDO.24 .
+sdo:SDO.24 skos:narrower sdo:SDO.24.04 .
+
+sdo:SDO.25.01 skos:broader sdo:SDO.25 .
+sdo:SDO.25 skos:narrower sdo:SDO.25.01 .
+
+sdo:SDO.25.02 skos:broader sdo:SDO.25 .
+sdo:SDO.25 skos:narrower sdo:SDO.25.02 .
+
+sdo:SDO.25.03 skos:broader sdo:SDO.25 .
+sdo:SDO.25 skos:narrower sdo:SDO.25.03 .
+
+sdo:SDO.25.04 skos:broader sdo:SDO.25 .
+sdo:SDO.25 skos:narrower sdo:SDO.25.04 .
+
+sdo:SDO.26.01 skos:broader sdo:SDO.26 .
+sdo:SDO.26 skos:narrower sdo:SDO.26.01 .
+
+sdo:SDO.26.02 skos:broader sdo:SDO.26 .
+sdo:SDO.26 skos:narrower sdo:SDO.26.02 .
+
+sdo:SDO.26.03 skos:broader sdo:SDO.26 .
+sdo:SDO.26 skos:narrower sdo:SDO.26.03 .
+
+sdo:SDO.26.04 skos:broader sdo:SDO.26 .
+sdo:SDO.26 skos:narrower sdo:SDO.26.04 .
+
+sdo:SDO.27.01 skos:broader sdo:SDO.27 .
+sdo:SDO.27 skos:narrower sdo:SDO.27.01 .
+
+sdo:SDO.27.02 skos:broader sdo:SDO.27 .
+sdo:SDO.27 skos:narrower sdo:SDO.27.02 .
+
+sdo:SDO.27.03 skos:broader sdo:SDO.27 .
+sdo:SDO.27 skos:narrower sdo:SDO.27.03 .
+
+sdo:SDO.27.04 skos:broader sdo:SDO.27 .
+sdo:SDO.27 skos:narrower sdo:SDO.27.04 .
+
+sdo:SDO.28.01 skos:broader sdo:SDO.28 .
+sdo:SDO.28 skos:narrower sdo:SDO.28.01 .
+
+sdo:SDO.28.02 skos:broader sdo:SDO.28 .
+sdo:SDO.28 skos:narrower sdo:SDO.28.02 .
+
+sdo:SDO.28.03 skos:broader sdo:SDO.28 .
+sdo:SDO.28 skos:narrower sdo:SDO.28.03 .
+
+sdo:SDO.28.04 skos:broader sdo:SDO.28 .
+sdo:SDO.28 skos:narrower sdo:SDO.28.04 .
+
+sdo:SDO.29.01 skos:broader sdo:SDO.29 .
+sdo:SDO.29 skos:narrower sdo:SDO.29.01 .
+
+sdo:SDO.29.02 skos:broader sdo:SDO.29 .
+sdo:SDO.29 skos:narrower sdo:SDO.29.02 .
+
+sdo:SDO.29.03 skos:broader sdo:SDO.29 .
+sdo:SDO.29 skos:narrower sdo:SDO.29.03 .
+
+sdo:SDO.29.04 skos:broader sdo:SDO.29 .
+sdo:SDO.29 skos:narrower sdo:SDO.29.04 .
+
+sdo:SDO.30.01 skos:broader sdo:SDO.30 .
+sdo:SDO.30 skos:narrower sdo:SDO.30.01 .
+
+sdo:SDO.30.02 skos:broader sdo:SDO.30 .
+sdo:SDO.30 skos:narrower sdo:SDO.30.02 .
+
+sdo:SDO.30.03 skos:broader sdo:SDO.30 .
+sdo:SDO.30 skos:narrower sdo:SDO.30.03 .
+
+sdo:SDO.30.04 skos:broader sdo:SDO.30 .
+sdo:SDO.30 skos:narrower sdo:SDO.30.04 .
+
+sdo:SDO.31.01 skos:broader sdo:SDO.31 .
+sdo:SDO.31 skos:narrower sdo:SDO.31.01 .
+
+sdo:SDO.31.02 skos:broader sdo:SDO.31 .
+sdo:SDO.31 skos:narrower sdo:SDO.31.02 .
+
+sdo:SDO.31.03 skos:broader sdo:SDO.31 .
+sdo:SDO.31 skos:narrower sdo:SDO.31.03 .
+
+sdo:SDO.31.04 skos:broader sdo:SDO.31 .
+sdo:SDO.31 skos:narrower sdo:SDO.31.04 .
+
+sdo:SDO.32.01 skos:broader sdo:SDO.32 .
+sdo:SDO.32 skos:narrower sdo:SDO.32.01 .
+
+sdo:SDO.32.02 skos:broader sdo:SDO.32 .
+sdo:SDO.32 skos:narrower sdo:SDO.32.02 .
+
+sdo:SDO.32.03 skos:broader sdo:SDO.32 .
+sdo:SDO.32 skos:narrower sdo:SDO.32.03 .
+
+sdo:SDO.32.04 skos:broader sdo:SDO.32 .
+sdo:SDO.32 skos:narrower sdo:SDO.32.04 .
+
+sdo:SDO.01.01.01 skos:broader sdo:SDO.01.01 .
+sdo:SDO.01.01 skos:narrower sdo:SDO.01.01.01 .
+
+sdo:SDO.01.01.02 skos:broader sdo:SDO.01.01 .
+sdo:SDO.01.01 skos:narrower sdo:SDO.01.01.02 .
+
+sdo:SDO.01.01.03 skos:broader sdo:SDO.01.01 .
+sdo:SDO.01.01 skos:narrower sdo:SDO.01.01.03 .
+
+sdo:SDO.01.01.04 skos:broader sdo:SDO.01.01 .
+sdo:SDO.01.01 skos:narrower sdo:SDO.01.01.04 .
+
+sdo:SDO.01.02.01 skos:broader sdo:SDO.01.02 .
+sdo:SDO.01.02 skos:narrower sdo:SDO.01.02.01 .
+
+sdo:SDO.01.02.02 skos:broader sdo:SDO.01.02 .
+sdo:SDO.01.02 skos:narrower sdo:SDO.01.02.02 .
+
+sdo:SDO.01.02.03 skos:broader sdo:SDO.01.02 .
+sdo:SDO.01.02 skos:narrower sdo:SDO.01.02.03 .
+
+sdo:SDO.01.02.04 skos:broader sdo:SDO.01.02 .
+sdo:SDO.01.02 skos:narrower sdo:SDO.01.02.04 .
+
+sdo:SDO.01.03.01 skos:broader sdo:SDO.01.03 .
+sdo:SDO.01.03 skos:narrower sdo:SDO.01.03.01 .
+
+sdo:SDO.01.03.02 skos:broader sdo:SDO.01.03 .
+sdo:SDO.01.03 skos:narrower sdo:SDO.01.03.02 .
+
+sdo:SDO.01.03.03 skos:broader sdo:SDO.01.03 .
+sdo:SDO.01.03 skos:narrower sdo:SDO.01.03.03 .
+
+sdo:SDO.01.03.04 skos:broader sdo:SDO.01.03 .
+sdo:SDO.01.03 skos:narrower sdo:SDO.01.03.04 .
+
+sdo:SDO.01.04.01 skos:broader sdo:SDO.01.04 .
+sdo:SDO.01.04 skos:narrower sdo:SDO.01.04.01 .
+
+sdo:SDO.01.04.02 skos:broader sdo:SDO.01.04 .
+sdo:SDO.01.04 skos:narrower sdo:SDO.01.04.02 .
+
+sdo:SDO.01.04.03 skos:broader sdo:SDO.01.04 .
+sdo:SDO.01.04 skos:narrower sdo:SDO.01.04.03 .
+
+sdo:SDO.01.04.04 skos:broader sdo:SDO.01.04 .
+sdo:SDO.01.04 skos:narrower sdo:SDO.01.04.04 .
+
+sdo:SDO.01.05.01 skos:broader sdo:SDO.01.05 .
+sdo:SDO.01.05 skos:narrower sdo:SDO.01.05.01 .
+
+sdo:SDO.01.05.02 skos:broader sdo:SDO.01.05 .
+sdo:SDO.01.05 skos:narrower sdo:SDO.01.05.02 .
+
+sdo:SDO.01.05.03 skos:broader sdo:SDO.01.05 .
+sdo:SDO.01.05 skos:narrower sdo:SDO.01.05.03 .
+
+sdo:SDO.01.05.04 skos:broader sdo:SDO.01.05 .
+sdo:SDO.01.05 skos:narrower sdo:SDO.01.05.04 .
+
+sdo:SDO.01.06.01 skos:broader sdo:SDO.01.06 .
+sdo:SDO.01.06 skos:narrower sdo:SDO.01.06.01 .
+
+sdo:SDO.01.06.02 skos:broader sdo:SDO.01.06 .
+sdo:SDO.01.06 skos:narrower sdo:SDO.01.06.02 .
+
+sdo:SDO.01.06.03 skos:broader sdo:SDO.01.06 .
+sdo:SDO.01.06 skos:narrower sdo:SDO.01.06.03 .
+
+sdo:SDO.01.06.04 skos:broader sdo:SDO.01.06 .
+sdo:SDO.01.06 skos:narrower sdo:SDO.01.06.04 .
+
+sdo:SDO.01.07.01 skos:broader sdo:SDO.01.07 .
+sdo:SDO.01.07 skos:narrower sdo:SDO.01.07.01 .
+
+sdo:SDO.01.07.02 skos:broader sdo:SDO.01.07 .
+sdo:SDO.01.07 skos:narrower sdo:SDO.01.07.02 .
+
+sdo:SDO.01.07.03 skos:broader sdo:SDO.01.07 .
+sdo:SDO.01.07 skos:narrower sdo:SDO.01.07.03 .
+
+sdo:SDO.01.07.04 skos:broader sdo:SDO.01.07 .
+sdo:SDO.01.07 skos:narrower sdo:SDO.01.07.04 .
+
+sdo:SDO.01.08.01 skos:broader sdo:SDO.01.08 .
+sdo:SDO.01.08 skos:narrower sdo:SDO.01.08.01 .
+
+sdo:SDO.01.08.02 skos:broader sdo:SDO.01.08 .
+sdo:SDO.01.08 skos:narrower sdo:SDO.01.08.02 .
+
+sdo:SDO.01.08.03 skos:broader sdo:SDO.01.08 .
+sdo:SDO.01.08 skos:narrower sdo:SDO.01.08.03 .
+
+sdo:SDO.01.08.04 skos:broader sdo:SDO.01.08 .
+sdo:SDO.01.08 skos:narrower sdo:SDO.01.08.04 .
+
+sdo:SDO.01.09.01 skos:broader sdo:SDO.01.09 .
+sdo:SDO.01.09 skos:narrower sdo:SDO.01.09.01 .
+
+sdo:SDO.01.09.02 skos:broader sdo:SDO.01.09 .
+sdo:SDO.01.09 skos:narrower sdo:SDO.01.09.02 .
+
+sdo:SDO.01.09.03 skos:broader sdo:SDO.01.09 .
+sdo:SDO.01.09 skos:narrower sdo:SDO.01.09.03 .
+
+sdo:SDO.01.09.04 skos:broader sdo:SDO.01.09 .
+sdo:SDO.01.09 skos:narrower sdo:SDO.01.09.04 .
+
+sdo:SDO.01.10.01 skos:broader sdo:SDO.01.10 .
+sdo:SDO.01.10 skos:narrower sdo:SDO.01.10.01 .
+
+sdo:SDO.01.10.02 skos:broader sdo:SDO.01.10 .
+sdo:SDO.01.10 skos:narrower sdo:SDO.01.10.02 .
+
+sdo:SDO.01.10.03 skos:broader sdo:SDO.01.10 .
+sdo:SDO.01.10 skos:narrower sdo:SDO.01.10.03 .
+
+sdo:SDO.01.10.04 skos:broader sdo:SDO.01.10 .
+sdo:SDO.01.10 skos:narrower sdo:SDO.01.10.04 .
+
+sdo:SDO.01.11.01 skos:broader sdo:SDO.01.11 .
+sdo:SDO.01.11 skos:narrower sdo:SDO.01.11.01 .
+
+sdo:SDO.01.11.02 skos:broader sdo:SDO.01.11 .
+sdo:SDO.01.11 skos:narrower sdo:SDO.01.11.02 .
+
+sdo:SDO.01.11.03 skos:broader sdo:SDO.01.11 .
+sdo:SDO.01.11 skos:narrower sdo:SDO.01.11.03 .
+
+sdo:SDO.01.11.04 skos:broader sdo:SDO.01.11 .
+sdo:SDO.01.11 skos:narrower sdo:SDO.01.11.04 .
+
+sdo:SDO.01.12.01 skos:broader sdo:SDO.01.12 .
+sdo:SDO.01.12 skos:narrower sdo:SDO.01.12.01 .
+
+sdo:SDO.01.12.02 skos:broader sdo:SDO.01.12 .
+sdo:SDO.01.12 skos:narrower sdo:SDO.01.12.02 .
+
+sdo:SDO.01.12.03 skos:broader sdo:SDO.01.12 .
+sdo:SDO.01.12 skos:narrower sdo:SDO.01.12.03 .
+
+sdo:SDO.01.12.04 skos:broader sdo:SDO.01.12 .
+sdo:SDO.01.12 skos:narrower sdo:SDO.01.12.04 .
+
+sdo:SDO.01.13.01 skos:broader sdo:SDO.01.13 .
+sdo:SDO.01.13 skos:narrower sdo:SDO.01.13.01 .
+
+sdo:SDO.01.13.02 skos:broader sdo:SDO.01.13 .
+sdo:SDO.01.13 skos:narrower sdo:SDO.01.13.02 .
+
+sdo:SDO.01.13.03 skos:broader sdo:SDO.01.13 .
+sdo:SDO.01.13 skos:narrower sdo:SDO.01.13.03 .
+
+sdo:SDO.01.13.04 skos:broader sdo:SDO.01.13 .
+sdo:SDO.01.13 skos:narrower sdo:SDO.01.13.04 .
+
+sdo:SDO.01.14.01 skos:broader sdo:SDO.01.14 .
+sdo:SDO.01.14 skos:narrower sdo:SDO.01.14.01 .
+
+sdo:SDO.01.14.02 skos:broader sdo:SDO.01.14 .
+sdo:SDO.01.14 skos:narrower sdo:SDO.01.14.02 .
+
+sdo:SDO.01.14.03 skos:broader sdo:SDO.01.14 .
+sdo:SDO.01.14 skos:narrower sdo:SDO.01.14.03 .
+
+sdo:SDO.01.14.04 skos:broader sdo:SDO.01.14 .
+sdo:SDO.01.14 skos:narrower sdo:SDO.01.14.04 .
+
+sdo:SDO.02.01.01 skos:broader sdo:SDO.02.01 .
+sdo:SDO.02.01 skos:narrower sdo:SDO.02.01.01 .
+
+sdo:SDO.02.01.02 skos:broader sdo:SDO.02.01 .
+sdo:SDO.02.01 skos:narrower sdo:SDO.02.01.02 .
+
+sdo:SDO.02.01.03 skos:broader sdo:SDO.02.01 .
+sdo:SDO.02.01 skos:narrower sdo:SDO.02.01.03 .
+
+sdo:SDO.02.01.04 skos:broader sdo:SDO.02.01 .
+sdo:SDO.02.01 skos:narrower sdo:SDO.02.01.04 .
+
+sdo:SDO.02.02.01 skos:broader sdo:SDO.02.02 .
+sdo:SDO.02.02 skos:narrower sdo:SDO.02.02.01 .
+
+sdo:SDO.02.02.02 skos:broader sdo:SDO.02.02 .
+sdo:SDO.02.02 skos:narrower sdo:SDO.02.02.02 .
+
+sdo:SDO.02.02.03 skos:broader sdo:SDO.02.02 .
+sdo:SDO.02.02 skos:narrower sdo:SDO.02.02.03 .
+
+sdo:SDO.02.02.04 skos:broader sdo:SDO.02.02 .
+sdo:SDO.02.02 skos:narrower sdo:SDO.02.02.04 .
+
+sdo:SDO.02.03.01 skos:broader sdo:SDO.02.03 .
+sdo:SDO.02.03 skos:narrower sdo:SDO.02.03.01 .
+
+sdo:SDO.02.03.02 skos:broader sdo:SDO.02.03 .
+sdo:SDO.02.03 skos:narrower sdo:SDO.02.03.02 .
+
+sdo:SDO.02.03.03 skos:broader sdo:SDO.02.03 .
+sdo:SDO.02.03 skos:narrower sdo:SDO.02.03.03 .
+
+sdo:SDO.02.03.04 skos:broader sdo:SDO.02.03 .
+sdo:SDO.02.03 skos:narrower sdo:SDO.02.03.04 .
+
+sdo:SDO.02.04.01 skos:broader sdo:SDO.02.04 .
+sdo:SDO.02.04 skos:narrower sdo:SDO.02.04.01 .
+
+sdo:SDO.02.04.02 skos:broader sdo:SDO.02.04 .
+sdo:SDO.02.04 skos:narrower sdo:SDO.02.04.02 .
+
+sdo:SDO.02.04.03 skos:broader sdo:SDO.02.04 .
+sdo:SDO.02.04 skos:narrower sdo:SDO.02.04.03 .
+
+sdo:SDO.02.04.04 skos:broader sdo:SDO.02.04 .
+sdo:SDO.02.04 skos:narrower sdo:SDO.02.04.04 .
+
+sdo:SDO.03.01.01 skos:broader sdo:SDO.03.01 .
+sdo:SDO.03.01 skos:narrower sdo:SDO.03.01.01 .
+
+sdo:SDO.03.01.02 skos:broader sdo:SDO.03.01 .
+sdo:SDO.03.01 skos:narrower sdo:SDO.03.01.02 .
+
+sdo:SDO.03.01.03 skos:broader sdo:SDO.03.01 .
+sdo:SDO.03.01 skos:narrower sdo:SDO.03.01.03 .
+
+sdo:SDO.03.01.04 skos:broader sdo:SDO.03.01 .
+sdo:SDO.03.01 skos:narrower sdo:SDO.03.01.04 .
+
+sdo:SDO.03.02.01 skos:broader sdo:SDO.03.02 .
+sdo:SDO.03.02 skos:narrower sdo:SDO.03.02.01 .
+
+sdo:SDO.03.02.02 skos:broader sdo:SDO.03.02 .
+sdo:SDO.03.02 skos:narrower sdo:SDO.03.02.02 .
+
+sdo:SDO.03.02.03 skos:broader sdo:SDO.03.02 .
+sdo:SDO.03.02 skos:narrower sdo:SDO.03.02.03 .
+
+sdo:SDO.03.02.04 skos:broader sdo:SDO.03.02 .
+sdo:SDO.03.02 skos:narrower sdo:SDO.03.02.04 .
+
+sdo:SDO.03.03.01 skos:broader sdo:SDO.03.03 .
+sdo:SDO.03.03 skos:narrower sdo:SDO.03.03.01 .
+
+sdo:SDO.03.03.02 skos:broader sdo:SDO.03.03 .
+sdo:SDO.03.03 skos:narrower sdo:SDO.03.03.02 .
+
+sdo:SDO.03.03.03 skos:broader sdo:SDO.03.03 .
+sdo:SDO.03.03 skos:narrower sdo:SDO.03.03.03 .
+
+sdo:SDO.03.03.04 skos:broader sdo:SDO.03.03 .
+sdo:SDO.03.03 skos:narrower sdo:SDO.03.03.04 .
+
+sdo:SDO.03.04.01 skos:broader sdo:SDO.03.04 .
+sdo:SDO.03.04 skos:narrower sdo:SDO.03.04.01 .
+
+sdo:SDO.03.04.02 skos:broader sdo:SDO.03.04 .
+sdo:SDO.03.04 skos:narrower sdo:SDO.03.04.02 .
+
+sdo:SDO.03.04.03 skos:broader sdo:SDO.03.04 .
+sdo:SDO.03.04 skos:narrower sdo:SDO.03.04.03 .
+
+sdo:SDO.03.04.04 skos:broader sdo:SDO.03.04 .
+sdo:SDO.03.04 skos:narrower sdo:SDO.03.04.04 .
+
+sdo:SDO.04.01.01 skos:broader sdo:SDO.04.01 .
+sdo:SDO.04.01 skos:narrower sdo:SDO.04.01.01 .
+
+sdo:SDO.04.01.02 skos:broader sdo:SDO.04.01 .
+sdo:SDO.04.01 skos:narrower sdo:SDO.04.01.02 .
+
+sdo:SDO.04.01.03 skos:broader sdo:SDO.04.01 .
+sdo:SDO.04.01 skos:narrower sdo:SDO.04.01.03 .
+
+sdo:SDO.04.01.04 skos:broader sdo:SDO.04.01 .
+sdo:SDO.04.01 skos:narrower sdo:SDO.04.01.04 .
+
+sdo:SDO.04.02.01 skos:broader sdo:SDO.04.02 .
+sdo:SDO.04.02 skos:narrower sdo:SDO.04.02.01 .
+
+sdo:SDO.04.02.02 skos:broader sdo:SDO.04.02 .
+sdo:SDO.04.02 skos:narrower sdo:SDO.04.02.02 .
+
+sdo:SDO.04.02.03 skos:broader sdo:SDO.04.02 .
+sdo:SDO.04.02 skos:narrower sdo:SDO.04.02.03 .
+
+sdo:SDO.04.02.04 skos:broader sdo:SDO.04.02 .
+sdo:SDO.04.02 skos:narrower sdo:SDO.04.02.04 .
+
+sdo:SDO.04.03.01 skos:broader sdo:SDO.04.03 .
+sdo:SDO.04.03 skos:narrower sdo:SDO.04.03.01 .
+
+sdo:SDO.04.03.02 skos:broader sdo:SDO.04.03 .
+sdo:SDO.04.03 skos:narrower sdo:SDO.04.03.02 .
+
+sdo:SDO.04.03.03 skos:broader sdo:SDO.04.03 .
+sdo:SDO.04.03 skos:narrower sdo:SDO.04.03.03 .
+
+sdo:SDO.04.03.04 skos:broader sdo:SDO.04.03 .
+sdo:SDO.04.03 skos:narrower sdo:SDO.04.03.04 .
+
+sdo:SDO.04.04.01 skos:broader sdo:SDO.04.04 .
+sdo:SDO.04.04 skos:narrower sdo:SDO.04.04.01 .
+
+sdo:SDO.04.04.02 skos:broader sdo:SDO.04.04 .
+sdo:SDO.04.04 skos:narrower sdo:SDO.04.04.02 .
+
+sdo:SDO.04.04.03 skos:broader sdo:SDO.04.04 .
+sdo:SDO.04.04 skos:narrower sdo:SDO.04.04.03 .
+
+sdo:SDO.04.04.04 skos:broader sdo:SDO.04.04 .
+sdo:SDO.04.04 skos:narrower sdo:SDO.04.04.04 .
+
+sdo:SDO.05.01.01 skos:broader sdo:SDO.05.01 .
+sdo:SDO.05.01 skos:narrower sdo:SDO.05.01.01 .
+
+sdo:SDO.05.01.02 skos:broader sdo:SDO.05.01 .
+sdo:SDO.05.01 skos:narrower sdo:SDO.05.01.02 .
+
+sdo:SDO.05.01.03 skos:broader sdo:SDO.05.01 .
+sdo:SDO.05.01 skos:narrower sdo:SDO.05.01.03 .
+
+sdo:SDO.05.01.04 skos:broader sdo:SDO.05.01 .
+sdo:SDO.05.01 skos:narrower sdo:SDO.05.01.04 .
+
+sdo:SDO.05.02.01 skos:broader sdo:SDO.05.02 .
+sdo:SDO.05.02 skos:narrower sdo:SDO.05.02.01 .
+
+sdo:SDO.05.02.02 skos:broader sdo:SDO.05.02 .
+sdo:SDO.05.02 skos:narrower sdo:SDO.05.02.02 .
+
+sdo:SDO.05.02.03 skos:broader sdo:SDO.05.02 .
+sdo:SDO.05.02 skos:narrower sdo:SDO.05.02.03 .
+
+sdo:SDO.05.02.04 skos:broader sdo:SDO.05.02 .
+sdo:SDO.05.02 skos:narrower sdo:SDO.05.02.04 .
+
+sdo:SDO.05.03.01 skos:broader sdo:SDO.05.03 .
+sdo:SDO.05.03 skos:narrower sdo:SDO.05.03.01 .
+
+sdo:SDO.05.03.02 skos:broader sdo:SDO.05.03 .
+sdo:SDO.05.03 skos:narrower sdo:SDO.05.03.02 .
+
+sdo:SDO.05.03.03 skos:broader sdo:SDO.05.03 .
+sdo:SDO.05.03 skos:narrower sdo:SDO.05.03.03 .
+
+sdo:SDO.05.03.04 skos:broader sdo:SDO.05.03 .
+sdo:SDO.05.03 skos:narrower sdo:SDO.05.03.04 .
+
+sdo:SDO.05.04.01 skos:broader sdo:SDO.05.04 .
+sdo:SDO.05.04 skos:narrower sdo:SDO.05.04.01 .
+
+sdo:SDO.05.04.02 skos:broader sdo:SDO.05.04 .
+sdo:SDO.05.04 skos:narrower sdo:SDO.05.04.02 .
+
+sdo:SDO.05.04.03 skos:broader sdo:SDO.05.04 .
+sdo:SDO.05.04 skos:narrower sdo:SDO.05.04.03 .
+
+sdo:SDO.05.04.04 skos:broader sdo:SDO.05.04 .
+sdo:SDO.05.04 skos:narrower sdo:SDO.05.04.04 .
+
+sdo:SDO.06.01.01 skos:broader sdo:SDO.06.01 .
+sdo:SDO.06.01 skos:narrower sdo:SDO.06.01.01 .
+
+sdo:SDO.06.01.02 skos:broader sdo:SDO.06.01 .
+sdo:SDO.06.01 skos:narrower sdo:SDO.06.01.02 .
+
+sdo:SDO.06.01.03 skos:broader sdo:SDO.06.01 .
+sdo:SDO.06.01 skos:narrower sdo:SDO.06.01.03 .
+
+sdo:SDO.06.01.04 skos:broader sdo:SDO.06.01 .
+sdo:SDO.06.01 skos:narrower sdo:SDO.06.01.04 .
+
+sdo:SDO.06.02.01 skos:broader sdo:SDO.06.02 .
+sdo:SDO.06.02 skos:narrower sdo:SDO.06.02.01 .
+
+sdo:SDO.06.02.02 skos:broader sdo:SDO.06.02 .
+sdo:SDO.06.02 skos:narrower sdo:SDO.06.02.02 .
+
+sdo:SDO.06.02.03 skos:broader sdo:SDO.06.02 .
+sdo:SDO.06.02 skos:narrower sdo:SDO.06.02.03 .
+
+sdo:SDO.06.02.04 skos:broader sdo:SDO.06.02 .
+sdo:SDO.06.02 skos:narrower sdo:SDO.06.02.04 .
+
+sdo:SDO.06.03.01 skos:broader sdo:SDO.06.03 .
+sdo:SDO.06.03 skos:narrower sdo:SDO.06.03.01 .
+
+sdo:SDO.06.03.02 skos:broader sdo:SDO.06.03 .
+sdo:SDO.06.03 skos:narrower sdo:SDO.06.03.02 .
+
+sdo:SDO.06.03.03 skos:broader sdo:SDO.06.03 .
+sdo:SDO.06.03 skos:narrower sdo:SDO.06.03.03 .
+
+sdo:SDO.06.03.04 skos:broader sdo:SDO.06.03 .
+sdo:SDO.06.03 skos:narrower sdo:SDO.06.03.04 .
+
+sdo:SDO.06.04.01 skos:broader sdo:SDO.06.04 .
+sdo:SDO.06.04 skos:narrower sdo:SDO.06.04.01 .
+
+sdo:SDO.06.04.02 skos:broader sdo:SDO.06.04 .
+sdo:SDO.06.04 skos:narrower sdo:SDO.06.04.02 .
+
+sdo:SDO.06.04.03 skos:broader sdo:SDO.06.04 .
+sdo:SDO.06.04 skos:narrower sdo:SDO.06.04.03 .
+
+sdo:SDO.06.04.04 skos:broader sdo:SDO.06.04 .
+sdo:SDO.06.04 skos:narrower sdo:SDO.06.04.04 .
+
+sdo:SDO.07.01.01 skos:broader sdo:SDO.07.01 .
+sdo:SDO.07.01 skos:narrower sdo:SDO.07.01.01 .
+
+sdo:SDO.07.01.02 skos:broader sdo:SDO.07.01 .
+sdo:SDO.07.01 skos:narrower sdo:SDO.07.01.02 .
+
+sdo:SDO.07.01.03 skos:broader sdo:SDO.07.01 .
+sdo:SDO.07.01 skos:narrower sdo:SDO.07.01.03 .
+
+sdo:SDO.07.01.04 skos:broader sdo:SDO.07.01 .
+sdo:SDO.07.01 skos:narrower sdo:SDO.07.01.04 .
+
+sdo:SDO.07.02.01 skos:broader sdo:SDO.07.02 .
+sdo:SDO.07.02 skos:narrower sdo:SDO.07.02.01 .
+
+sdo:SDO.07.02.02 skos:broader sdo:SDO.07.02 .
+sdo:SDO.07.02 skos:narrower sdo:SDO.07.02.02 .
+
+sdo:SDO.07.02.03 skos:broader sdo:SDO.07.02 .
+sdo:SDO.07.02 skos:narrower sdo:SDO.07.02.03 .
+
+sdo:SDO.07.02.04 skos:broader sdo:SDO.07.02 .
+sdo:SDO.07.02 skos:narrower sdo:SDO.07.02.04 .
+
+sdo:SDO.07.03.01 skos:broader sdo:SDO.07.03 .
+sdo:SDO.07.03 skos:narrower sdo:SDO.07.03.01 .
+
+sdo:SDO.07.03.02 skos:broader sdo:SDO.07.03 .
+sdo:SDO.07.03 skos:narrower sdo:SDO.07.03.02 .
+
+sdo:SDO.07.03.03 skos:broader sdo:SDO.07.03 .
+sdo:SDO.07.03 skos:narrower sdo:SDO.07.03.03 .
+
+sdo:SDO.07.03.04 skos:broader sdo:SDO.07.03 .
+sdo:SDO.07.03 skos:narrower sdo:SDO.07.03.04 .
+
+sdo:SDO.07.04.01 skos:broader sdo:SDO.07.04 .
+sdo:SDO.07.04 skos:narrower sdo:SDO.07.04.01 .
+
+sdo:SDO.07.04.02 skos:broader sdo:SDO.07.04 .
+sdo:SDO.07.04 skos:narrower sdo:SDO.07.04.02 .
+
+sdo:SDO.07.04.03 skos:broader sdo:SDO.07.04 .
+sdo:SDO.07.04 skos:narrower sdo:SDO.07.04.03 .
+
+sdo:SDO.07.04.04 skos:broader sdo:SDO.07.04 .
+sdo:SDO.07.04 skos:narrower sdo:SDO.07.04.04 .
+
+sdo:SDO.08.01.01 skos:broader sdo:SDO.08.01 .
+sdo:SDO.08.01 skos:narrower sdo:SDO.08.01.01 .
+
+sdo:SDO.08.01.02 skos:broader sdo:SDO.08.01 .
+sdo:SDO.08.01 skos:narrower sdo:SDO.08.01.02 .
+
+sdo:SDO.08.01.03 skos:broader sdo:SDO.08.01 .
+sdo:SDO.08.01 skos:narrower sdo:SDO.08.01.03 .
+
+sdo:SDO.08.01.04 skos:broader sdo:SDO.08.01 .
+sdo:SDO.08.01 skos:narrower sdo:SDO.08.01.04 .
+
+sdo:SDO.08.02.01 skos:broader sdo:SDO.08.02 .
+sdo:SDO.08.02 skos:narrower sdo:SDO.08.02.01 .
+
+sdo:SDO.08.02.02 skos:broader sdo:SDO.08.02 .
+sdo:SDO.08.02 skos:narrower sdo:SDO.08.02.02 .
+
+sdo:SDO.08.02.03 skos:broader sdo:SDO.08.02 .
+sdo:SDO.08.02 skos:narrower sdo:SDO.08.02.03 .
+
+sdo:SDO.08.02.04 skos:broader sdo:SDO.08.02 .
+sdo:SDO.08.02 skos:narrower sdo:SDO.08.02.04 .
+
+sdo:SDO.08.03.01 skos:broader sdo:SDO.08.03 .
+sdo:SDO.08.03 skos:narrower sdo:SDO.08.03.01 .
+
+sdo:SDO.08.03.02 skos:broader sdo:SDO.08.03 .
+sdo:SDO.08.03 skos:narrower sdo:SDO.08.03.02 .
+
+sdo:SDO.08.03.03 skos:broader sdo:SDO.08.03 .
+sdo:SDO.08.03 skos:narrower sdo:SDO.08.03.03 .
+
+sdo:SDO.08.03.04 skos:broader sdo:SDO.08.03 .
+sdo:SDO.08.03 skos:narrower sdo:SDO.08.03.04 .
+
+sdo:SDO.08.04.01 skos:broader sdo:SDO.08.04 .
+sdo:SDO.08.04 skos:narrower sdo:SDO.08.04.01 .
+
+sdo:SDO.08.04.02 skos:broader sdo:SDO.08.04 .
+sdo:SDO.08.04 skos:narrower sdo:SDO.08.04.02 .
+
+sdo:SDO.08.04.03 skos:broader sdo:SDO.08.04 .
+sdo:SDO.08.04 skos:narrower sdo:SDO.08.04.03 .
+
+sdo:SDO.08.04.04 skos:broader sdo:SDO.08.04 .
+sdo:SDO.08.04 skos:narrower sdo:SDO.08.04.04 .
+
+sdo:SDO.09.01.01 skos:broader sdo:SDO.09.01 .
+sdo:SDO.09.01 skos:narrower sdo:SDO.09.01.01 .
+
+sdo:SDO.09.01.02 skos:broader sdo:SDO.09.01 .
+sdo:SDO.09.01 skos:narrower sdo:SDO.09.01.02 .
+
+sdo:SDO.09.01.03 skos:broader sdo:SDO.09.01 .
+sdo:SDO.09.01 skos:narrower sdo:SDO.09.01.03 .
+
+sdo:SDO.09.01.04 skos:broader sdo:SDO.09.01 .
+sdo:SDO.09.01 skos:narrower sdo:SDO.09.01.04 .
+
+sdo:SDO.09.02.01 skos:broader sdo:SDO.09.02 .
+sdo:SDO.09.02 skos:narrower sdo:SDO.09.02.01 .
+
+sdo:SDO.09.02.02 skos:broader sdo:SDO.09.02 .
+sdo:SDO.09.02 skos:narrower sdo:SDO.09.02.02 .
+
+sdo:SDO.09.02.03 skos:broader sdo:SDO.09.02 .
+sdo:SDO.09.02 skos:narrower sdo:SDO.09.02.03 .
+
+sdo:SDO.09.02.04 skos:broader sdo:SDO.09.02 .
+sdo:SDO.09.02 skos:narrower sdo:SDO.09.02.04 .
+
+sdo:SDO.09.03.01 skos:broader sdo:SDO.09.03 .
+sdo:SDO.09.03 skos:narrower sdo:SDO.09.03.01 .
+
+sdo:SDO.09.03.02 skos:broader sdo:SDO.09.03 .
+sdo:SDO.09.03 skos:narrower sdo:SDO.09.03.02 .
+
+sdo:SDO.09.03.03 skos:broader sdo:SDO.09.03 .
+sdo:SDO.09.03 skos:narrower sdo:SDO.09.03.03 .
+
+sdo:SDO.09.03.04 skos:broader sdo:SDO.09.03 .
+sdo:SDO.09.03 skos:narrower sdo:SDO.09.03.04 .
+
+sdo:SDO.09.04.01 skos:broader sdo:SDO.09.04 .
+sdo:SDO.09.04 skos:narrower sdo:SDO.09.04.01 .
+
+sdo:SDO.09.04.02 skos:broader sdo:SDO.09.04 .
+sdo:SDO.09.04 skos:narrower sdo:SDO.09.04.02 .
+
+sdo:SDO.09.04.03 skos:broader sdo:SDO.09.04 .
+sdo:SDO.09.04 skos:narrower sdo:SDO.09.04.03 .
+
+sdo:SDO.09.04.04 skos:broader sdo:SDO.09.04 .
+sdo:SDO.09.04 skos:narrower sdo:SDO.09.04.04 .
+
+sdo:SDO.10.01.01 skos:broader sdo:SDO.10.01 .
+sdo:SDO.10.01 skos:narrower sdo:SDO.10.01.01 .
+
+sdo:SDO.10.01.02 skos:broader sdo:SDO.10.01 .
+sdo:SDO.10.01 skos:narrower sdo:SDO.10.01.02 .
+
+sdo:SDO.10.01.03 skos:broader sdo:SDO.10.01 .
+sdo:SDO.10.01 skos:narrower sdo:SDO.10.01.03 .
+
+sdo:SDO.10.01.04 skos:broader sdo:SDO.10.01 .
+sdo:SDO.10.01 skos:narrower sdo:SDO.10.01.04 .
+
+sdo:SDO.10.02.01 skos:broader sdo:SDO.10.02 .
+sdo:SDO.10.02 skos:narrower sdo:SDO.10.02.01 .
+
+sdo:SDO.10.02.02 skos:broader sdo:SDO.10.02 .
+sdo:SDO.10.02 skos:narrower sdo:SDO.10.02.02 .
+
+sdo:SDO.10.02.03 skos:broader sdo:SDO.10.02 .
+sdo:SDO.10.02 skos:narrower sdo:SDO.10.02.03 .
+
+sdo:SDO.10.02.04 skos:broader sdo:SDO.10.02 .
+sdo:SDO.10.02 skos:narrower sdo:SDO.10.02.04 .
+
+sdo:SDO.10.03.01 skos:broader sdo:SDO.10.03 .
+sdo:SDO.10.03 skos:narrower sdo:SDO.10.03.01 .
+
+sdo:SDO.10.03.02 skos:broader sdo:SDO.10.03 .
+sdo:SDO.10.03 skos:narrower sdo:SDO.10.03.02 .
+
+sdo:SDO.10.03.03 skos:broader sdo:SDO.10.03 .
+sdo:SDO.10.03 skos:narrower sdo:SDO.10.03.03 .
+
+sdo:SDO.10.03.04 skos:broader sdo:SDO.10.03 .
+sdo:SDO.10.03 skos:narrower sdo:SDO.10.03.04 .
+
+sdo:SDO.10.04.01 skos:broader sdo:SDO.10.04 .
+sdo:SDO.10.04 skos:narrower sdo:SDO.10.04.01 .
+
+sdo:SDO.10.04.02 skos:broader sdo:SDO.10.04 .
+sdo:SDO.10.04 skos:narrower sdo:SDO.10.04.02 .
+
+sdo:SDO.10.04.03 skos:broader sdo:SDO.10.04 .
+sdo:SDO.10.04 skos:narrower sdo:SDO.10.04.03 .
+
+sdo:SDO.10.04.04 skos:broader sdo:SDO.10.04 .
+sdo:SDO.10.04 skos:narrower sdo:SDO.10.04.04 .
+
+sdo:SDO.11.01.01 skos:broader sdo:SDO.11.01 .
+sdo:SDO.11.01 skos:narrower sdo:SDO.11.01.01 .
+
+sdo:SDO.11.01.02 skos:broader sdo:SDO.11.01 .
+sdo:SDO.11.01 skos:narrower sdo:SDO.11.01.02 .
+
+sdo:SDO.11.01.03 skos:broader sdo:SDO.11.01 .
+sdo:SDO.11.01 skos:narrower sdo:SDO.11.01.03 .
+
+sdo:SDO.11.01.04 skos:broader sdo:SDO.11.01 .
+sdo:SDO.11.01 skos:narrower sdo:SDO.11.01.04 .
+
+sdo:SDO.11.02.01 skos:broader sdo:SDO.11.02 .
+sdo:SDO.11.02 skos:narrower sdo:SDO.11.02.01 .
+
+sdo:SDO.11.02.02 skos:broader sdo:SDO.11.02 .
+sdo:SDO.11.02 skos:narrower sdo:SDO.11.02.02 .
+
+sdo:SDO.11.02.03 skos:broader sdo:SDO.11.02 .
+sdo:SDO.11.02 skos:narrower sdo:SDO.11.02.03 .
+
+sdo:SDO.11.02.04 skos:broader sdo:SDO.11.02 .
+sdo:SDO.11.02 skos:narrower sdo:SDO.11.02.04 .
+
+sdo:SDO.11.03.01 skos:broader sdo:SDO.11.03 .
+sdo:SDO.11.03 skos:narrower sdo:SDO.11.03.01 .
+
+sdo:SDO.11.03.02 skos:broader sdo:SDO.11.03 .
+sdo:SDO.11.03 skos:narrower sdo:SDO.11.03.02 .
+
+sdo:SDO.11.03.03 skos:broader sdo:SDO.11.03 .
+sdo:SDO.11.03 skos:narrower sdo:SDO.11.03.03 .
+
+sdo:SDO.11.03.04 skos:broader sdo:SDO.11.03 .
+sdo:SDO.11.03 skos:narrower sdo:SDO.11.03.04 .
+
+sdo:SDO.11.04.01 skos:broader sdo:SDO.11.04 .
+sdo:SDO.11.04 skos:narrower sdo:SDO.11.04.01 .
+
+sdo:SDO.11.04.02 skos:broader sdo:SDO.11.04 .
+sdo:SDO.11.04 skos:narrower sdo:SDO.11.04.02 .
+
+sdo:SDO.11.04.03 skos:broader sdo:SDO.11.04 .
+sdo:SDO.11.04 skos:narrower sdo:SDO.11.04.03 .
+
+sdo:SDO.11.04.04 skos:broader sdo:SDO.11.04 .
+sdo:SDO.11.04 skos:narrower sdo:SDO.11.04.04 .
+
+sdo:SDO.12.01.01 skos:broader sdo:SDO.12.01 .
+sdo:SDO.12.01 skos:narrower sdo:SDO.12.01.01 .
+
+sdo:SDO.12.01.02 skos:broader sdo:SDO.12.01 .
+sdo:SDO.12.01 skos:narrower sdo:SDO.12.01.02 .
+
+sdo:SDO.12.01.03 skos:broader sdo:SDO.12.01 .
+sdo:SDO.12.01 skos:narrower sdo:SDO.12.01.03 .
+
+sdo:SDO.12.01.04 skos:broader sdo:SDO.12.01 .
+sdo:SDO.12.01 skos:narrower sdo:SDO.12.01.04 .
+
+sdo:SDO.12.02.01 skos:broader sdo:SDO.12.02 .
+sdo:SDO.12.02 skos:narrower sdo:SDO.12.02.01 .
+
+sdo:SDO.12.02.02 skos:broader sdo:SDO.12.02 .
+sdo:SDO.12.02 skos:narrower sdo:SDO.12.02.02 .
+
+sdo:SDO.12.02.03 skos:broader sdo:SDO.12.02 .
+sdo:SDO.12.02 skos:narrower sdo:SDO.12.02.03 .
+
+sdo:SDO.12.02.04 skos:broader sdo:SDO.12.02 .
+sdo:SDO.12.02 skos:narrower sdo:SDO.12.02.04 .
+
+sdo:SDO.12.03.01 skos:broader sdo:SDO.12.03 .
+sdo:SDO.12.03 skos:narrower sdo:SDO.12.03.01 .
+
+sdo:SDO.12.03.02 skos:broader sdo:SDO.12.03 .
+sdo:SDO.12.03 skos:narrower sdo:SDO.12.03.02 .
+
+sdo:SDO.12.03.03 skos:broader sdo:SDO.12.03 .
+sdo:SDO.12.03 skos:narrower sdo:SDO.12.03.03 .
+
+sdo:SDO.12.03.04 skos:broader sdo:SDO.12.03 .
+sdo:SDO.12.03 skos:narrower sdo:SDO.12.03.04 .
+
+sdo:SDO.12.04.01 skos:broader sdo:SDO.12.04 .
+sdo:SDO.12.04 skos:narrower sdo:SDO.12.04.01 .
+
+sdo:SDO.12.04.02 skos:broader sdo:SDO.12.04 .
+sdo:SDO.12.04 skos:narrower sdo:SDO.12.04.02 .
+
+sdo:SDO.12.04.03 skos:broader sdo:SDO.12.04 .
+sdo:SDO.12.04 skos:narrower sdo:SDO.12.04.03 .
+
+sdo:SDO.12.04.04 skos:broader sdo:SDO.12.04 .
+sdo:SDO.12.04 skos:narrower sdo:SDO.12.04.04 .
+
+sdo:SDO.13.01.01 skos:broader sdo:SDO.13.01 .
+sdo:SDO.13.01 skos:narrower sdo:SDO.13.01.01 .
+
+sdo:SDO.13.01.02 skos:broader sdo:SDO.13.01 .
+sdo:SDO.13.01 skos:narrower sdo:SDO.13.01.02 .
+
+sdo:SDO.13.01.03 skos:broader sdo:SDO.13.01 .
+sdo:SDO.13.01 skos:narrower sdo:SDO.13.01.03 .
+
+sdo:SDO.13.01.04 skos:broader sdo:SDO.13.01 .
+sdo:SDO.13.01 skos:narrower sdo:SDO.13.01.04 .
+
+sdo:SDO.13.02.01 skos:broader sdo:SDO.13.02 .
+sdo:SDO.13.02 skos:narrower sdo:SDO.13.02.01 .
+
+sdo:SDO.13.02.02 skos:broader sdo:SDO.13.02 .
+sdo:SDO.13.02 skos:narrower sdo:SDO.13.02.02 .
+
+sdo:SDO.13.02.03 skos:broader sdo:SDO.13.02 .
+sdo:SDO.13.02 skos:narrower sdo:SDO.13.02.03 .
+
+sdo:SDO.13.02.04 skos:broader sdo:SDO.13.02 .
+sdo:SDO.13.02 skos:narrower sdo:SDO.13.02.04 .
+
+sdo:SDO.13.03.01 skos:broader sdo:SDO.13.03 .
+sdo:SDO.13.03 skos:narrower sdo:SDO.13.03.01 .
+
+sdo:SDO.13.03.02 skos:broader sdo:SDO.13.03 .
+sdo:SDO.13.03 skos:narrower sdo:SDO.13.03.02 .
+
+sdo:SDO.13.03.03 skos:broader sdo:SDO.13.03 .
+sdo:SDO.13.03 skos:narrower sdo:SDO.13.03.03 .
+
+sdo:SDO.13.03.04 skos:broader sdo:SDO.13.03 .
+sdo:SDO.13.03 skos:narrower sdo:SDO.13.03.04 .
+
+sdo:SDO.13.04.01 skos:broader sdo:SDO.13.04 .
+sdo:SDO.13.04 skos:narrower sdo:SDO.13.04.01 .
+
+sdo:SDO.13.04.02 skos:broader sdo:SDO.13.04 .
+sdo:SDO.13.04 skos:narrower sdo:SDO.13.04.02 .
+
+sdo:SDO.13.04.03 skos:broader sdo:SDO.13.04 .
+sdo:SDO.13.04 skos:narrower sdo:SDO.13.04.03 .
+
+sdo:SDO.13.04.04 skos:broader sdo:SDO.13.04 .
+sdo:SDO.13.04 skos:narrower sdo:SDO.13.04.04 .
+
+sdo:SDO.14.01.01 skos:broader sdo:SDO.14.01 .
+sdo:SDO.14.01 skos:narrower sdo:SDO.14.01.01 .
+
+sdo:SDO.14.01.02 skos:broader sdo:SDO.14.01 .
+sdo:SDO.14.01 skos:narrower sdo:SDO.14.01.02 .
+
+sdo:SDO.14.01.03 skos:broader sdo:SDO.14.01 .
+sdo:SDO.14.01 skos:narrower sdo:SDO.14.01.03 .
+
+sdo:SDO.14.01.04 skos:broader sdo:SDO.14.01 .
+sdo:SDO.14.01 skos:narrower sdo:SDO.14.01.04 .
+
+sdo:SDO.14.02.01 skos:broader sdo:SDO.14.02 .
+sdo:SDO.14.02 skos:narrower sdo:SDO.14.02.01 .
+
+sdo:SDO.14.02.02 skos:broader sdo:SDO.14.02 .
+sdo:SDO.14.02 skos:narrower sdo:SDO.14.02.02 .
+
+sdo:SDO.14.02.03 skos:broader sdo:SDO.14.02 .
+sdo:SDO.14.02 skos:narrower sdo:SDO.14.02.03 .
+
+sdo:SDO.14.02.04 skos:broader sdo:SDO.14.02 .
+sdo:SDO.14.02 skos:narrower sdo:SDO.14.02.04 .
+
+sdo:SDO.14.03.01 skos:broader sdo:SDO.14.03 .
+sdo:SDO.14.03 skos:narrower sdo:SDO.14.03.01 .
+
+sdo:SDO.14.03.02 skos:broader sdo:SDO.14.03 .
+sdo:SDO.14.03 skos:narrower sdo:SDO.14.03.02 .
+
+sdo:SDO.14.03.03 skos:broader sdo:SDO.14.03 .
+sdo:SDO.14.03 skos:narrower sdo:SDO.14.03.03 .
+
+sdo:SDO.14.03.04 skos:broader sdo:SDO.14.03 .
+sdo:SDO.14.03 skos:narrower sdo:SDO.14.03.04 .
+
+sdo:SDO.14.04.01 skos:broader sdo:SDO.14.04 .
+sdo:SDO.14.04 skos:narrower sdo:SDO.14.04.01 .
+
+sdo:SDO.14.04.02 skos:broader sdo:SDO.14.04 .
+sdo:SDO.14.04 skos:narrower sdo:SDO.14.04.02 .
+
+sdo:SDO.14.04.03 skos:broader sdo:SDO.14.04 .
+sdo:SDO.14.04 skos:narrower sdo:SDO.14.04.03 .
+
+sdo:SDO.14.04.04 skos:broader sdo:SDO.14.04 .
+sdo:SDO.14.04 skos:narrower sdo:SDO.14.04.04 .
+
+sdo:SDO.15.01.01 skos:broader sdo:SDO.15.01 .
+sdo:SDO.15.01 skos:narrower sdo:SDO.15.01.01 .
+
+sdo:SDO.15.01.02 skos:broader sdo:SDO.15.01 .
+sdo:SDO.15.01 skos:narrower sdo:SDO.15.01.02 .
+
+sdo:SDO.15.01.03 skos:broader sdo:SDO.15.01 .
+sdo:SDO.15.01 skos:narrower sdo:SDO.15.01.03 .
+
+sdo:SDO.15.01.04 skos:broader sdo:SDO.15.01 .
+sdo:SDO.15.01 skos:narrower sdo:SDO.15.01.04 .
+
+sdo:SDO.15.02.01 skos:broader sdo:SDO.15.02 .
+sdo:SDO.15.02 skos:narrower sdo:SDO.15.02.01 .
+
+sdo:SDO.15.02.02 skos:broader sdo:SDO.15.02 .
+sdo:SDO.15.02 skos:narrower sdo:SDO.15.02.02 .
+
+sdo:SDO.15.02.03 skos:broader sdo:SDO.15.02 .
+sdo:SDO.15.02 skos:narrower sdo:SDO.15.02.03 .
+
+sdo:SDO.15.02.04 skos:broader sdo:SDO.15.02 .
+sdo:SDO.15.02 skos:narrower sdo:SDO.15.02.04 .
+
+sdo:SDO.15.03.01 skos:broader sdo:SDO.15.03 .
+sdo:SDO.15.03 skos:narrower sdo:SDO.15.03.01 .
+
+sdo:SDO.15.03.02 skos:broader sdo:SDO.15.03 .
+sdo:SDO.15.03 skos:narrower sdo:SDO.15.03.02 .
+
+sdo:SDO.15.03.03 skos:broader sdo:SDO.15.03 .
+sdo:SDO.15.03 skos:narrower sdo:SDO.15.03.03 .
+
+sdo:SDO.15.03.04 skos:broader sdo:SDO.15.03 .
+sdo:SDO.15.03 skos:narrower sdo:SDO.15.03.04 .
+
+sdo:SDO.15.04.01 skos:broader sdo:SDO.15.04 .
+sdo:SDO.15.04 skos:narrower sdo:SDO.15.04.01 .
+
+sdo:SDO.15.04.02 skos:broader sdo:SDO.15.04 .
+sdo:SDO.15.04 skos:narrower sdo:SDO.15.04.02 .
+
+sdo:SDO.15.04.03 skos:broader sdo:SDO.15.04 .
+sdo:SDO.15.04 skos:narrower sdo:SDO.15.04.03 .
+
+sdo:SDO.15.04.04 skos:broader sdo:SDO.15.04 .
+sdo:SDO.15.04 skos:narrower sdo:SDO.15.04.04 .
+
+sdo:SDO.16.01.01 skos:broader sdo:SDO.16.01 .
+sdo:SDO.16.01 skos:narrower sdo:SDO.16.01.01 .
+
+sdo:SDO.16.01.02 skos:broader sdo:SDO.16.01 .
+sdo:SDO.16.01 skos:narrower sdo:SDO.16.01.02 .
+
+sdo:SDO.16.01.03 skos:broader sdo:SDO.16.01 .
+sdo:SDO.16.01 skos:narrower sdo:SDO.16.01.03 .
+
+sdo:SDO.16.01.04 skos:broader sdo:SDO.16.01 .
+sdo:SDO.16.01 skos:narrower sdo:SDO.16.01.04 .
+
+sdo:SDO.16.02.01 skos:broader sdo:SDO.16.02 .
+sdo:SDO.16.02 skos:narrower sdo:SDO.16.02.01 .
+
+sdo:SDO.16.02.02 skos:broader sdo:SDO.16.02 .
+sdo:SDO.16.02 skos:narrower sdo:SDO.16.02.02 .
+
+sdo:SDO.16.02.03 skos:broader sdo:SDO.16.02 .
+sdo:SDO.16.02 skos:narrower sdo:SDO.16.02.03 .
+
+sdo:SDO.16.02.04 skos:broader sdo:SDO.16.02 .
+sdo:SDO.16.02 skos:narrower sdo:SDO.16.02.04 .
+
+sdo:SDO.16.03.01 skos:broader sdo:SDO.16.03 .
+sdo:SDO.16.03 skos:narrower sdo:SDO.16.03.01 .
+
+sdo:SDO.16.03.02 skos:broader sdo:SDO.16.03 .
+sdo:SDO.16.03 skos:narrower sdo:SDO.16.03.02 .
+
+sdo:SDO.16.03.03 skos:broader sdo:SDO.16.03 .
+sdo:SDO.16.03 skos:narrower sdo:SDO.16.03.03 .
+
+sdo:SDO.16.03.04 skos:broader sdo:SDO.16.03 .
+sdo:SDO.16.03 skos:narrower sdo:SDO.16.03.04 .
+
+sdo:SDO.16.04.01 skos:broader sdo:SDO.16.04 .
+sdo:SDO.16.04 skos:narrower sdo:SDO.16.04.01 .
+
+sdo:SDO.16.04.02 skos:broader sdo:SDO.16.04 .
+sdo:SDO.16.04 skos:narrower sdo:SDO.16.04.02 .
+
+sdo:SDO.16.04.03 skos:broader sdo:SDO.16.04 .
+sdo:SDO.16.04 skos:narrower sdo:SDO.16.04.03 .
+
+sdo:SDO.16.04.04 skos:broader sdo:SDO.16.04 .
+sdo:SDO.16.04 skos:narrower sdo:SDO.16.04.04 .
+
+sdo:SDO.17.01.01 skos:broader sdo:SDO.17.01 .
+sdo:SDO.17.01 skos:narrower sdo:SDO.17.01.01 .
+
+sdo:SDO.17.01.02 skos:broader sdo:SDO.17.01 .
+sdo:SDO.17.01 skos:narrower sdo:SDO.17.01.02 .
+
+sdo:SDO.17.01.03 skos:broader sdo:SDO.17.01 .
+sdo:SDO.17.01 skos:narrower sdo:SDO.17.01.03 .
+
+sdo:SDO.17.01.04 skos:broader sdo:SDO.17.01 .
+sdo:SDO.17.01 skos:narrower sdo:SDO.17.01.04 .
+
+sdo:SDO.17.02.01 skos:broader sdo:SDO.17.02 .
+sdo:SDO.17.02 skos:narrower sdo:SDO.17.02.01 .
+
+sdo:SDO.17.02.02 skos:broader sdo:SDO.17.02 .
+sdo:SDO.17.02 skos:narrower sdo:SDO.17.02.02 .
+
+sdo:SDO.17.02.03 skos:broader sdo:SDO.17.02 .
+sdo:SDO.17.02 skos:narrower sdo:SDO.17.02.03 .
+
+sdo:SDO.17.02.04 skos:broader sdo:SDO.17.02 .
+sdo:SDO.17.02 skos:narrower sdo:SDO.17.02.04 .
+
+sdo:SDO.17.03.01 skos:broader sdo:SDO.17.03 .
+sdo:SDO.17.03 skos:narrower sdo:SDO.17.03.01 .
+
+sdo:SDO.17.03.02 skos:broader sdo:SDO.17.03 .
+sdo:SDO.17.03 skos:narrower sdo:SDO.17.03.02 .
+
+sdo:SDO.17.03.03 skos:broader sdo:SDO.17.03 .
+sdo:SDO.17.03 skos:narrower sdo:SDO.17.03.03 .
+
+sdo:SDO.17.03.04 skos:broader sdo:SDO.17.03 .
+sdo:SDO.17.03 skos:narrower sdo:SDO.17.03.04 .
+
+sdo:SDO.17.04.01 skos:broader sdo:SDO.17.04 .
+sdo:SDO.17.04 skos:narrower sdo:SDO.17.04.01 .
+
+sdo:SDO.17.04.02 skos:broader sdo:SDO.17.04 .
+sdo:SDO.17.04 skos:narrower sdo:SDO.17.04.02 .
+
+sdo:SDO.17.04.03 skos:broader sdo:SDO.17.04 .
+sdo:SDO.17.04 skos:narrower sdo:SDO.17.04.03 .
+
+sdo:SDO.17.04.04 skos:broader sdo:SDO.17.04 .
+sdo:SDO.17.04 skos:narrower sdo:SDO.17.04.04 .
+
+sdo:SDO.18.01.01 skos:broader sdo:SDO.18.01 .
+sdo:SDO.18.01 skos:narrower sdo:SDO.18.01.01 .
+
+sdo:SDO.18.01.02 skos:broader sdo:SDO.18.01 .
+sdo:SDO.18.01 skos:narrower sdo:SDO.18.01.02 .
+
+sdo:SDO.18.01.03 skos:broader sdo:SDO.18.01 .
+sdo:SDO.18.01 skos:narrower sdo:SDO.18.01.03 .
+
+sdo:SDO.18.01.04 skos:broader sdo:SDO.18.01 .
+sdo:SDO.18.01 skos:narrower sdo:SDO.18.01.04 .
+
+sdo:SDO.18.02.01 skos:broader sdo:SDO.18.02 .
+sdo:SDO.18.02 skos:narrower sdo:SDO.18.02.01 .
+
+sdo:SDO.18.02.02 skos:broader sdo:SDO.18.02 .
+sdo:SDO.18.02 skos:narrower sdo:SDO.18.02.02 .
+
+sdo:SDO.18.02.03 skos:broader sdo:SDO.18.02 .
+sdo:SDO.18.02 skos:narrower sdo:SDO.18.02.03 .
+
+sdo:SDO.18.02.04 skos:broader sdo:SDO.18.02 .
+sdo:SDO.18.02 skos:narrower sdo:SDO.18.02.04 .
+
+sdo:SDO.18.03.01 skos:broader sdo:SDO.18.03 .
+sdo:SDO.18.03 skos:narrower sdo:SDO.18.03.01 .
+
+sdo:SDO.18.03.02 skos:broader sdo:SDO.18.03 .
+sdo:SDO.18.03 skos:narrower sdo:SDO.18.03.02 .
+
+sdo:SDO.18.03.03 skos:broader sdo:SDO.18.03 .
+sdo:SDO.18.03 skos:narrower sdo:SDO.18.03.03 .
+
+sdo:SDO.18.03.04 skos:broader sdo:SDO.18.03 .
+sdo:SDO.18.03 skos:narrower sdo:SDO.18.03.04 .
+
+sdo:SDO.18.04.01 skos:broader sdo:SDO.18.04 .
+sdo:SDO.18.04 skos:narrower sdo:SDO.18.04.01 .
+
+sdo:SDO.18.04.02 skos:broader sdo:SDO.18.04 .
+sdo:SDO.18.04 skos:narrower sdo:SDO.18.04.02 .
+
+sdo:SDO.18.04.03 skos:broader sdo:SDO.18.04 .
+sdo:SDO.18.04 skos:narrower sdo:SDO.18.04.03 .
+
+sdo:SDO.18.04.04 skos:broader sdo:SDO.18.04 .
+sdo:SDO.18.04 skos:narrower sdo:SDO.18.04.04 .
+
+sdo:SDO.19.01.01 skos:broader sdo:SDO.19.01 .
+sdo:SDO.19.01 skos:narrower sdo:SDO.19.01.01 .
+
+sdo:SDO.19.01.02 skos:broader sdo:SDO.19.01 .
+sdo:SDO.19.01 skos:narrower sdo:SDO.19.01.02 .
+
+sdo:SDO.19.01.03 skos:broader sdo:SDO.19.01 .
+sdo:SDO.19.01 skos:narrower sdo:SDO.19.01.03 .
+
+sdo:SDO.19.01.04 skos:broader sdo:SDO.19.01 .
+sdo:SDO.19.01 skos:narrower sdo:SDO.19.01.04 .
+
+sdo:SDO.19.02.01 skos:broader sdo:SDO.19.02 .
+sdo:SDO.19.02 skos:narrower sdo:SDO.19.02.01 .
+
+sdo:SDO.19.02.02 skos:broader sdo:SDO.19.02 .
+sdo:SDO.19.02 skos:narrower sdo:SDO.19.02.02 .
+
+sdo:SDO.19.02.03 skos:broader sdo:SDO.19.02 .
+sdo:SDO.19.02 skos:narrower sdo:SDO.19.02.03 .
+
+sdo:SDO.19.02.04 skos:broader sdo:SDO.19.02 .
+sdo:SDO.19.02 skos:narrower sdo:SDO.19.02.04 .
+
+sdo:SDO.19.03.01 skos:broader sdo:SDO.19.03 .
+sdo:SDO.19.03 skos:narrower sdo:SDO.19.03.01 .
+
+sdo:SDO.19.03.02 skos:broader sdo:SDO.19.03 .
+sdo:SDO.19.03 skos:narrower sdo:SDO.19.03.02 .
+
+sdo:SDO.19.03.03 skos:broader sdo:SDO.19.03 .
+sdo:SDO.19.03 skos:narrower sdo:SDO.19.03.03 .
+
+sdo:SDO.19.03.04 skos:broader sdo:SDO.19.03 .
+sdo:SDO.19.03 skos:narrower sdo:SDO.19.03.04 .
+
+sdo:SDO.19.04.01 skos:broader sdo:SDO.19.04 .
+sdo:SDO.19.04 skos:narrower sdo:SDO.19.04.01 .
+
+sdo:SDO.19.04.02 skos:broader sdo:SDO.19.04 .
+sdo:SDO.19.04 skos:narrower sdo:SDO.19.04.02 .
+
+sdo:SDO.19.04.03 skos:broader sdo:SDO.19.04 .
+sdo:SDO.19.04 skos:narrower sdo:SDO.19.04.03 .
+
+sdo:SDO.19.04.04 skos:broader sdo:SDO.19.04 .
+sdo:SDO.19.04 skos:narrower sdo:SDO.19.04.04 .
+
+sdo:SDO.20.01.01 skos:broader sdo:SDO.20.01 .
+sdo:SDO.20.01 skos:narrower sdo:SDO.20.01.01 .
+
+sdo:SDO.20.01.02 skos:broader sdo:SDO.20.01 .
+sdo:SDO.20.01 skos:narrower sdo:SDO.20.01.02 .
+
+sdo:SDO.20.01.03 skos:broader sdo:SDO.20.01 .
+sdo:SDO.20.01 skos:narrower sdo:SDO.20.01.03 .
+
+sdo:SDO.20.01.04 skos:broader sdo:SDO.20.01 .
+sdo:SDO.20.01 skos:narrower sdo:SDO.20.01.04 .
+
+sdo:SDO.20.02.01 skos:broader sdo:SDO.20.02 .
+sdo:SDO.20.02 skos:narrower sdo:SDO.20.02.01 .
+
+sdo:SDO.20.02.02 skos:broader sdo:SDO.20.02 .
+sdo:SDO.20.02 skos:narrower sdo:SDO.20.02.02 .
+
+sdo:SDO.20.02.03 skos:broader sdo:SDO.20.02 .
+sdo:SDO.20.02 skos:narrower sdo:SDO.20.02.03 .
+
+sdo:SDO.20.02.04 skos:broader sdo:SDO.20.02 .
+sdo:SDO.20.02 skos:narrower sdo:SDO.20.02.04 .
+
+sdo:SDO.20.03.01 skos:broader sdo:SDO.20.03 .
+sdo:SDO.20.03 skos:narrower sdo:SDO.20.03.01 .
+
+sdo:SDO.20.03.02 skos:broader sdo:SDO.20.03 .
+sdo:SDO.20.03 skos:narrower sdo:SDO.20.03.02 .
+
+sdo:SDO.20.03.03 skos:broader sdo:SDO.20.03 .
+sdo:SDO.20.03 skos:narrower sdo:SDO.20.03.03 .
+
+sdo:SDO.20.03.04 skos:broader sdo:SDO.20.03 .
+sdo:SDO.20.03 skos:narrower sdo:SDO.20.03.04 .
+
+sdo:SDO.20.04.01 skos:broader sdo:SDO.20.04 .
+sdo:SDO.20.04 skos:narrower sdo:SDO.20.04.01 .
+
+sdo:SDO.20.04.02 skos:broader sdo:SDO.20.04 .
+sdo:SDO.20.04 skos:narrower sdo:SDO.20.04.02 .
+
+sdo:SDO.20.04.03 skos:broader sdo:SDO.20.04 .
+sdo:SDO.20.04 skos:narrower sdo:SDO.20.04.03 .
+
+sdo:SDO.20.04.04 skos:broader sdo:SDO.20.04 .
+sdo:SDO.20.04 skos:narrower sdo:SDO.20.04.04 .
+
+sdo:SDO.21.01.01 skos:broader sdo:SDO.21.01 .
+sdo:SDO.21.01 skos:narrower sdo:SDO.21.01.01 .
+
+sdo:SDO.21.01.02 skos:broader sdo:SDO.21.01 .
+sdo:SDO.21.01 skos:narrower sdo:SDO.21.01.02 .
+
+sdo:SDO.21.01.03 skos:broader sdo:SDO.21.01 .
+sdo:SDO.21.01 skos:narrower sdo:SDO.21.01.03 .
+
+sdo:SDO.21.01.04 skos:broader sdo:SDO.21.01 .
+sdo:SDO.21.01 skos:narrower sdo:SDO.21.01.04 .
+
+sdo:SDO.21.02.01 skos:broader sdo:SDO.21.02 .
+sdo:SDO.21.02 skos:narrower sdo:SDO.21.02.01 .
+
+sdo:SDO.21.02.02 skos:broader sdo:SDO.21.02 .
+sdo:SDO.21.02 skos:narrower sdo:SDO.21.02.02 .
+
+sdo:SDO.21.02.03 skos:broader sdo:SDO.21.02 .
+sdo:SDO.21.02 skos:narrower sdo:SDO.21.02.03 .
+
+sdo:SDO.21.02.04 skos:broader sdo:SDO.21.02 .
+sdo:SDO.21.02 skos:narrower sdo:SDO.21.02.04 .
+
+sdo:SDO.21.03.01 skos:broader sdo:SDO.21.03 .
+sdo:SDO.21.03 skos:narrower sdo:SDO.21.03.01 .
+
+sdo:SDO.21.03.02 skos:broader sdo:SDO.21.03 .
+sdo:SDO.21.03 skos:narrower sdo:SDO.21.03.02 .
+
+sdo:SDO.21.03.03 skos:broader sdo:SDO.21.03 .
+sdo:SDO.21.03 skos:narrower sdo:SDO.21.03.03 .
+
+sdo:SDO.21.03.04 skos:broader sdo:SDO.21.03 .
+sdo:SDO.21.03 skos:narrower sdo:SDO.21.03.04 .
+
+sdo:SDO.21.04.01 skos:broader sdo:SDO.21.04 .
+sdo:SDO.21.04 skos:narrower sdo:SDO.21.04.01 .
+
+sdo:SDO.21.04.02 skos:broader sdo:SDO.21.04 .
+sdo:SDO.21.04 skos:narrower sdo:SDO.21.04.02 .
+
+sdo:SDO.21.04.03 skos:broader sdo:SDO.21.04 .
+sdo:SDO.21.04 skos:narrower sdo:SDO.21.04.03 .
+
+sdo:SDO.21.04.04 skos:broader sdo:SDO.21.04 .
+sdo:SDO.21.04 skos:narrower sdo:SDO.21.04.04 .
+
+sdo:SDO.22.01.01 skos:broader sdo:SDO.22.01 .
+sdo:SDO.22.01 skos:narrower sdo:SDO.22.01.01 .
+
+sdo:SDO.22.01.02 skos:broader sdo:SDO.22.01 .
+sdo:SDO.22.01 skos:narrower sdo:SDO.22.01.02 .
+
+sdo:SDO.22.01.03 skos:broader sdo:SDO.22.01 .
+sdo:SDO.22.01 skos:narrower sdo:SDO.22.01.03 .
+
+sdo:SDO.22.01.04 skos:broader sdo:SDO.22.01 .
+sdo:SDO.22.01 skos:narrower sdo:SDO.22.01.04 .
+
+sdo:SDO.22.02.01 skos:broader sdo:SDO.22.02 .
+sdo:SDO.22.02 skos:narrower sdo:SDO.22.02.01 .
+
+sdo:SDO.22.02.02 skos:broader sdo:SDO.22.02 .
+sdo:SDO.22.02 skos:narrower sdo:SDO.22.02.02 .
+
+sdo:SDO.22.02.03 skos:broader sdo:SDO.22.02 .
+sdo:SDO.22.02 skos:narrower sdo:SDO.22.02.03 .
+
+sdo:SDO.22.02.04 skos:broader sdo:SDO.22.02 .
+sdo:SDO.22.02 skos:narrower sdo:SDO.22.02.04 .
+
+sdo:SDO.22.03.01 skos:broader sdo:SDO.22.03 .
+sdo:SDO.22.03 skos:narrower sdo:SDO.22.03.01 .
+
+sdo:SDO.22.03.02 skos:broader sdo:SDO.22.03 .
+sdo:SDO.22.03 skos:narrower sdo:SDO.22.03.02 .
+
+sdo:SDO.22.03.03 skos:broader sdo:SDO.22.03 .
+sdo:SDO.22.03 skos:narrower sdo:SDO.22.03.03 .
+
+sdo:SDO.22.03.04 skos:broader sdo:SDO.22.03 .
+sdo:SDO.22.03 skos:narrower sdo:SDO.22.03.04 .
+
+sdo:SDO.22.04.01 skos:broader sdo:SDO.22.04 .
+sdo:SDO.22.04 skos:narrower sdo:SDO.22.04.01 .
+
+sdo:SDO.22.04.02 skos:broader sdo:SDO.22.04 .
+sdo:SDO.22.04 skos:narrower sdo:SDO.22.04.02 .
+
+sdo:SDO.22.04.03 skos:broader sdo:SDO.22.04 .
+sdo:SDO.22.04 skos:narrower sdo:SDO.22.04.03 .
+
+sdo:SDO.22.04.04 skos:broader sdo:SDO.22.04 .
+sdo:SDO.22.04 skos:narrower sdo:SDO.22.04.04 .
+
+sdo:SDO.23.01.01 skos:broader sdo:SDO.23.01 .
+sdo:SDO.23.01 skos:narrower sdo:SDO.23.01.01 .
+
+sdo:SDO.23.01.02 skos:broader sdo:SDO.23.01 .
+sdo:SDO.23.01 skos:narrower sdo:SDO.23.01.02 .
+
+sdo:SDO.23.01.03 skos:broader sdo:SDO.23.01 .
+sdo:SDO.23.01 skos:narrower sdo:SDO.23.01.03 .
+
+sdo:SDO.23.01.04 skos:broader sdo:SDO.23.01 .
+sdo:SDO.23.01 skos:narrower sdo:SDO.23.01.04 .
+
+sdo:SDO.23.02.01 skos:broader sdo:SDO.23.02 .
+sdo:SDO.23.02 skos:narrower sdo:SDO.23.02.01 .
+
+sdo:SDO.23.02.02 skos:broader sdo:SDO.23.02 .
+sdo:SDO.23.02 skos:narrower sdo:SDO.23.02.02 .
+
+sdo:SDO.23.02.03 skos:broader sdo:SDO.23.02 .
+sdo:SDO.23.02 skos:narrower sdo:SDO.23.02.03 .
+
+sdo:SDO.23.02.04 skos:broader sdo:SDO.23.02 .
+sdo:SDO.23.02 skos:narrower sdo:SDO.23.02.04 .
+
+sdo:SDO.23.03.01 skos:broader sdo:SDO.23.03 .
+sdo:SDO.23.03 skos:narrower sdo:SDO.23.03.01 .
+
+sdo:SDO.23.03.02 skos:broader sdo:SDO.23.03 .
+sdo:SDO.23.03 skos:narrower sdo:SDO.23.03.02 .
+
+sdo:SDO.23.03.03 skos:broader sdo:SDO.23.03 .
+sdo:SDO.23.03 skos:narrower sdo:SDO.23.03.03 .
+
+sdo:SDO.23.03.04 skos:broader sdo:SDO.23.03 .
+sdo:SDO.23.03 skos:narrower sdo:SDO.23.03.04 .
+
+sdo:SDO.23.04.01 skos:broader sdo:SDO.23.04 .
+sdo:SDO.23.04 skos:narrower sdo:SDO.23.04.01 .
+
+sdo:SDO.23.04.02 skos:broader sdo:SDO.23.04 .
+sdo:SDO.23.04 skos:narrower sdo:SDO.23.04.02 .
+
+sdo:SDO.23.04.03 skos:broader sdo:SDO.23.04 .
+sdo:SDO.23.04 skos:narrower sdo:SDO.23.04.03 .
+
+sdo:SDO.23.04.04 skos:broader sdo:SDO.23.04 .
+sdo:SDO.23.04 skos:narrower sdo:SDO.23.04.04 .
+
+sdo:SDO.24.01.01 skos:broader sdo:SDO.24.01 .
+sdo:SDO.24.01 skos:narrower sdo:SDO.24.01.01 .
+
+sdo:SDO.24.01.02 skos:broader sdo:SDO.24.01 .
+sdo:SDO.24.01 skos:narrower sdo:SDO.24.01.02 .
+
+sdo:SDO.24.01.03 skos:broader sdo:SDO.24.01 .
+sdo:SDO.24.01 skos:narrower sdo:SDO.24.01.03 .
+
+sdo:SDO.24.01.04 skos:broader sdo:SDO.24.01 .
+sdo:SDO.24.01 skos:narrower sdo:SDO.24.01.04 .
+
+sdo:SDO.24.02.01 skos:broader sdo:SDO.24.02 .
+sdo:SDO.24.02 skos:narrower sdo:SDO.24.02.01 .
+
+sdo:SDO.24.02.02 skos:broader sdo:SDO.24.02 .
+sdo:SDO.24.02 skos:narrower sdo:SDO.24.02.02 .
+
+sdo:SDO.24.02.03 skos:broader sdo:SDO.24.02 .
+sdo:SDO.24.02 skos:narrower sdo:SDO.24.02.03 .
+
+sdo:SDO.24.02.04 skos:broader sdo:SDO.24.02 .
+sdo:SDO.24.02 skos:narrower sdo:SDO.24.02.04 .
+
+sdo:SDO.24.03.01 skos:broader sdo:SDO.24.03 .
+sdo:SDO.24.03 skos:narrower sdo:SDO.24.03.01 .
+
+sdo:SDO.24.03.02 skos:broader sdo:SDO.24.03 .
+sdo:SDO.24.03 skos:narrower sdo:SDO.24.03.02 .
+
+sdo:SDO.24.03.03 skos:broader sdo:SDO.24.03 .
+sdo:SDO.24.03 skos:narrower sdo:SDO.24.03.03 .
+
+sdo:SDO.24.03.04 skos:broader sdo:SDO.24.03 .
+sdo:SDO.24.03 skos:narrower sdo:SDO.24.03.04 .
+
+sdo:SDO.24.04.01 skos:broader sdo:SDO.24.04 .
+sdo:SDO.24.04 skos:narrower sdo:SDO.24.04.01 .
+
+sdo:SDO.24.04.02 skos:broader sdo:SDO.24.04 .
+sdo:SDO.24.04 skos:narrower sdo:SDO.24.04.02 .
+
+sdo:SDO.24.04.03 skos:broader sdo:SDO.24.04 .
+sdo:SDO.24.04 skos:narrower sdo:SDO.24.04.03 .
+
+sdo:SDO.24.04.04 skos:broader sdo:SDO.24.04 .
+sdo:SDO.24.04 skos:narrower sdo:SDO.24.04.04 .
+
+sdo:SDO.25.01.01 skos:broader sdo:SDO.25.01 .
+sdo:SDO.25.01 skos:narrower sdo:SDO.25.01.01 .
+
+sdo:SDO.25.01.02 skos:broader sdo:SDO.25.01 .
+sdo:SDO.25.01 skos:narrower sdo:SDO.25.01.02 .
+
+sdo:SDO.25.01.03 skos:broader sdo:SDO.25.01 .
+sdo:SDO.25.01 skos:narrower sdo:SDO.25.01.03 .
+
+sdo:SDO.25.01.04 skos:broader sdo:SDO.25.01 .
+sdo:SDO.25.01 skos:narrower sdo:SDO.25.01.04 .
+
+sdo:SDO.25.02.01 skos:broader sdo:SDO.25.02 .
+sdo:SDO.25.02 skos:narrower sdo:SDO.25.02.01 .
+
+sdo:SDO.25.02.02 skos:broader sdo:SDO.25.02 .
+sdo:SDO.25.02 skos:narrower sdo:SDO.25.02.02 .
+
+sdo:SDO.25.02.03 skos:broader sdo:SDO.25.02 .
+sdo:SDO.25.02 skos:narrower sdo:SDO.25.02.03 .
+
+sdo:SDO.25.02.04 skos:broader sdo:SDO.25.02 .
+sdo:SDO.25.02 skos:narrower sdo:SDO.25.02.04 .
+
+sdo:SDO.25.03.01 skos:broader sdo:SDO.25.03 .
+sdo:SDO.25.03 skos:narrower sdo:SDO.25.03.01 .
+
+sdo:SDO.25.03.02 skos:broader sdo:SDO.25.03 .
+sdo:SDO.25.03 skos:narrower sdo:SDO.25.03.02 .
+
+sdo:SDO.25.03.03 skos:broader sdo:SDO.25.03 .
+sdo:SDO.25.03 skos:narrower sdo:SDO.25.03.03 .
+
+sdo:SDO.25.03.04 skos:broader sdo:SDO.25.03 .
+sdo:SDO.25.03 skos:narrower sdo:SDO.25.03.04 .
+
+sdo:SDO.25.04.01 skos:broader sdo:SDO.25.04 .
+sdo:SDO.25.04 skos:narrower sdo:SDO.25.04.01 .
+
+sdo:SDO.25.04.02 skos:broader sdo:SDO.25.04 .
+sdo:SDO.25.04 skos:narrower sdo:SDO.25.04.02 .
+
+sdo:SDO.25.04.03 skos:broader sdo:SDO.25.04 .
+sdo:SDO.25.04 skos:narrower sdo:SDO.25.04.03 .
+
+sdo:SDO.25.04.04 skos:broader sdo:SDO.25.04 .
+sdo:SDO.25.04 skos:narrower sdo:SDO.25.04.04 .
+
+sdo:SDO.26.01.01 skos:broader sdo:SDO.26.01 .
+sdo:SDO.26.01 skos:narrower sdo:SDO.26.01.01 .
+
+sdo:SDO.26.01.02 skos:broader sdo:SDO.26.01 .
+sdo:SDO.26.01 skos:narrower sdo:SDO.26.01.02 .
+
+sdo:SDO.26.01.03 skos:broader sdo:SDO.26.01 .
+sdo:SDO.26.01 skos:narrower sdo:SDO.26.01.03 .
+
+sdo:SDO.26.01.04 skos:broader sdo:SDO.26.01 .
+sdo:SDO.26.01 skos:narrower sdo:SDO.26.01.04 .
+
+sdo:SDO.26.02.01 skos:broader sdo:SDO.26.02 .
+sdo:SDO.26.02 skos:narrower sdo:SDO.26.02.01 .
+
+sdo:SDO.26.02.02 skos:broader sdo:SDO.26.02 .
+sdo:SDO.26.02 skos:narrower sdo:SDO.26.02.02 .
+
+sdo:SDO.26.02.03 skos:broader sdo:SDO.26.02 .
+sdo:SDO.26.02 skos:narrower sdo:SDO.26.02.03 .
+
+sdo:SDO.26.02.04 skos:broader sdo:SDO.26.02 .
+sdo:SDO.26.02 skos:narrower sdo:SDO.26.02.04 .
+
+sdo:SDO.26.03.01 skos:broader sdo:SDO.26.03 .
+sdo:SDO.26.03 skos:narrower sdo:SDO.26.03.01 .
+
+sdo:SDO.26.03.02 skos:broader sdo:SDO.26.03 .
+sdo:SDO.26.03 skos:narrower sdo:SDO.26.03.02 .
+
+sdo:SDO.26.03.03 skos:broader sdo:SDO.26.03 .
+sdo:SDO.26.03 skos:narrower sdo:SDO.26.03.03 .
+
+sdo:SDO.26.03.04 skos:broader sdo:SDO.26.03 .
+sdo:SDO.26.03 skos:narrower sdo:SDO.26.03.04 .
+
+sdo:SDO.26.04.01 skos:broader sdo:SDO.26.04 .
+sdo:SDO.26.04 skos:narrower sdo:SDO.26.04.01 .
+
+sdo:SDO.26.04.02 skos:broader sdo:SDO.26.04 .
+sdo:SDO.26.04 skos:narrower sdo:SDO.26.04.02 .
+
+sdo:SDO.26.04.03 skos:broader sdo:SDO.26.04 .
+sdo:SDO.26.04 skos:narrower sdo:SDO.26.04.03 .
+
+sdo:SDO.26.04.04 skos:broader sdo:SDO.26.04 .
+sdo:SDO.26.04 skos:narrower sdo:SDO.26.04.04 .
+
+sdo:SDO.27.01.01 skos:broader sdo:SDO.27.01 .
+sdo:SDO.27.01 skos:narrower sdo:SDO.27.01.01 .
+
+sdo:SDO.27.01.02 skos:broader sdo:SDO.27.01 .
+sdo:SDO.27.01 skos:narrower sdo:SDO.27.01.02 .
+
+sdo:SDO.27.01.03 skos:broader sdo:SDO.27.01 .
+sdo:SDO.27.01 skos:narrower sdo:SDO.27.01.03 .
+
+sdo:SDO.27.01.04 skos:broader sdo:SDO.27.01 .
+sdo:SDO.27.01 skos:narrower sdo:SDO.27.01.04 .
+
+sdo:SDO.27.02.01 skos:broader sdo:SDO.27.02 .
+sdo:SDO.27.02 skos:narrower sdo:SDO.27.02.01 .
+
+sdo:SDO.27.02.02 skos:broader sdo:SDO.27.02 .
+sdo:SDO.27.02 skos:narrower sdo:SDO.27.02.02 .
+
+sdo:SDO.27.02.03 skos:broader sdo:SDO.27.02 .
+sdo:SDO.27.02 skos:narrower sdo:SDO.27.02.03 .
+
+sdo:SDO.27.02.04 skos:broader sdo:SDO.27.02 .
+sdo:SDO.27.02 skos:narrower sdo:SDO.27.02.04 .
+
+sdo:SDO.27.03.01 skos:broader sdo:SDO.27.03 .
+sdo:SDO.27.03 skos:narrower sdo:SDO.27.03.01 .
+
+sdo:SDO.27.03.02 skos:broader sdo:SDO.27.03 .
+sdo:SDO.27.03 skos:narrower sdo:SDO.27.03.02 .
+
+sdo:SDO.27.03.03 skos:broader sdo:SDO.27.03 .
+sdo:SDO.27.03 skos:narrower sdo:SDO.27.03.03 .
+
+sdo:SDO.27.03.04 skos:broader sdo:SDO.27.03 .
+sdo:SDO.27.03 skos:narrower sdo:SDO.27.03.04 .
+
+sdo:SDO.27.04.01 skos:broader sdo:SDO.27.04 .
+sdo:SDO.27.04 skos:narrower sdo:SDO.27.04.01 .
+
+sdo:SDO.27.04.02 skos:broader sdo:SDO.27.04 .
+sdo:SDO.27.04 skos:narrower sdo:SDO.27.04.02 .
+
+sdo:SDO.27.04.03 skos:broader sdo:SDO.27.04 .
+sdo:SDO.27.04 skos:narrower sdo:SDO.27.04.03 .
+
+sdo:SDO.27.04.04 skos:broader sdo:SDO.27.04 .
+sdo:SDO.27.04 skos:narrower sdo:SDO.27.04.04 .
+
+sdo:SDO.28.01.01 skos:broader sdo:SDO.28.01 .
+sdo:SDO.28.01 skos:narrower sdo:SDO.28.01.01 .
+
+sdo:SDO.28.01.02 skos:broader sdo:SDO.28.01 .
+sdo:SDO.28.01 skos:narrower sdo:SDO.28.01.02 .
+
+sdo:SDO.28.01.03 skos:broader sdo:SDO.28.01 .
+sdo:SDO.28.01 skos:narrower sdo:SDO.28.01.03 .
+
+sdo:SDO.28.01.04 skos:broader sdo:SDO.28.01 .
+sdo:SDO.28.01 skos:narrower sdo:SDO.28.01.04 .
+
+sdo:SDO.28.02.01 skos:broader sdo:SDO.28.02 .
+sdo:SDO.28.02 skos:narrower sdo:SDO.28.02.01 .
+
+sdo:SDO.28.02.02 skos:broader sdo:SDO.28.02 .
+sdo:SDO.28.02 skos:narrower sdo:SDO.28.02.02 .
+
+sdo:SDO.28.02.03 skos:broader sdo:SDO.28.02 .
+sdo:SDO.28.02 skos:narrower sdo:SDO.28.02.03 .
+
+sdo:SDO.28.02.04 skos:broader sdo:SDO.28.02 .
+sdo:SDO.28.02 skos:narrower sdo:SDO.28.02.04 .
+
+sdo:SDO.28.03.01 skos:broader sdo:SDO.28.03 .
+sdo:SDO.28.03 skos:narrower sdo:SDO.28.03.01 .
+
+sdo:SDO.28.03.02 skos:broader sdo:SDO.28.03 .
+sdo:SDO.28.03 skos:narrower sdo:SDO.28.03.02 .
+
+sdo:SDO.28.03.03 skos:broader sdo:SDO.28.03 .
+sdo:SDO.28.03 skos:narrower sdo:SDO.28.03.03 .
+
+sdo:SDO.28.03.04 skos:broader sdo:SDO.28.03 .
+sdo:SDO.28.03 skos:narrower sdo:SDO.28.03.04 .
+
+sdo:SDO.28.04.01 skos:broader sdo:SDO.28.04 .
+sdo:SDO.28.04 skos:narrower sdo:SDO.28.04.01 .
+
+sdo:SDO.28.04.02 skos:broader sdo:SDO.28.04 .
+sdo:SDO.28.04 skos:narrower sdo:SDO.28.04.02 .
+
+sdo:SDO.28.04.03 skos:broader sdo:SDO.28.04 .
+sdo:SDO.28.04 skos:narrower sdo:SDO.28.04.03 .
+
+sdo:SDO.28.04.04 skos:broader sdo:SDO.28.04 .
+sdo:SDO.28.04 skos:narrower sdo:SDO.28.04.04 .
+
+sdo:SDO.29.01.01 skos:broader sdo:SDO.29.01 .
+sdo:SDO.29.01 skos:narrower sdo:SDO.29.01.01 .
+
+sdo:SDO.29.01.02 skos:broader sdo:SDO.29.01 .
+sdo:SDO.29.01 skos:narrower sdo:SDO.29.01.02 .
+
+sdo:SDO.29.01.03 skos:broader sdo:SDO.29.01 .
+sdo:SDO.29.01 skos:narrower sdo:SDO.29.01.03 .
+
+sdo:SDO.29.01.04 skos:broader sdo:SDO.29.01 .
+sdo:SDO.29.01 skos:narrower sdo:SDO.29.01.04 .
+
+sdo:SDO.29.02.01 skos:broader sdo:SDO.29.02 .
+sdo:SDO.29.02 skos:narrower sdo:SDO.29.02.01 .
+
+sdo:SDO.29.02.02 skos:broader sdo:SDO.29.02 .
+sdo:SDO.29.02 skos:narrower sdo:SDO.29.02.02 .
+
+sdo:SDO.29.02.03 skos:broader sdo:SDO.29.02 .
+sdo:SDO.29.02 skos:narrower sdo:SDO.29.02.03 .
+
+sdo:SDO.29.02.04 skos:broader sdo:SDO.29.02 .
+sdo:SDO.29.02 skos:narrower sdo:SDO.29.02.04 .
+
+sdo:SDO.29.03.01 skos:broader sdo:SDO.29.03 .
+sdo:SDO.29.03 skos:narrower sdo:SDO.29.03.01 .
+
+sdo:SDO.29.03.02 skos:broader sdo:SDO.29.03 .
+sdo:SDO.29.03 skos:narrower sdo:SDO.29.03.02 .
+
+sdo:SDO.29.03.03 skos:broader sdo:SDO.29.03 .
+sdo:SDO.29.03 skos:narrower sdo:SDO.29.03.03 .
+
+sdo:SDO.29.03.04 skos:broader sdo:SDO.29.03 .
+sdo:SDO.29.03 skos:narrower sdo:SDO.29.03.04 .
+
+sdo:SDO.29.04.01 skos:broader sdo:SDO.29.04 .
+sdo:SDO.29.04 skos:narrower sdo:SDO.29.04.01 .
+
+sdo:SDO.29.04.02 skos:broader sdo:SDO.29.04 .
+sdo:SDO.29.04 skos:narrower sdo:SDO.29.04.02 .
+
+sdo:SDO.29.04.03 skos:broader sdo:SDO.29.04 .
+sdo:SDO.29.04 skos:narrower sdo:SDO.29.04.03 .
+
+sdo:SDO.29.04.04 skos:broader sdo:SDO.29.04 .
+sdo:SDO.29.04 skos:narrower sdo:SDO.29.04.04 .
+
+sdo:SDO.30.01.01 skos:broader sdo:SDO.30.01 .
+sdo:SDO.30.01 skos:narrower sdo:SDO.30.01.01 .
+
+sdo:SDO.30.01.02 skos:broader sdo:SDO.30.01 .
+sdo:SDO.30.01 skos:narrower sdo:SDO.30.01.02 .
+
+sdo:SDO.30.01.03 skos:broader sdo:SDO.30.01 .
+sdo:SDO.30.01 skos:narrower sdo:SDO.30.01.03 .
+
+sdo:SDO.30.01.04 skos:broader sdo:SDO.30.01 .
+sdo:SDO.30.01 skos:narrower sdo:SDO.30.01.04 .
+
+sdo:SDO.30.02.01 skos:broader sdo:SDO.30.02 .
+sdo:SDO.30.02 skos:narrower sdo:SDO.30.02.01 .
+
+sdo:SDO.30.02.02 skos:broader sdo:SDO.30.02 .
+sdo:SDO.30.02 skos:narrower sdo:SDO.30.02.02 .
+
+sdo:SDO.30.02.03 skos:broader sdo:SDO.30.02 .
+sdo:SDO.30.02 skos:narrower sdo:SDO.30.02.03 .
+
+sdo:SDO.30.02.04 skos:broader sdo:SDO.30.02 .
+sdo:SDO.30.02 skos:narrower sdo:SDO.30.02.04 .
+
+sdo:SDO.30.03.01 skos:broader sdo:SDO.30.03 .
+sdo:SDO.30.03 skos:narrower sdo:SDO.30.03.01 .
+
+sdo:SDO.30.03.02 skos:broader sdo:SDO.30.03 .
+sdo:SDO.30.03 skos:narrower sdo:SDO.30.03.02 .
+
+sdo:SDO.30.03.03 skos:broader sdo:SDO.30.03 .
+sdo:SDO.30.03 skos:narrower sdo:SDO.30.03.03 .
+
+sdo:SDO.30.03.04 skos:broader sdo:SDO.30.03 .
+sdo:SDO.30.03 skos:narrower sdo:SDO.30.03.04 .
+
+sdo:SDO.30.04.01 skos:broader sdo:SDO.30.04 .
+sdo:SDO.30.04 skos:narrower sdo:SDO.30.04.01 .
+
+sdo:SDO.30.04.02 skos:broader sdo:SDO.30.04 .
+sdo:SDO.30.04 skos:narrower sdo:SDO.30.04.02 .
+
+sdo:SDO.30.04.03 skos:broader sdo:SDO.30.04 .
+sdo:SDO.30.04 skos:narrower sdo:SDO.30.04.03 .
+
+sdo:SDO.30.04.04 skos:broader sdo:SDO.30.04 .
+sdo:SDO.30.04 skos:narrower sdo:SDO.30.04.04 .
+
+sdo:SDO.31.01.01 skos:broader sdo:SDO.31.01 .
+sdo:SDO.31.01 skos:narrower sdo:SDO.31.01.01 .
+
+sdo:SDO.31.01.02 skos:broader sdo:SDO.31.01 .
+sdo:SDO.31.01 skos:narrower sdo:SDO.31.01.02 .
+
+sdo:SDO.31.01.03 skos:broader sdo:SDO.31.01 .
+sdo:SDO.31.01 skos:narrower sdo:SDO.31.01.03 .
+
+sdo:SDO.31.01.04 skos:broader sdo:SDO.31.01 .
+sdo:SDO.31.01 skos:narrower sdo:SDO.31.01.04 .
+
+sdo:SDO.31.02.01 skos:broader sdo:SDO.31.02 .
+sdo:SDO.31.02 skos:narrower sdo:SDO.31.02.01 .
+
+sdo:SDO.31.02.02 skos:broader sdo:SDO.31.02 .
+sdo:SDO.31.02 skos:narrower sdo:SDO.31.02.02 .
+
+sdo:SDO.31.02.03 skos:broader sdo:SDO.31.02 .
+sdo:SDO.31.02 skos:narrower sdo:SDO.31.02.03 .
+
+sdo:SDO.31.02.04 skos:broader sdo:SDO.31.02 .
+sdo:SDO.31.02 skos:narrower sdo:SDO.31.02.04 .
+
+sdo:SDO.31.03.01 skos:broader sdo:SDO.31.03 .
+sdo:SDO.31.03 skos:narrower sdo:SDO.31.03.01 .
+
+sdo:SDO.31.03.02 skos:broader sdo:SDO.31.03 .
+sdo:SDO.31.03 skos:narrower sdo:SDO.31.03.02 .
+
+sdo:SDO.31.03.03 skos:broader sdo:SDO.31.03 .
+sdo:SDO.31.03 skos:narrower sdo:SDO.31.03.03 .
+
+sdo:SDO.31.03.04 skos:broader sdo:SDO.31.03 .
+sdo:SDO.31.03 skos:narrower sdo:SDO.31.03.04 .
+
+sdo:SDO.31.04.01 skos:broader sdo:SDO.31.04 .
+sdo:SDO.31.04 skos:narrower sdo:SDO.31.04.01 .
+
+sdo:SDO.31.04.02 skos:broader sdo:SDO.31.04 .
+sdo:SDO.31.04 skos:narrower sdo:SDO.31.04.02 .
+
+sdo:SDO.31.04.03 skos:broader sdo:SDO.31.04 .
+sdo:SDO.31.04 skos:narrower sdo:SDO.31.04.03 .
+
+sdo:SDO.31.04.04 skos:broader sdo:SDO.31.04 .
+sdo:SDO.31.04 skos:narrower sdo:SDO.31.04.04 .
+
+sdo:SDO.32.01.01 skos:broader sdo:SDO.32.01 .
+sdo:SDO.32.01 skos:narrower sdo:SDO.32.01.01 .
+
+sdo:SDO.32.01.02 skos:broader sdo:SDO.32.01 .
+sdo:SDO.32.01 skos:narrower sdo:SDO.32.01.02 .
+
+sdo:SDO.32.01.03 skos:broader sdo:SDO.32.01 .
+sdo:SDO.32.01 skos:narrower sdo:SDO.32.01.03 .
+
+sdo:SDO.32.01.04 skos:broader sdo:SDO.32.01 .
+sdo:SDO.32.01 skos:narrower sdo:SDO.32.01.04 .
+
+sdo:SDO.32.02.01 skos:broader sdo:SDO.32.02 .
+sdo:SDO.32.02 skos:narrower sdo:SDO.32.02.01 .
+
+sdo:SDO.32.02.02 skos:broader sdo:SDO.32.02 .
+sdo:SDO.32.02 skos:narrower sdo:SDO.32.02.02 .
+
+sdo:SDO.32.02.03 skos:broader sdo:SDO.32.02 .
+sdo:SDO.32.02 skos:narrower sdo:SDO.32.02.03 .
+
+sdo:SDO.32.02.04 skos:broader sdo:SDO.32.02 .
+sdo:SDO.32.02 skos:narrower sdo:SDO.32.02.04 .
+
+sdo:SDO.32.03.01 skos:broader sdo:SDO.32.03 .
+sdo:SDO.32.03 skos:narrower sdo:SDO.32.03.01 .
+
+sdo:SDO.32.03.02 skos:broader sdo:SDO.32.03 .
+sdo:SDO.32.03 skos:narrower sdo:SDO.32.03.02 .
+
+sdo:SDO.32.03.03 skos:broader sdo:SDO.32.03 .
+sdo:SDO.32.03 skos:narrower sdo:SDO.32.03.03 .
+
+sdo:SDO.32.03.04 skos:broader sdo:SDO.32.03 .
+sdo:SDO.32.03 skos:narrower sdo:SDO.32.03.04 .
+
+sdo:SDO.32.04.01 skos:broader sdo:SDO.32.04 .
+sdo:SDO.32.04 skos:narrower sdo:SDO.32.04.01 .
+
+sdo:SDO.32.04.02 skos:broader sdo:SDO.32.04 .
+sdo:SDO.32.04 skos:narrower sdo:SDO.32.04.02 .
+
+sdo:SDO.32.04.03 skos:broader sdo:SDO.32.04 .
+sdo:SDO.32.04 skos:narrower sdo:SDO.32.04.03 .
+
+sdo:SDO.32.04.04 skos:broader sdo:SDO.32.04 .
+sdo:SDO.32.04 skos:narrower sdo:SDO.32.04.04 .
+
+# Additional ontology properties
+sdo: a owl:Ontology ;
+    dct:title "SDO — Syntelligo Domain Ontology"@en ;
+    dct:description "A comprehensive domain ontology for scientific and academic classification"@en ;
+    dct:creator "Syntelligo" ;
+    dct:created "2025-01-01"^^xsd:date ;
+    owl:versionInfo "1.0" .
+
+# Custom SDO properties
+sdo:depth a rdfs:Property ;
+    rdfs:label "depth"@en ;
+    rdfs:comment "The hierarchical depth of the concept in the SDO taxonomy"@en .
+
+sdo:slug a rdfs:Property ;
+    rdfs:label "slug"@en ;
+    rdfs:comment "URL-friendly identifier for the concept"@en .
